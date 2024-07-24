@@ -1,0 +1,73 @@
+Sample-ID,Station_ID,Treatment,Depth(m),Collection_date,Lat,Lon,Location
+FC-069,Station_01,bottom,10,"Sept.3, 2022",49.281783,-123.1601,English Bay
+FC-070,Station_01,bottom,10,"Sept.3, 2022",49.281783,-123.1601,English Bay
+FC-071,Station_01,bottom,10,"Sept.3, 2022",49.281783,-123.1601,English Bay
+FC-063,Station_02,bottom,5,"Sept.3, 2022",49.281516,-123.15095,Kits Beach
+FC-064,Station_02,bottom,5,"Sept.3, 2022",49.281516,-123.15095,Kits Beach
+FC-065,Station_02,bottom,5,"Sept.3, 2022",49.281516,-123.15095,Kits Beach
+FC-057,Station_03,bottom,5,"Sept.3, 2022",49.283216,-123.14965,Barge Chillin' Beach
+FC-058,Station_03,bottom,5,"Sept.3, 2022",49.283216,-123.14965,Barge Chillin' Beach
+FC-059,Station_03,bottom,5,"Sept.3, 2022",49.283216,-123.14965,Barge Chillin' Beach
+FC-051,Station_04,bottom,5,"Sept.3, 2022",49.279283,-123.141783,Vanier Park
+FC-052,Station_04,bottom,5,"Sept.3, 2022",49.279283,-123.141783,Vanier Park
+FC-053,Station_04,bottom,5,"Sept.3, 2022",49.279283,-123.141783,Vanier Park
+FC-045,Station_05,bottom,3,"Sept.3, 2022",49.27626,-123.1373,Burrard bridge / fuel dock
+FC-046,Station_05,bottom,3,"Sept.3, 2022",49.27626,-123.1373,Burrard bridge / fuel dock
+FC-047,Station_05,bottom,3,"Sept.3, 2022",49.27626,-123.1373,Burrard bridge / fuel dock
+FC-039,Station_06,bottom,2,"Sept.3, 2022",49.27323,-123.13356,Granville Island
+FC-040,Station_06,bottom,2,"Sept.3, 2022",49.27323,-123.13356,Granville Island
+FC-041,Station_06,bottom,2,"Sept.3, 2022",49.27323,-123.13356,Granville Island
+FC-033,Station_07,bottom,2,"Sept.3, 2022",49.27025,-123.12925,Spruce Harbour
+FC-034,Station_07,bottom,2,"Sept.3, 2022",49.27025,-123.12925,Spruce Harbour
+FC-035,Station_07,bottom,2,"Sept.3, 2022",49.27025,-123.12925,Spruce Harbour
+FC-026,Station_08,bottom,2,"Sept.3, 2022",49.2705,-123.12346,David Lam Park
+FC-027,Station_08,bottom,2,"Sept.3, 2022",49.2705,-123.12346,David Lam Park
+FC-028,Station_08,bottom,2,"Sept.3, 2022",49.2705,-123.12346,David Lam Park
+FC-020,Station_09,bottom,2,"Sept.3, 2022",49.272116,-123.1147,Cambie Bridge
+FC-021,Station_09,bottom,2,"Sept.3, 2022",49.272116,-123.1147,Cambie Bridge
+FC-022,Station_09,bottom,2,"Sept.3, 2022",49.272116,-123.1147,Cambie Bridge
+FC-014,Station_10,bottom,2,"Sept.3, 2022",49.273483,-123.11055,Habitat Island
+FC-015,Station_10,bottom,2,"Sept.3, 2022",49.273483,-123.11055,Habitat Island
+FC-016,Station_10,bottom,2,"Sept.3, 2022",49.273483,-123.11055,Habitat Island
+FC-008,Station_11,bottom,5,"Sept.3, 2022",49.2744,-123.105416,Science World north
+FC-009,Station_11,bottom,5,"Sept.3, 2022",49.2744,-123.105416,Science World north
+FC-010,Station_11,bottom,5,"Sept.3, 2022",49.2744,-123.105416,Science World north
+FC-002,Station_12,bottom,2,"Sept.3, 2022",49.2726,-123.103583,Science World south
+FC-003,Station_12,bottom,2,"Sept.3, 2022",49.2726,-123.103583,Science World south
+FC-004,Station_12,bottom,2,"Sept.3, 2022",49.2726,-123.103583,Science World south
+FC-072,Station_01,surface,0,"Sept.3, 2022",49.281783,-123.1601,English Bay
+FC-073,Station_01,surface,0,"Sept.3, 2022",49.281783,-123.1601,English Bay
+FC-074,Station_01,surface,0,"Sept.3, 2022",49.281783,-123.1601,English Bay
+FC-066,Station_02,surface,0,"Sept.3, 2022",49.281516,-123.15095,Kits Beach
+FC-067,Station_02,surface,0,"Sept.3, 2022",49.281516,-123.15095,Kits Beach
+FC-068,Station_02,surface,0,"Sept.3, 2022",49.281516,-123.15095,Kits Beach
+FC-060,Station_03,surface,0,"Sept.3, 2022",49.283216,-123.14965,Barge Chillin' Beach
+FC-061,Station_03,surface,0,"Sept.3, 2022",49.283216,-123.14965,Barge Chillin' Beach
+FC-062,Station_03,surface,0,"Sept.3, 2022",49.283216,-123.14965,Barge Chillin' Beach
+FC-054,Station_04,surface,0,"Sept.3, 2022",49.279283,-123.141783,Vanier Park
+FC-055,Station_04,surface,0,"Sept.3, 2022",49.279283,-123.141783,Vanier Park
+FC-056,Station_04,surface,0,"Sept.3, 2022",49.279283,-123.141783,Vanier Park
+FC-048,Station_05,surface,0,"Sept.3, 2022",49.27626,-123.1373,Burrard bridge / fuel dock
+FC-049,Station_05,surface,0,"Sept.3, 2022",49.27626,-123.1373,Burrard bridge / fuel dock
+FC-050,Station_05,surface,0,"Sept.3, 2022",49.27626,-123.1373,Burrard bridge / fuel dock
+FC-042,Station_06,surface,0,"Sept.3, 2022",49.27323,-123.13356,Granville Island
+FC-043,Station_06,surface,0,"Sept.3, 2022",49.27323,-123.13356,Granville Island
+FC-044,Station_06,surface,0,"Sept.3, 2022",49.27323,-123.13356,Granville Island
+FC-036,Station_07,surface,0,"Sept.3, 2022",49.27025,-123.12925,Spruce Harbour
+FC-037,Station_07,surface,0,"Sept.3, 2022",49.27025,-123.12925,Spruce Harbour
+FC-038,Station_07,surface,0,"Sept.3, 2022",49.27025,-123.12925,Spruce Harbour
+FC-029,Station_08,surface,0,"Sept.3, 2022",49.2705,-123.12346,David Lam Park
+FC-030,Station_08,surface,0,"Sept.3, 2022",49.2705,-123.12346,David Lam Park
+FC-031,Station_08,surface,0,"Sept.3, 2022",49.2705,-123.12346,David Lam Park
+FC-023,Station_09,surface,0,"Sept.3, 2022",49.272116,-123.1147,Cambie Bridge
+FC-024,Station_09,surface,0,"Sept.3, 2022",49.272116,-123.1147,Cambie Bridge
+FC-025,Station_09,surface,0,"Sept.3, 2022",49.272116,-123.1147,Cambie Bridge
+FC-017,Station_10,surface,0,"Sept.3, 2022",49.273483,-123.11055,Habitat Island
+FC-018,Station_10,surface,0,"Sept.3, 2022",49.273483,-123.11055,Habitat Island
+FC-019,Station_10,surface,0,"Sept.3, 2022",49.273483,-123.11055,Habitat Island
+FC-011,Station_11,surface,0,"Sept.3, 2022",49.2744,-123.105416,Science World north
+FC-012,Station_11,surface,0,"Sept.3, 2022",49.2744,-123.105416,Science World north
+FC-013,Station_11,surface,0,"Sept.3, 2022",49.2744,-123.105416,Science World north
+FC-005,Station_12,surface,0,"Sept.3, 2022",49.2726,-123.103583,Science World south
+FC-006,Station_12,surface,0,"Sept.3, 2022",49.2726,-123.103583,Science World south
+FC-007,Station_12,surface,0,"Sept.3, 2022",49.2726,-123.103583,Science World south
