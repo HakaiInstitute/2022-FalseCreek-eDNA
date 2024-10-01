@@ -1,3 +1,5 @@
 _Updated_: October 1, 2024
 
 The OBIS folder contains the data files that would be published to OBIS. Recent changes to the data format have made it so that the [occurrenceID](https://github.com/gbif/rs.gbif.org/issues/136) can be added to the DNA derived data extension. As such, I believe that when publishing DNA data to OBIS it's no longer required to have use an Occurrence Core, but instead it's possible to use an Event Core -- all data about an event can be given in one row pointing to a single event, whereas the sequences could be given with foreign keys to both the Occurrence and the Event. I'm still trying to figure out how this is best represented then in the various data tables, and as such the (structure of the) data tables found in this folder are not entirely accurate. 
+
+Additionally, currently only the ASV_12S data is included in these tables, not the COI data. The approach would be the same however.
