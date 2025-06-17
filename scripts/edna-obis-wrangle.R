@@ -1,5 +1,3 @@
-# Initialize the renv package
-renv::init()
 
 # Load packages
 library(tidyr)
@@ -17,7 +15,7 @@ eDNA_meta <- read_csv(here("data", "FalseCreek_eDNA_Sample_Metadata_OBIS.csv")) 
   janitor::clean_names()
 
 eDNA_meta <- eDNA_meta %>% 
-  mutate(eventID = paste("Hakai", sample_id, sep = ":"),
+  mutate(eventID = paste("Hakai", sample_id, sep = "-"),
          month = case_when(grepl("Sept", eDNA_meta$collection_date) ~ 9),
          day = as.numeric(stringr::str_extract(eDNA_meta$collection_date, "[0-9]+")),
          year = as.numeric(regmatches(eDNA_meta$collection_date, gregexpr("\\d{4}", eDNA_meta$collection_date))),
@@ -44,7 +42,7 @@ eDNA_meta <- eDNA_meta %>%
   distinct()
 
 # Save this data table in the obis folder
-write_csv(eDNA_meta, here("obis", "eDNA_metadata.csv"))
+write_csv(eDNA_meta, here("obis", "eDNA_event.csv"))
 
 #  Read in the ASV table:
 
@@ -56,14 +54,15 @@ FC_ASVs_12s <- read_csv(here("data", "FC_ASVs_12s.csv")) %>%
   filter(organismQuantity != 0) %>%
   mutate(organismQuantityType = "DNA sequence reads",
          sampleSizeUnit = "DNA sequence reads",
-         basisOfRecord = "MaterialSample") %>%
-  group_by(sample_id) %>%
-  mutate(sampleSizeValue = sum(organismQuantity),
-         occurrenceID = paste(ASV, sample_id, "occ", row_number(), sep = "_")) %>%
-  ungroup()
+         basisOfRecord = "MaterialSample")
 
-# Sample IDs in the metadata are hyphenated, in the ASV table underscored. Change this to ensure we can nest data:
-FC_ASVs_12s$sample_id <- gsub("_", "-", FC_ASVs_12s$sample_id)
+FC_ASVs_12s <- FC_ASVs_12s %>%
+  mutate(sample_id = gsub("_", "-", FC_ASVs_12s$sample_id),
+         eventID = paste("Hakai", sample_id, sep = "-")) %>%
+  group_by(sample_id, ASV) %>%
+  mutate(occurrenceID = paste(eventID, ASV, "occ", sep = "-"),
+         sampleSizeValue = sum(organismQuantity)) %>%
+  ungroup()
 
 # Check for duplicate occurrenceIDs: 
 print(sum(duplicated(FC_ASVs_12s$occurrenceID))) # should be 0. 
@@ -82,7 +81,7 @@ taxonomy_12S <- read_csv(here("data", "FC_taxonomy_12s.csv"))
 
 # Join the data tables so we know what we're working with:
 DNAtable <- dplyr::left_join(taxonomy_12S, FC_ASVs_12s, by = "ASV")
-DNAtable <- dplyr::left_join(DNAtable, eDNA_meta, by = "sample_id")
+DNAtable <- dplyr::left_join(DNAtable, eDNA_meta, by = c("sample_id", "eventID"))
 DNAtable <- dplyr::left_join(DNAtable, fasta_12S, by = "ASV")
 
 # Occurrence table: each unique sequence by sample combination is considered one occurrence.
@@ -94,7 +93,8 @@ DNAtable <- dplyr::left_join(DNAtable, fasta_12S, by = "ASV")
 
 # Fields below are taken from https://manual.obis.org/dna_data.html#id_16s-rrna-gene-metabarcoding-data-of-pico--to-mesoplankton 
 DNA_occ <- DNAtable %>%
-  select(occurrenceID,
+  select(eventID, 
+         occurrenceID,
          eventDate,
          basisOfRecord,
          scientificName = species,
@@ -113,7 +113,7 @@ DNA_occ <- DNAtable %>%
          materialSampleID = NA)
 
 # Add taxonomic information from the WoRMS database to the occurrence table: 
-unique_spp <- unique(DNA_occ$scientificName)
+unique_spp <- unique(DNA_occ$scientificName) %>% as.data.frame()
 
 # To match with the WoRMS taxonomic database we'll need to remove the ' sp.' from the scientificName
 # Additionally, we need to change 'unknown', recommended practice: incertae sedis.
@@ -129,6 +129,8 @@ DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_onl
          scientificNameID = lsid)
 
 occ <- left_join(DNA_occ, DNA_worms, by = "scientificName")
+
+print(sum(duplicated(occ$occurrenceID))) # should be 0. 
 
 # Save this data table in the obis folder
 write_csv(occ, here("obis", "eDNA_occ.csv"))
