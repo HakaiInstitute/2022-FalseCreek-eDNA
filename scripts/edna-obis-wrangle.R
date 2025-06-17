@@ -166,4 +166,4 @@ DNA_extension <- DNAtable %>%
   )
 
 # Save this data table in the obis folder
-write_csv(DNA_extension, here("obis", "eDNA_extension.csv"))
+write_csv(DNA_extension, here("obis", "eDNA_eMOF.csv"))
