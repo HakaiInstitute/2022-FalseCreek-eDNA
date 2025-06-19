@@ -135,7 +135,7 @@ FC_occ <- occ %>%
 print(sum(duplicated(occ$occurrenceID))) # should be 0. 
 
 # Save this data table in the obis folder
-write_csv(occ, here("obis", "FC_occ.csv"))
+write_csv(occ, here("obis", "eDNA_occ.csv"))
 
 # Create a DNA Derived Data extension: 
 # see details: https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml
