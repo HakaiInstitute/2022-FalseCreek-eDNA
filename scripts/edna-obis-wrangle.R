@@ -129,13 +129,13 @@ DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_onl
          scientificNameID = lsid)
 
 FC_occ <- left_join(DNA_occ, DNA_worms, by = "scientificName")
-FC_occ <- occ %>%
+FC_occ <- FC_occ %>%
   mutate(scientificNameID = if_else(scientificName == "incertae sedis", "urn:lsid:marinespecies.org:taxname:12", scientificNameID))
 
-print(sum(duplicated(occ$occurrenceID))) # should be 0. 
+print(sum(duplicated(FC_occ$occurrenceID))) # should be 0. 
 
 # Save this data table in the obis folder
-write_csv(occ, here("obis", "eDNA_occ.csv"))
+write_csv(FC_occ, here("obis", "eDNA_occ.csv"))
 
 # Create a DNA Derived Data extension: 
 # see details: https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml
