@@ -19,6 +19,7 @@ fasta_12S <- seqinr::read.fasta(file = here("data", "FC_12S_ASV_sequences.fasta"
                                 forceDNAtolower = FALSE)
 taxonomy_12S <- read_csv(here("data", "FC_taxonomy_12s.csv")) 
 
+# Create event table:
 event <- sample_meta %>% 
   mutate(eventID = paste("Hakai", sample_id, sep = "-"),
          month = case_when(grepl("Sept", sample_meta$collection_date) ~ 9),
@@ -48,7 +49,7 @@ event <- sample_meta %>%
   distinct()
 
 # Save this data table in the obis folder
-write_csv(event, here("obis", "eDNA_event.csv"))
+write_csv(event, here("obis", "FC2022_event.csv"))
 
 ## Occurrence extension
 
@@ -77,15 +78,20 @@ ASV <- names(fasta_12S)
 DNA_sequence <- unname(unlist(fasta_12S))
 fasta_12S <- cbind(ASV, DNA_sequence) %>% as.data.frame()
 
-# Join the data tables so we know what we're working with:
+# Upon manual inspection, for some ASVs information is not provided at species level, 
+# for these taxa information is e.g. provided up to the genus level and species
+# information is recorded as "unknown". Change 'unknown' to NA
 tax_table <- taxonomy_12S %>%
   mutate(across(everything(), ~na_if(., "unknown")))
 
+# Grab the most granular taxonomic data (i.e., the last column populated before
+# 'NA' information is provided):
 tax_table$scientificName <- apply(tax_table, 1, function(row) {
   last_value <- tail(na.omit(row), 1) 
   if (length(last_value) == 0) NA else last_value
 })
 
+# Join ASV to samples and taxonomic information:
 DNAtable <- dplyr::left_join(tax_table, FC_ASV, by = "ASV")
 DNAtable <- dplyr::left_join(DNAtable, event, by = c("materialSampleID", "eventID"))
 DNAtable <- dplyr::left_join(DNAtable, fasta_12S, by = "ASV")
@@ -99,6 +105,8 @@ DNAtable <- dplyr::left_join(DNAtable, fasta_12S, by = "ASV")
 
 # Fields below are taken from https://manual.obis.org/dna_data.html#id_16s-rrna-gene-metabarcoding-data-of-pico--to-mesoplankton 
 sequence_meta <- sequence_meta %>% mutate(materialSampleID = gsub("_", "-", sequence_meta$materialSampleID))
+
+# Join DNA table with sequence metadata:
 DNA_occ <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
   select(eventID,
          occurrenceID,
@@ -125,6 +133,8 @@ DNA_occ <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
 unique_spp <- unique(DNA_occ$scientificName) %>% as.data.frame()
 
 # To match with the WoRMS taxonomic database we'll need to remove the ' sp.' from the scientificName
+# As per Matt Lemay, other taxonomy files might have taxa names where uncertainty is recorded after 
+# .sp, in which case we can simply remove everything beyond and including 'sp.'.
 DNA_occ$scientificName <- trimws(gsub(" sp\\..*$", "", DNA_occ$scientificName))
 
 DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_only = F) %>% 
@@ -134,13 +144,14 @@ DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_onl
   select(scientificName, authority, rank, kingdom, phylum, class, order, family, genus,
          scientificNameID = lsid)
 
+# Join the occurrence data with the WoRMS taxa information:
 FC_occ <- left_join(DNA_occ, DNA_worms, by = "scientificName")
 
 # Check for duplicate occurrenceIDs:
 print(sum(duplicated(FC_occ$occurrenceID))) # should be 0. 
 
 # Save this data table in the obis folder
-write_csv(FC_occ, here("obis", "eDNA_occ.csv"))
+write_csv(FC_occ, here("obis", "FC2022_occ.csv"))
 
 # Create a DNA Derived Data extension: 
 # see details: https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml
@@ -164,7 +175,7 @@ DNA_extension <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
          otu_db)
 
 # Save this data table in the obis folder
-write_csv(DNA_extension, here("obis", "eDNA_eMOF.csv"))
+write_csv(DNA_extension, here("obis", "FC2022_eMOF.csv"))
 
 # DNA_extension <- DNAtable %>%
 #   select(occurrenceID, 
