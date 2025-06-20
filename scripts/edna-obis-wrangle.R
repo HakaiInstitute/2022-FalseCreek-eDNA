@@ -98,6 +98,7 @@ DNAtable <- dplyr::left_join(DNAtable, fasta_12S, by = "ASV")
 # we can make those changes to the scientificName and leave the verbatimIdentification intact.
 
 # Fields below are taken from https://manual.obis.org/dna_data.html#id_16s-rrna-gene-metabarcoding-data-of-pico--to-mesoplankton 
+sequence_meta <- sequence_meta %>% mutate(materialSampleID = gsub("_", "-", sequence_meta$materialSampleID))
 DNA_occ <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
   select(eventID,
          occurrenceID,
@@ -143,8 +144,6 @@ write_csv(FC_occ, here("obis", "eDNA_occ.csv"))
 
 # Create a DNA Derived Data extension: 
 # see details: https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml
-sequence_meta <- sequence_meta %>% mutate(materialSampleID = gsub("_", "-", sequence_meta$materialSampleID))
-
 DNA_extension <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
   select(eventID, occurrenceID, DNA_sequence, sop,
          samp_collect_device = samp_collec_method, 
