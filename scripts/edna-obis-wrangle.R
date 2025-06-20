@@ -21,9 +21,9 @@ taxonomy_12S <- read_csv(here("data", "FC_taxonomy_12s.csv"))
 
 event <- sample_meta %>% 
   mutate(eventID = paste("Hakai", sample_id, sep = "-"),
-         month = case_when(grepl("Sept", eDNA_meta$collection_date) ~ 9),
-         day = as.numeric(stringr::str_extract(eDNA_meta$collection_date, "[0-9]+")),
-         year = as.numeric(regmatches(eDNA_meta$collection_date, gregexpr("\\d{4}", eDNA_meta$collection_date))),
+         month = case_when(grepl("Sept", sample_meta$collection_date) ~ 9),
+         day = as.numeric(stringr::str_extract(sample_meta$collection_date, "[0-9]+")),
+         year = as.numeric(regmatches(sample_meta$collection_date, gregexpr("\\d{4}", sample_meta$collection_date))),
          eventDate = as.Date(paste(year, month, day, sep = "-")),
          eventType = "sampling",
          language = "en",
@@ -70,7 +70,7 @@ FC_ASV <- FC_ASV %>%
   ungroup()
 
 # Check for duplicate occurrenceIDs: 
-print(sum(duplicated(FC_ASVs_12s$occurrenceID))) # should be 0. 
+print(sum(duplicated(FC_ASV$occurrenceID))) # should be 0. 
 
 # Match ASV to the sequence and taxa information:
 ASV <- names(fasta_12S)
@@ -78,7 +78,15 @@ DNA_sequence <- unname(unlist(fasta_12S))
 fasta_12S <- cbind(ASV, DNA_sequence) %>% as.data.frame()
 
 # Join the data tables so we know what we're working with:
-DNAtable <- dplyr::left_join(taxonomy_12S, FC_ASV, by = "ASV")
+tax_table <- taxonomy_12S %>%
+  mutate(across(everything(), ~na_if(., "unknown")))
+
+tax_table$scientificName <- apply(tax_table, 1, function(row) {
+  last_value <- tail(na.omit(row), 1) 
+  if (length(last_value) == 0) NA else last_value
+})
+
+DNAtable <- dplyr::left_join(tax_table, FC_ASV, by = "ASV")
 DNAtable <- dplyr::left_join(DNAtable, event, by = c("materialSampleID", "eventID"))
 DNAtable <- dplyr::left_join(DNAtable, fasta_12S, by = "ASV")
 
@@ -95,7 +103,7 @@ DNA_occ <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
          occurrenceID,
          eventDate,
          basisOfRecord,
-         scientificName = species,
+         scientificName,
          decimalLatitude,
          decimalLongitude,
          organismQuantity,
@@ -116,10 +124,7 @@ DNA_occ <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
 unique_spp <- unique(DNA_occ$scientificName) %>% as.data.frame()
 
 # To match with the WoRMS taxonomic database we'll need to remove the ' sp.' from the scientificName
-# Additionally, we need to change 'unknown', recommended practice: incertae sedis.
-DNA_occ$scientificName <- gsub(" sp\\.", "", DNA_occ$scientificName)
-DNA_occ$scientificName <- gsub("unknown", "incertae sedis", DNA_occ$scientificName)
-DNA_occ$scientificName <- trimws(DNA_occ$scientificName, which = "right")
+DNA_occ$scientificName <- trimws(gsub(" sp\\..*$", "", DNA_occ$scientificName))
 
 DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_only = F) %>% 
   dplyr::bind_rows() %>%
@@ -129,9 +134,8 @@ DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_onl
          scientificNameID = lsid)
 
 FC_occ <- left_join(DNA_occ, DNA_worms, by = "scientificName")
-FC_occ <- FC_occ %>%
-  mutate(scientificNameID = if_else(scientificName == "incertae sedis", "urn:lsid:marinespecies.org:taxname:12", scientificNameID))
 
+# Check for duplicate occurrenceIDs:
 print(sum(duplicated(FC_occ$occurrenceID))) # should be 0. 
 
 # Save this data table in the obis folder
