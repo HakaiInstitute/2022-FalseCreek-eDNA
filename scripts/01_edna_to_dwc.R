@@ -53,7 +53,7 @@ event <- sample_meta %>%
     decimalLongitude = lon,
     verbatimEventDate = collection_date) %>%
   distinct() %>%
-  select(-c(materialSampleID, station_id, treatment, depth_m))
+  select(-c(station_id, treatment, depth_m))
 
 # Combine for event table eDNA metabarcoding, and flatten:
 FC2022_event <- bind_rows(FCBB, event)
@@ -162,7 +162,7 @@ FC_occ <- left_join(DNA_occ, DNA_worms, by = "scientificName")
 print(sum(duplicated(FC_occ$occurrenceID))) # should be 0. 
 
 # Save this data table in the obis folder
-write_csv(FC_occ, here("obis", "FC2022_occ.csv"))
+write_csv(FC_occ, here("obis", "interim_obis", "edna", "FC2022_occ.csv"))
 
 # Create a DNA Derived Data extension: 
 # see details: https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml
@@ -186,7 +186,7 @@ DNA_extension <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
          otu_db)
 
 # Save this data table in the obis folder
-write_csv(DNA_extension, here("obis", "FC2022_eMOF.csv"))
+write_csv(DNA_extension, here("obis", "interim_obis", "edna", "FC2022_eMOF.csv"))
 
 # DNA_extension <- DNAtable %>%
 #   select(occurrenceID, 

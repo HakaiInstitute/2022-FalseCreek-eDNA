@@ -57,7 +57,8 @@ occurrence <- DS_FCBB %>%
          organismRemarks, typeStatus, associatedOccurrences, associatedTaxa, recordedBy) %>%
   group_by(eventID) %>%
   mutate(eventID = paste0(eventID, "-", stringr::str_pad(seq_along(eventID), width = 3, pad = "0")),
-         occurrenceID = paste0(eventID, "-", occurrenceID)) %>%
+         occurrenceID = paste0(eventID, "-", occurrenceID),
+         basisOfRecord = "MaterialSample") %>%
   ungroup()
 
 write_csv(occurrence, here("obis", "interim_obis", "bold", "FC2022_BoLD_occ.csv"))
