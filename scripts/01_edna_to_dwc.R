@@ -10,7 +10,7 @@ library(readr)
 library(lubridate)
 library(hms)
 
-# Read in the data tables: sample metadata, sequence data and metadata, ASV table and taxonomy table:
+# Read in the metabarcoding eDNA data tables: sample metadata, sequence data and metadata, ASV table and taxonomy table:
 sample_meta <- read_csv(here("data", "FalseCreek_eDNA_Sample_Metadata_OBIS.csv")) %>% janitor::clean_names()
 sequence_meta <- read_csv(here("data", "FC12S_Metabarcoding_OBIS_sample_metadata.csv"))
 FC_ASV <- read_csv(here("data", "FC_ASVs_12s.csv"))
@@ -19,37 +19,48 @@ fasta_12S <- seqinr::read.fasta(file = here("data", "FC_12S_ASV_sequences.fasta"
                                 forceDNAtolower = FALSE)
 taxonomy_12S <- read_csv(here("data", "FC_taxonomy_12s.csv")) 
 
-# Create event table:
+# Create project level information:
+FCBB <- data.frame(
+  eventID = "Hakai-FCBB",
+  language = "en",
+  license = "http://creativecommons.org/licenses/by/4.0/legalcode",
+  bibliographicCitation = " ",
+  rightsHolder = "Hakai Institute",
+  modified = lubridate::today(),
+  country = "Canada",
+  countryCode = "CA",
+  geodeticDatum = "WGS84",
+  stateProvince = "British Columbia",
+  county = "Burrard Inlet")
+
+# Create table for sampling event metadata: 
 event <- sample_meta %>% 
-  mutate(eventID = paste("Hakai", sample_id, sep = "-"),
+  mutate(parentEventID = "Hakai-FCBB",
+         eventType = "Niskin bottle sampling",
+         eventID = paste(parentEventID, sample_id, sep = "-"),
          month = case_when(grepl("Sept", sample_meta$collection_date) ~ 9),
          day = as.numeric(stringr::str_extract(sample_meta$collection_date, "[0-9]+")),
          year = as.numeric(regmatches(sample_meta$collection_date, gregexpr("\\d{4}", sample_meta$collection_date))),
-         eventDate = as.Date(paste(year, month, day, sep = "-")),
-         eventType = "sampling",
-         language = "en",
-         license = "http://creativecommons.org/licenses/by/4.0/legalcode",
-         bibliographicCitation = " ",
-         accessRights = " ",
-         rightsHolder = "Hakai Institute",
-         institutionCode = "Hakai Institute",
-         institutionID = "https://edmo.seadatanet.org/report/5148",
-         modified = lubridate::today(),
-         country = "Canada",
-         countryCode = "CA",
-         geodeticDatum = "WGS84",
+         eventDate = (paste(year, month, day, sep = "-")),
          minimumDepthInMeters = depth_m,
-         maximumDepthInMeters = depth_m) %>%
+         maximumDepthInMeters = depth_m,
+         institutionCode = "Hakai Institute",
+         institutionID = "https://edmo.seadatanet.org/report/5148",) %>%
   dplyr::rename(
     materialSampleID = sample_id,
     verbatimLocality = location,
     decimalLatitude = lat,
     decimalLongitude = lon,
     verbatimEventDate = collection_date) %>%
-  distinct()
+  distinct() %>%
+  select(-c(materialSampleID, station_id, treatment, depth_m))
+
+# Combine for event table eDNA metabarcoding, and flatten:
+FC2022_event <- bind_rows(FCBB, event)
+FC2022_event <- obistools::flatten_event(FC2022_event)
 
 # Save this data table in the obis folder
-write_csv(event, here("obis", "FC2022_event.csv"))
+write_csv(FC2022_event, here("obis", "interim_obis", "edna", "FC2022_event.csv"))
 
 ## Occurrence extension
 
