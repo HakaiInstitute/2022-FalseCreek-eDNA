@@ -24,14 +24,15 @@ FCBB <- data.frame(
   eventID = "Hakai-FCBB",
   language = "en",
   license = "http://creativecommons.org/licenses/by/4.0/legalcode",
-  bibliographicCitation = " ",
+  bibliographicCitation = "Lemay, M., & Kellogg, C. (2025). Environmental DNA metabarcoding data from the False Creek Bioblitz, 2022 (v1.0). Hakai Institute. https://doi.org/10.21966/8sgn-jg38",
   rightsHolder = "Hakai Institute",
   modified = lubridate::today(),
   country = "Canada",
   countryCode = "CA",
   geodeticDatum = "WGS84",
   stateProvince = "British Columbia",
-  county = "Burrard Inlet")
+  county = "Burrard Inlet", 
+  municipality = "False Creek")
 
 # Create table for sampling event metadata: 
 event <- sample_meta %>% 
@@ -45,7 +46,7 @@ event <- sample_meta %>%
          minimumDepthInMeters = depth_m,
          maximumDepthInMeters = depth_m,
          institutionCode = "Hakai Institute",
-         institutionID = "https://edmo.seadatanet.org/report/5148",) %>%
+         institutionID = "https://edmo.seadatanet.org/report/5148") %>%
   dplyr::rename(
     materialSampleID = sample_id,
     verbatimLocality = location,
@@ -58,6 +59,7 @@ event <- sample_meta %>%
 # Combine for event table eDNA metabarcoding, and flatten:
 FC2022_event <- bind_rows(FCBB, event)
 FC2022_event <- obistools::flatten_event(FC2022_event)
+FC2022_event[is.na(FC2022_event)] <- ""
 
 # Save this data table in the obis folder
 write_csv(FC2022_event, here("obis", "interim_obis", "edna", "FC2022_event.csv"))
@@ -121,11 +123,8 @@ sequence_meta <- sequence_meta %>% mutate(materialSampleID = gsub("_", "-", sequ
 DNA_occ <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
   select(eventID,
          occurrenceID,
-         eventDate,
          basisOfRecord,
          scientificName,
-         decimalLatitude,
-         decimalLongitude,
          organismQuantity,
          organismQuantityType,
          sampleSizeValue,
@@ -152,11 +151,15 @@ DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_onl
   dplyr::bind_rows() %>%
   filter(status == "accepted") %>%
   dplyr::rename(scientificName = scientificname) %>%
-  select(scientificName, authority, rank, kingdom, phylum, class, order, family, genus,
+  select(scientificName, 
+         scientificNameAuthorship = authority, 
+         taxonRank = rank, 
+         kingdom, phylum, class, order, family, genus,
          scientificNameID = lsid)
 
 # Join the occurrence data with the WoRMS taxa information:
-FC_occ <- left_join(DNA_occ, DNA_worms, by = "scientificName")
+FC_occ <- left_join(DNA_occ, DNA_worms, by = "scientificName") %>%
+  mutate(occurrenceStatus = "present")
 
 # Check for duplicate occurrenceIDs:
 print(sum(duplicated(FC_occ$occurrenceID))) # should be 0. 
