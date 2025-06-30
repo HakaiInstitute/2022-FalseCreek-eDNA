@@ -11,8 +11,6 @@ library(lubridate)
 library(hms)
 
 # Download the DNA barcoding DwC data table from BoLD: https://portal.boldsystems.org/recordset/DS-FCBB
-#TODO: Figure out if this is something that can happen automatically using the BoLD API?
-
 DS_FCBB <- read_csv(here("data", "DS-FCBB.csv"))
 
 # Create parent table:
