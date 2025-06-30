@@ -10,14 +10,9 @@ library(readr)
 library(lubridate)
 library(hms)
 
-# Read in the metabarcoding eDNA data tables: sample metadata, sequence data and metadata, ASV table and taxonomy table:
+# Read in the metabarcoding eDNA metadata tables:
 sample_meta <- read_csv(here("data", "FalseCreek_eDNA_Sample_Metadata_OBIS.csv")) %>% janitor::clean_names()
 sequence_meta <- read_csv(here("data", "FC12S_Metabarcoding_OBIS_sample_metadata.csv"))
-FC_ASV <- read_csv(here("data", "FC_ASVs_12s.csv"))
-fasta_12S <- seqinr::read.fasta(file = here("data", "FC_12S_ASV_sequences.fasta"),
-                                as.string = TRUE,
-                                forceDNAtolower = FALSE)
-taxonomy_12S <- read_csv(here("data", "FC_taxonomy_12s.csv")) 
 
 # Create project level information:
 FCBB <- data.frame(
@@ -64,10 +59,18 @@ FC2022_event[is.na(FC2022_event)] <- ""
 # Save this data table in the obis folder
 write_csv(FC2022_event, here("obis", "interim_obis", "edna", "FC2022_event.csv"))
 
+#################################################################################################################################
+
 ## Occurrence extension
 
+# Create separate data tables for the 12S and COI data, and join those.
+# Start by reading in the 12S data:
+FC_ASV_12S <- read_csv(here("data", "FC_ASVs_12s.csv"))
+fasta_12S <- seqinr::read.fasta(file = here("data", "FC_12S_ASV_sequences.fasta"), as.string = TRUE, forceDNAtolower = FALSE)
+taxonomy_12S <- read_csv(here("data", "FC_taxonomy_12s.csv")) 
+
 #  Pivot the ASV table
-FC_ASV <- FC_ASV %>%
+FC_ASV_12S <- FC_ASV_12S %>%
   dplyr::rename(ASV = row_name) %>%
   pivot_longer(FC_002:FC_074,
                names_to = "materialSampleID",
@@ -79,12 +82,12 @@ FC_ASV <- FC_ASV %>%
   mutate(materialSampleID = gsub("_", "-", materialSampleID)) %>%
   mutate(eventID = paste("Hakai", materialSampleID, sep = "-")) %>%
   group_by(materialSampleID, ASV) %>%
-  mutate(occurrenceID = paste(eventID, ASV, "occ", sep = "-"),
+  mutate(occurrenceID = paste(eventID, ASV, "12S", "occ", sep = "-"),
          sampleSizeValue = sum(organismQuantity)) %>%
   ungroup()
 
 # Check for duplicate occurrenceIDs: 
-print(sum(duplicated(FC_ASV$occurrenceID))) # should be 0. 
+print(sum(duplicated(FC_ASV_12S$occurrenceID))) # should be 0. 
 
 # Match ASV to the sequence and taxa information:
 ASV <- names(fasta_12S)
@@ -94,33 +97,26 @@ fasta_12S <- cbind(ASV, DNA_sequence) %>% as.data.frame()
 # Upon manual inspection, for some ASVs information is not provided at species level, 
 # for these taxa information is e.g. provided up to the genus level and species
 # information is recorded as "unknown". Change 'unknown' to NA
-tax_table <- taxonomy_12S %>%
+tax_table_12S <- taxonomy_12S %>%
   mutate(across(everything(), ~na_if(., "unknown")))
 
 # Grab the most granular taxonomic data (i.e., the last column populated before
 # 'NA' information is provided):
-tax_table$scientificName <- apply(tax_table, 1, function(row) {
+tax_table_12S$scientificName <- apply(tax_table_12S, 1, function(row) {
   last_value <- tail(na.omit(row), 1) 
   if (length(last_value) == 0) NA else last_value
 })
 
 # Join ASV to samples and taxonomic information:
-DNAtable <- dplyr::left_join(tax_table, FC_ASV, by = "ASV")
-DNAtable <- dplyr::left_join(DNAtable, event, by = c("materialSampleID", "eventID"))
-DNAtable <- dplyr::left_join(DNAtable, fasta_12S, by = "ASV")
+DNAtable_12S <- dplyr::left_join(tax_table_12S, FC_ASV_12S, by = "ASV")
+DNAtable_12S <- dplyr::left_join(DNAtable_12S, event, by = c("materialSampleID", "eventID"))
+DNAtable_12S <- dplyr::left_join(DNAtable_12S, fasta_12S, by = "ASV")
 
 # Occurrence table: each unique sequence by sample combination is considered one occurrence.
-
-# The occurrence core table should contain the following:
-# Both scientificName and verbatimIdentification are pulled from the species column - should
-# we have to make any changes to the species' name to ensure matching with the WoRMS database
-# we can make those changes to the scientificName and leave the verbatimIdentification intact.
-
-# Fields below are taken from https://manual.obis.org/dna_data.html#id_16s-rrna-gene-metabarcoding-data-of-pico--to-mesoplankton 
 sequence_meta <- sequence_meta %>% mutate(materialSampleID = gsub("_", "-", sequence_meta$materialSampleID))
 
 # Join DNA table with sequence metadata:
-DNA_occ <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
+DNA_occ_12S <- left_join(DNAtable_12S, sequence_meta, by = "materialSampleID") %>%
   select(eventID,
          occurrenceID,
          basisOfRecord,
@@ -135,19 +131,10 @@ DNA_occ <- left_join(DNAtable, sequence_meta, by = "materialSampleID") %>%
          identificationRemarks,
          materialSampleID)
 
-# Missing fields, see if possible to include:
-# identificationReferences = NA, #TODO: Should include a link to the bioinformatic pipeline or publication where the identification process is explained. 
-# taxonConceptID = NA, #TODO: Can we pull this information from NCBI? For example, Clupea pallasii would be 'NCBI:txid30724'. 
-
-# Add taxonomic information from the WoRMS database to the occurrence table: 
-unique_spp <- unique(DNA_occ$scientificName) %>% as.data.frame()
-
 # To match with the WoRMS taxonomic database we'll need to remove the ' sp.' from the scientificName
-# As per Matt Lemay, other taxonomy files might have taxa names where uncertainty is recorded after 
-# .sp, in which case we can simply remove everything beyond and including 'sp.'.
-DNA_occ$scientificName <- trimws(gsub(" sp\\..*$", "", DNA_occ$scientificName))
+DNA_occ_12S$scientificName <- trimws(gsub(" sp\\..*$", "", DNA_occ_12S$scientificName))
 
-DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_only = F) %>% 
+DNA_worms_12S <- worrms::wm_records_names(unique(DNA_occ_12S$scientificName), marine_only = F) %>% 
   dplyr::bind_rows() %>%
   filter(status == "accepted") %>%
   dplyr::rename(scientificName = scientificname) %>%
@@ -158,14 +145,106 @@ DNA_worms <- worrms::wm_records_names(unique(DNA_occ$scientificName), marine_onl
          scientificNameID = lsid)
 
 # Join the occurrence data with the WoRMS taxa information:
-FC_occ <- left_join(DNA_occ, DNA_worms, by = "scientificName") %>%
+FC_occ_S12 <- left_join(DNA_occ_12S, DNA_worms_12S, by = "scientificName") %>%
   mutate(occurrenceStatus = "present")
+
+####################################################################################################################################
+
+# Read in the data files for COI:
+FC_ASV_COI <- read_csv(here("data", "FC_ASVs_COI.csv"))
+fasta_COI <- seqinr::read.fasta(file = here("data", "FC_CO1_ASV_sequences.fasta"),
+                                as.string = TRUE,
+                                forceDNAtolower = FALSE)
+
+# Taxa data was claned by Libby Natolia following script 04_COI_taxonomy_cleaning.R
+taxonomy_COI_worms <- read_csv(here("data", "FC_taxonomy_COI_worms.csv"))
+
+colnames(taxonomy_COI_worms)[1] <- "ASV"
+taxonomy_COI_worms <- taxonomy_COI_worms %>%
+  select(ASV,
+         kingdom = Kingdom,
+         phylum = Phylum,
+         class = Class,
+         order = Order,
+         family = Family,
+         genus = Genus,
+         species = Species) %>%
+  mutate(scientificName = species)
+
+#  Pivot the ASV table
+FC_ASV_COI <- FC_ASV_COI %>%
+  dplyr::rename(ASV = row_names) %>%
+  pivot_longer(FC_002:FC_074,
+               names_to = "materialSampleID",
+               values_to = "organismQuantity") %>%
+  filter(organismQuantity != 0) %>%
+  mutate(organismQuantityType = "DNA sequence reads",
+         sampleSizeUnit = "DNA sequence reads",
+         basisOfRecord = "MaterialSample") %>%
+  mutate(materialSampleID = gsub("_", "-", materialSampleID)) %>%
+  mutate(eventID = paste("Hakai", materialSampleID, sep = "-")) %>%
+  group_by(materialSampleID, ASV) %>%
+  mutate(occurrenceID = paste(eventID, ASV, "COI", "occ", sep = "-"),
+         sampleSizeValue = sum(organismQuantity)) %>%
+  ungroup()
+
+# Match ASV to the sequence and taxa information:
+ASV_COI <- names(fasta_COI)
+DNA_sequence_COI <- unname(unlist(fasta_COI))
+fasta_COI <- cbind(ASV_COI, DNA_sequence_COI) %>% as.data.frame() %>%
+  dplyr::rename(ASV = ASV_COI)
+
+# As per conversation with Matt Lemay, for species names with sp. followed by a string
+# we can remove this:
+taxonomy_COI_worms$scientificName <- gsub("sp\\..*", "", taxonomy_COI_worms$scientificName)
+taxonomy_COI_worms$scientificName <- gsub("CCMP1545|CMC01", "", taxonomy_COI_worms$scientificName) %>% trimws()
+
+# Join ASV to samples and taxonomic information:
+DNAtable_COI <- dplyr::left_join(taxonomy_COI_worms, FC_ASV_COI, by = "ASV")
+DNAtable_COI <- dplyr::left_join(DNAtable_COI, event, by = c("materialSampleID", "eventID"))
+DNAtable_COI <- dplyr::left_join(DNAtable_COI, fasta_COI, by = "ASV")
+
+# Join DNA table with sequence metadata:
+DNA_occ_COI <- left_join(DNAtable_COI, sequence_meta, by = "materialSampleID") %>%
+  select(eventID,
+         occurrenceID,
+         basisOfRecord,
+         scientificName,
+         organismQuantity,
+         organismQuantityType,
+         sampleSizeValue,
+         sampleSizeUnit,
+         verbatimIdentification = species,
+         samplingProtocol,
+         associatedSequences,
+         identificationRemarks,
+         materialSampleID)
+
+# For each row, grab the following taxonomic hierarchical information: scientificNameAuthorship, taxonRank and 
+# scientificNameID:
+DNA_worms_COI <- worrms::wm_records_names(unique(taxonomy_COI_worms$scientificName), marine_only = F) %>%
+  dplyr::bind_rows() %>%
+  filter(status == "accepted") %>%
+  filter(AphiaID != 119270) %>%
+  select(scientificName = scientificname,
+         taxonRank = rank,
+         scientificNameAuthorship = authority,
+         kingdom, phylum, class, order, family, genus,
+         scientificNameID = lsid)
+
+FC_occ_COI <- left_join(DNA_occ_COI, DNA_worms_COI, by = "scientificName") %>%
+  mutate(occurrenceStatus = "present")
+
+#####################################################################################################################################
+
+# Combine the occurrence data table for COI and S12 data:
+FC_occ <- bind_rows(FC_occ_S12, FC_occ_COI)
 
 # Check for duplicate occurrenceIDs:
 print(sum(duplicated(FC_occ$occurrenceID))) # should be 0. 
 
 # Save this data table in the obis folder
-write_csv(FC_occ, here("obis", "interim_obis", "edna", "FC2022_occ.csv"))
+write_csv(FC_occ, here("obis", "FC2022_occ.csv"))
 
 # Create a DNA Derived Data extension: 
 # see details: https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml

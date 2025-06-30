@@ -10,7 +10,9 @@ library(readr)
 library(lubridate)
 library(hms)
 
-# Read in the DNA barcoding DwC data table from BoLD: https://portal.boldsystems.org/recordset/DS-FCBB
+# Download the DNA barcoding DwC data table from BoLD: https://portal.boldsystems.org/recordset/DS-FCBB
+#TODO: Figure out if this is something that can happen automatically using the BoLD API?
+
 DS_FCBB <- read_csv(here("data", "DS-FCBB.csv"))
 
 # Create parent table:
@@ -18,14 +20,14 @@ project <- DS_FCBB %>%
   mutate(month = as.numeric(format(mdy(eventDate), "%m")),
          day = as.numeric(format(mdy(eventDate), "%d")),
          year = as.numeric(format(mdy(eventDate), "%Y")),
-         decimalLatitude = NULL,
-         decimalLongitude = NULL,
          eventDate = paste(year, month, day, sep = "-"),
          eventType = samplingProtocol) %>%
   rename(bold_original_parentid = parentEventID) %>%
   select(eventID, bold_original_parentid,
          eventType,
          eventDate, month, day, year,
+         decimalLatitude,
+         decimalLongitude,
          samplingProtocol,
          habitat, 
          maximumDepthInMeters = verbatimDepth,
