@@ -1,0 +1,73 @@
+sample_ID,Station_ID,Treatment,Station_Depth,Depth_m,Filter_start_time,Filter_end_time,Filter_vol_ml,Collection_date,Lat,Lon,Notes,Location
+FC_002,Station_12,bottom,Station_12_bottom,2,10:00,12:15,950,"Sept.3, 2022",49.2726,-123.103583,,Science World south
+FC_003,Station_12,bottom,Station_12_bottom,2,10:00,,,"Sept.3, 2022",49.2726,-123.103583,,Science World south
+FC_004,Station_12,bottom,Station_12_bottom,2,10:00,11:49,975,"Sept.3, 2022",49.2726,-123.103583,,Science World south
+FC_005,Station_12,surface,Station_12_surface,0,10:15,12:15,950,"Sept.3, 2022",49.2726,-123.103583,,Science World south
+FC_006,Station_12,surface,Station_12_surface,0,10:15,11:40,950,"Sept.3, 2022",49.2726,-123.103583,,Science World south
+FC_007,Station_12,surface,Station_12_surface,0,10:15,12:35,975,"Sept.3, 2022",49.2726,-123.103583,,Science World south
+FC_008,Station_11,bottom,Station_11_bottom,5,10:30,12:05,940,"Sept.3, 2022",49.2744,-123.105416,,Science World north
+FC_009,Station_11,bottom,Station_11_bottom,5,10:30,12:00,960,"Sept.3, 2022",49.2744,-123.105416,,Science World north
+FC_010,Station_11,bottom,Station_11_bottom,5,10:30,12:00,925,"Sept.3, 2022",49.2744,-123.105416,,Science World north
+FC_011,Station_11,surface,Station_11_surface,0,10:35,12:40,1000,"Sept.3, 2022",49.2744,-123.105416,,Science World north
+FC_012,Station_11,surface,Station_11_surface,0,10:40,12:30,975,"Sept.3, 2022",49.2744,-123.105416,,Science World north
+FC_013,Station_11,surface,Station_11_surface,0,10:40,12:30,950,"Sept.3, 2022",49.2744,-123.105416,,Science World north
+FC_014,Station_10,bottom,Station_10_bottom,2,10:50,12:15,1000,"Sept.3, 2022",49.273483,-123.11055,,Habitat Island
+FC_015,Station_10,bottom,Station_10_bottom,2,10:50,12:10,900,"Sept.3, 2022",49.273483,-123.11055,,Habitat Island
+FC_016,Station_10,bottom,Station_10_bottom,2,10:50,12:10,925,"Sept.3, 2022",49.273483,-123.11055,,Habitat Island
+FC_017,Station_10,surface,Station_10_surface,0,10:55,12:51,925,"Sept.3, 2022",49.273483,-123.11055,,Habitat Island
+FC_018,Station_10,surface,Station_10_surface,0,10:55,13:10,950,"Sept.3, 2022",49.273483,-123.11055,,Habitat Island
+FC_019,Station_10,surface,Station_10_surface,0,10:55,12:35,950,"Sept.3, 2022",49.273483,-123.11055,,Habitat Island
+FC_020,Station_09,bottom,Station_09_bottom,2,11:05,12:35,1010,"Sept.3, 2022",49.272116,-123.1147,,Cambie Bridge
+FC_021,Station_09,bottom,Station_09_bottom,2,11:05,12:20,950,"Sept.3, 2022",49.272116,-123.1147,,Cambie Bridge
+FC_022,Station_09,bottom,Station_09_bottom,2,11:05,12:45,1000,"Sept.3, 2022",49.272116,-123.1147,,Cambie Bridge
+FC_023,Station_09,surface,Station_09_surface,0,11:10,13:00,925,"Sept.3, 2022",49.272116,-123.1147,,Cambie Bridge
+FC_024,Station_09,surface,Station_09_surface,0,11:10,12:48,900,"Sept.3, 2022",49.272116,-123.1147,Stopped dripping,Cambie Bridge
+FC_025,Station_09,surface,Station_09_surface,0,11:10,,,"Sept.3, 2022",49.272116,-123.1147,,Cambie Bridge
+FC_026,Station_08,bottom,Station_08_bottom,2,11:35,12:50,975,"Sept.3, 2022",49.2705,-123.12346,,David Lam Park
+FC_027,Station_08,bottom,Station_08_bottom,2,11:35,13:05,1000,"Sept.3, 2022",49.2705,-123.12346,,David Lam Park
+FC_028,Station_08,bottom,Station_08_bottom,2,11:35,12:54,1000,"Sept.3, 2022",49.2705,-123.12346,,David Lam Park
+FC_029,Station_08,surface,Station_08_surface,0,11:54,13:30,1000,"Sept.3, 2022",49.2705,-123.12346,,David Lam Park
+FC_030,Station_08,surface,Station_08_surface,0,11:54,13:45,950,"Sept.3, 2022",49.2705,-123.12346,,David Lam Park
+FC_031,Station_08,surface,Station_08_surface,0,11:54,13:45,950,"Sept.3, 2022",49.2705,-123.12346,,David Lam Park
+FC_033,Station_07,bottom,Station_07_bottom,2,13:25,14:40,950,"Sept.3, 2022",49.27025,-123.12925,,Spruce Harbour
+FC_034,Station_07,bottom,Station_07_bottom,2,13:25,,,"Sept.3, 2022",49.27025,-123.12925,,Spruce Harbour
+FC_035,Station_07,bottom,Station_07_bottom,2,13:25,14:40,950,"Sept.3, 2022",49.27025,-123.12925,,Spruce Harbour
+FC_036,Station_07,surface,Station_07_surface,0,13:25,15:24,1000,"Sept.3, 2022",49.27025,-123.12925,,Spruce Harbour
+FC_037,Station_07,surface,Station_07_surface,0,13:25,15:30,950,"Sept.3, 2022",49.27025,-123.12925,,Spruce Harbour
+FC_038,Station_07,surface,Station_07_surface,0,13:25,15:00,925,"Sept.3, 2022",49.27025,-123.12925,,Spruce Harbour
+FC_039,Station_06,bottom,Station_06_bottom,2,13:30,14:50,800,"Sept.3, 2022",49.27323,-123.13356,,Granville Island
+FC_040,Station_06,bottom,Station_06_bottom,2,13:30,14:50,945,"Sept.3, 2022",49.27323,-123.13356,,Granville Island
+FC_041,Station_06,bottom,Station_06_bottom,2,13:35,15:00,1000,"Sept.3, 2022",49.27323,-123.13356,,Granville Island
+FC_042,Station_06,surface,Station_06_surface,0,13:40,14:35,850,"Sept.3, 2022",49.27323,-123.13356,,Granville Island
+FC_043,Station_06,surface,Station_06_surface,0,13:40,15:25,1000,"Sept.3, 2022",49.27323,-123.13356,,Granville Island
+FC_044,Station_06,surface,Station_06_surface,0,13:40,15:10,950,"Sept.3, 2022",49.27323,-123.13356,,Granville Island
+FC_045,Station_05,bottom,Station_05_bottom,3,13:50,15:12,950,"Sept.3, 2022",49.27626,-123.1373,,Burrard bridge / fuel dock
+FC_046,Station_05,bottom,Station_05_bottom,3,13:50,15:17,1000,"Sept.3, 2022",49.27626,-123.1373,,Burrard bridge / fuel dock
+FC_047,Station_05,bottom,Station_05_bottom,3,13:50,15:11,1000,"Sept.3, 2022",49.27626,-123.1373,,Burrard bridge / fuel dock
+FC_048,Station_05,surface,Station_05_surface,0,14:00,15:50,1000,"Sept.3, 2022",49.27626,-123.1373,,Burrard bridge / fuel dock
+FC_049,Station_05,surface,Station_05_surface,0,14:00,15:20,925,"Sept.3, 2022",49.27626,-123.1373,,Burrard bridge / fuel dock
+FC_050,Station_05,surface,Station_05_surface,0,14:00,15:21,1000,"Sept.3, 2022",49.27626,-123.1373,,Burrard bridge / fuel dock
+FC_051,Station_04,bottom,Station_04_bottom,5,14:19,15:21,1000,"Sept.3, 2022",49.279283,-123.141783,,Vanier Park
+FC_052,Station_04,bottom,Station_04_bottom,5,14:15,15:21,1000,"Sept.3, 2022",49.279283,-123.141783,,Vanier Park
+FC_053,Station_04,bottom,Station_04_bottom,5,14:15,,,"Sept.3, 2022",49.279283,-123.141783,,Vanier Park
+FC_054,Station_04,surface,Station_04_surface,0,14:20,15:40,950,"Sept.3, 2022",49.279283,-123.141783,,Vanier Park
+FC_055,Station_04,surface,Station_04_surface,0,14:20,15:40,1000,"Sept.3, 2022",49.279283,-123.141783,,Vanier Park
+FC_056,Station_04,surface,Station_04_surface,0,14:20,15:40,950,"Sept.3, 2022",49.279283,-123.141783,,Vanier Park
+FC_057,Station_03,bottom,Station_03_bottom,5,14:25,15:50,975,"Sept.3, 2022",49.283216,-123.14965,,Barge Chillin' Beach
+FC_058,Station_03,bottom,Station_03_bottom,5,14:25,15:45,1000,"Sept.3, 2022",49.283216,-123.14965,,Barge Chillin' Beach
+FC_059,Station_03,bottom,Station_03_bottom,5,14:25,15:40,950,"Sept.3, 2022",49.283216,-123.14965,,Barge Chillin' Beach
+FC_060,Station_03,surface,Station_03_surface,0,13:30,16:24,950,"Sept.3, 2022",49.283216,-123.14965,,Barge Chillin' Beach
+FC_061,Station_03,surface,Station_03_surface,0,14:30,16:20,1000,"Sept.3, 2022",49.283216,-123.14965,,Barge Chillin' Beach
+FC_062,Station_03,surface,Station_03_surface,0,14:30,16:29,950,"Sept.3, 2022",49.283216,-123.14965,,Barge Chillin' Beach
+FC_063,Station_02,bottom,Station_02_bottom,5,15:00,16:30,950,"Sept.3, 2022",49.281516,-123.15095,,Kits Beach
+FC_064,Station_02,bottom,Station_02_bottom,5,15:00,16:23,1000,"Sept.3, 2022",49.281516,-123.15095,,Kits Beach
+FC_065,Station_02,bottom,Station_02_bottom,5,15:00,16:29,950,"Sept.3, 2022",49.281516,-123.15095,,Kits Beach
+FC_066,Station_02,surface,Station_02_surface,0,15:20,,,"Sept.3, 2022",49.281516,-123.15095,,Kits Beach
+FC_067,Station_02,surface,Station_02_surface,0,15:20,16:45,950,"Sept.3, 2022",49.281516,-123.15095,,Kits Beach
+FC_068,Station_02,surface,Station_02_surface,0,15:20,16:55,950,"Sept.3, 2022",49.281516,-123.15095,,Kits Beach
+FC_069,Station_01,bottom,Station_01_bottom,10,15:30,16:50,900,"Sept.3, 2022",49.281783,-123.1601,,English Bay
+FC_070,Station_01,bottom,Station_01_bottom,10,15:30,16:50,970,"Sept.3, 2022",49.281783,-123.1601,,English Bay
+FC_071,Station_01,bottom,Station_01_bottom,10,15:30,16:40,950,"Sept.3, 2022",49.281783,-123.1601,,English Bay
+FC_072,Station_01,surface,Station_01_surface,0,15:40,17:05,,"Sept.3, 2022",49.281783,-123.1601,,English Bay
+FC_073,Station_01,surface,Station_01_surface,0,15:40,17:05,950,"Sept.3, 2022",49.281783,-123.1601,,English Bay
+FC_074,Station_01,surface,Station_01_surface,0,15:40,17:05,900,"Sept.3, 2022",49.281783,-123.1601,,English Bay
