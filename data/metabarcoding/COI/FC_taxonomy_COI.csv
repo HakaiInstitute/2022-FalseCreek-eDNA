@@ -1,362 +1,342 @@
-ASV,Kingdom,Phylum,Class,Order,Family,Genus,Species,
-ASV949,Eukaryota,Annelida,Polychaeta,Eunicida,Lumbrineridae,no identification,no identification,
-ASV712,Eukaryota,Annelida,Polychaeta,Phyllodocida,Chrysopetalidae,Paleanotus,Paleanotus bellis,
-ASV438,Eukaryota,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana,
-ASV790,Eukaryota,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana,
-ASV1104,Eukaryota,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana,
-ASV311,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde picta,
-ASV748,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde picta,
-ASV824,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde picta,
-ASV961,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde picta,
-ASV1127,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde picta,
-ASV402,Eukaryota,Annelida,Polychaeta,Phyllodocida,Hesionidae,Micropodarke,Micropodarke dubia,
-ASV636,Eukaryota,Annelida,Polychaeta,Phyllodocida,Hesionidae,unknown genus,Podarkeopsis,
-ASV874,Eukaryota,Annelida,Polychaeta,Phyllodocida,Phyllodocidae,unknown genus,Eteone,
-ASV92,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Laonice,Laonice cirrata CMC01,
-ASV777,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Laonice,Laonice cirrata CMC01,
-ASV74,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV105,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV158,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV221,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV332,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV372,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV393,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV581,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV641,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV672,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV679,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV706,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV1056,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,
-ASV1743,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora onagawaensis,
-ASV33,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV161,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV217,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV297,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV350,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV395,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV688,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV737,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV761,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV820,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV1074,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,
-ASV525,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,unknown genus,Boccardia,
-ASV821,Eukaryota,Annelida,Polychaeta,Spionida,unknown family,unknown genus,Spionidae,
-ASV1531,Eukaryota,Annelida,Polychaeta,Terebellida,Ampharetidae,Ampharete,Ampharete americana,
-ASV273,Eukaryota,Annelida,Polychaeta,Terebellida,Cirratulidae,unknown genus,Aphelochaeta,
-ASV676,Eukaryota,Annelida,Polychaeta,Terebellida,Cirratulidae,unknown genus,Aphelochaeta,
-ASV859,Eukaryota,Annelida,Polychaeta,Terebellida,Cirratulidae,unknown genus,Aphelochaeta,
-ASV1092,Eukaryota,Annelida,Polychaeta,Terebellida,Cirratulidae,unknown genus,Aphelochaeta,
-ASV1261,Eukaryota,Annelida,Polychaeta,Terebellida,Pectinariidae,unknown genus,Cistenides,
-ASV428,Eukaryota,Annelida,Polychaeta,Terebellida,Terebellidae,no identification,no identification,
-ASV382,Eukaryota,Annelida,Polychaeta,Terebellida,unknown family,unknown genus,Cirratulidae,
-ASV462,Eukaryota,Annelida,Polychaeta,Terebellida,unknown family,unknown genus,Pectinariidae,
-ASV243,Eukaryota,Annelida,Polychaeta,unknown order,Capitellidae,unknown genus,Capitella,
-ASV634,Eukaryota,Annelida,Polychaeta,unknown order,Capitellidae,unknown genus,Capitella,
-ASV684,Eukaryota,Annelida,Polychaeta,unknown order,Capitellidae,unknown genus,Capitella,
-ASV900,Eukaryota,Annelida,Polychaeta,unknown order,Capitellidae,unknown genus,Capitella,
-ASV1014,Eukaryota,Annelida,Polychaeta,unknown order,Capitellidae,unknown genus,Capitella,
-ASV574,Eukaryota,Annelida,Polychaeta,unknown order,Opheliidae,Armandia,Armandia brevis,
-ASV1449,Eukaryota,Annelida,Polychaeta,unknown order,Opheliidae,Armandia,Armandia brevis,
-ASV571,Eukaryota,Annelida,Polychaeta,unknown order,Opheliidae,Ophelina,Ophelina acuminata,
-ASV844,Eukaryota,Annelida,Polychaeta,unknown order,unknown family,unknown genus,Capitellidae,
-ASV2063,Eukaryota,Arthropoda,Arachnida,Araneae,Archaeidae,Austrarchaea,Austrarchaea sp. QLD,2
-ASV62,Eukaryota,Arthropoda,Branchiopoda,Diplostraca,Podonidae,Pleopis,Pleopis polyphemoides,
-ASV621,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Acartiidae,Acartia,Acartia hudsonica,
-ASV277,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Acartiidae,Acartia,Acartia longiremis,
-ASV879,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Acartiidae,Acartia,Acartia longiremis,
-ASV1108,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Acartiidae,Acartia,Acartia longiremis,
-ASV373,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Calanidae,Calanus,Calanus pacificus,
-ASV455,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Calanidae,Calanus,Calanus pacificus,
-ASV1187,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,no identification,no identification,
-ASV1231,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,no identification,no identification,
-ASV1818,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,no identification,no identification,
-ASV491,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,no identification,
-ASV519,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,no identification,
-ASV657,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,no identification,
-ASV669,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,no identification,
-ASV854,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,no identification,
-ASV122,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV123,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV242,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV337,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV760,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV812,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV1048,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV1091,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV1131,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,
-ASV13,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV210,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV251,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV336,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV415,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV770,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV952,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV1031,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV1042,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus sp. PsAkkeshi1,
-ASV100,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica,
-ASV306,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica,
-ASV417,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica,
-ASV763,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica,
-ASV977,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica,
-ASV212,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus,
-ASV575,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus,
-ASV995,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus,
-ASV87,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV101,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV139,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV659,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV691,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV813,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV1485,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV2003,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV2039,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013,
-ASV836,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Temoridae,Eurytemora,Eurytemora americana,
-ASV234,Eukaryota,Arthropoda,Hexanauplia,Calanoida,unknown family,unknown genus,Calanoida sp. NJCGS407-10,
-ASV661,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,Halicyclops,Halicyclops itohi,
-ASV236,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV268,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV424,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV556,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV582,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV665,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV701,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV724,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV751,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV762,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV875,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV886,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV888,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV940,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV975,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV987,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV1026,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV1053,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV1139,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV1204,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1,Katla
-ASV12,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV300,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV404,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV477,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV528,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV702,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV713,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV865,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV1146,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV1174,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis,
-ASV325,Eukaryota,Arthropoda,Hexanauplia,Harpacticoida,unknown family,unknown genus,Harpacticoida sp. 10BIOBC-00676,
-ASV451,Eukaryota,Arthropoda,Hexanauplia,Poecilostomatoida,Corycaeidae,Ditrichocorycaeus,Ditrichocorycaeus anglicus,
-ASV262,Eukaryota,Arthropoda,Hexanauplia,Poecilostomatoida,unknown family,unknown genus,Corycaeidae,
-ASV1058,Eukaryota,Arthropoda,Hexanauplia,Poecilostomatoida,unknown family,unknown genus,Corycaeidae,
-ASV364,Eukaryota,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus crenatus,
-ASV958,Eukaryota,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus glandula,
-ASV281,Eukaryota,Arthropoda,Thecostraca,Balanomorpha,Balanidae,unknown genus,Balanus,
-ASV1015,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Cylindrotheca,Cylindrotheca closterium,
-ASV1224,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Cylindrotheca,Cylindrotheca closterium,
-ASV1334,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia cf. promare,
-ASV1945,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia inconspicua,
-ASV2031,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,no identification,
-ASV1848,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia delicatissima,
-ASV1159,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia multiseries,
-ASV771,Eukaryota,Bacillariophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,Pleurosigma strigosum,
-ASV2097,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Attheyaceae,Attheya,Attheya longicornis,
-ASV971,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,Chaetoceros socialis,
-ASV1184,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,Chaetoceros socialis,
-ASV660,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,Chaetoceros tenuissimus,
-ASV138,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,no identification,
-ASV151,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,Coscinodiscus granii,
-ASV564,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,Coscinodiscus granii,
-ASV610,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides,
-ASV993,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides,
-ASV1413,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides,
-ASV1175,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,Stephanopyxis turris,
-ASV740,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Paraliales,Paraliaceae,Paralia,Paralia sulcata,
-ASV203,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,Guinardia delicatula,
-ASV1830,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,Rhizosolenia setigera,
-ASV2080,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Stephanodiscales,Stephanodiscaceae,Cyclostephanos,Cyclostephanos sp. WTC16,
-ASV10,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Stephanodiscales,Stephanodiscaceae,Cyclotella,Cyclotella cryptica,
-ASV1144,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Stephanodiscales,Stephanodiscaceae,Cyclotella,Cyclotella cryptica,
-ASV1670,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,no identification,no identification,no identification,
-ASV6,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,no identification,
-ASV1180,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,no identification,
-ASV129,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema costatum,
-ASV2,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema dohrnii,
-ASV36,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema dohrnii,
-ASV85,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema japonicum,
-ASV1329,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema japonicum,
-ASV327,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira nordenskioeldii,
-ASV1974,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira nordenskioeldii,
-ASV540,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira pseudonana,
-ASV1700,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira pseudonana,
-ASV422,Eukaryota,Bacillariophyta,Fragilariophyceae,Fragilariales,Fragilariaceae,Asterionellopsis,Asterionellopsis glacialis,
-ASV131,Eukaryota,Bacillariophyta,Fragilariophyceae,Thalassionemales,Thalassionemataceae,Thalassionema,Thalassionema nitzschioides,
-ASV84,Eukaryota,Bacillariophyta,Mediophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus,
-ASV472,Eukaryota,Bacillariophyta,Mediophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus,
-ASV635,Eukaryota,Bacillariophyta,Mediophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus,
-ASV421,Eukaryota,Bacillariophyta,Mediophyceae,Eupodiscales,Parodontellaceae,Trieres,Trieres chinensis,
-ASV1386,Eukaryota,Bacillariophyta,Mediophyceae,Eupodiscales,Parodontellaceae,Trieres,Trieres chinensis,
-ASV1193,Eukaryota,Bacillariophyta,Mediophyceae,Hemiaulales,Hemiaulaceae,Eucampia,Eucampia zodiacus,
-ASV1747,Eukaryota,Bacillariophyta,Mediophyceae,Hemiaulales,Hemiaulaceae,Eucampia,Eucampia zodiacus,
-ASV1163,Eukaryota,Bacillariophyta,Mediophyceae,Hemiaulales,Hemiaulaceae,Hemiaulus,Hemiaulus sinensis,
-ASV53,Eukaryota,Bacillariophyta,Mediophyceae,Lithodesmiales,Lithodesmiaceae,Ditylum,Ditylum brightwellii,
-ASV1097,Eukaryota,Bacillariophyta,unknown class,unknown order,unknown family,unknown genus,uncultured diatom,
-ASV1455,Eukaryota,Bacillariophyta,unknown class,unknown order,unknown family,unknown genus,uncultured diatom,
-ASV915,Eukaryota,Bryozoa,Gymnolaemata,Cheilostomatida,Membraniporidae,unknown genus,Membranipora,
-ASV1407,Eukaryota,Bryozoa,Gymnolaemata,Ctenostomatida,Vesiculariidae,Amathia,Amathia sp. 149959,
-ASV1149,Eukaryota,Bryozoa,Gymnolaemata,Ctenostomatida,Vesiculariidae,no identification,no identification,
-ASV193,Eukaryota,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis,
-ASV227,Eukaryota,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis,
-ASV1062,Eukaryota,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis,
-ASV1200,Eukaryota,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis,
-ASV1564,Eukaryota,Chrysophyceae,Chrysophyceae,Chromulinales,Paraphysomonadaceae,Paraphysomonas,Paraphysomonas sp.,
-ASV1240,Eukaryota,Cryptophyceae,Cryptophyceae,Kathablepharidacea,Katablepharidaceae,Leucocryptos,Leucocryptos marina,
-ASV1262,Eukaryota,Cryptophyceae,Cryptophyceae,Kathablepharidacea,Katablepharidaceae,Leucocryptos,Leucocryptos marina,
-ASV653,Eukaryota,Ctenophora,Tentaculata,Cydippida,Pleurobrachiidae,Pleurobrachia,Pleurobrachia bachei,
-ASV785,Eukaryota,Ctenophora,Tentaculata,Cydippida,Pleurobrachiidae,Pleurobrachia,Pleurobrachia bachei,
-ASV960,Eukaryota,Dictyochophyceae,Dictyochophyceae,Dictyochales,unknown family,Dictyocha,Dictyocha speculum,
-ASV870,Eukaryota,Dinophyceae,Dinophyceae,Gymnodiniales,Kareniaceae,unknown genus,uncultured Kareniaceae,
-ASV1671,Eukaryota,Dinophyceae,Dinophyceae,Gymnodiniales,Kareniaceae,unknown genus,uncultured Kareniaceae,
-ASV1703,Eukaryota,Dinophyceae,Dinophyceae,Lophodiniales,Lophodiniaceae,Biecheleriopsis,Biecheleriopsis adriatica,
-ASV1621,Eukaryota,Dinophyceae,Dinophyceae,no identification,no identification,no identification,no identification,
-ASV840,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Heterocapsaceae,Heterocapsa,Heterocapsa rotundata,
-ASV897,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Heterocapsaceae,Heterocapsa,Heterocapsa rotundata,
-ASV173,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Peridiniaceae,Scrippsiella,Scrippsiella precaria,
-ASV764,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Protoperidiniaceae,Protoperidinium,Protoperidinium cf. depressum,
-ASV1516,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Protoperidiniaceae,Protoperidinium,Protoperidinium cf. depressum,
-ASV1986,Eukaryota,Dinophyceae,Dinophyceae,Prorocentrales,Prorocentraceae,Prorocentrum,Prorocentrum sp. S8-82,
-ASV1770,Eukaryota,Dinophyceae,Dinophyceae,Prorocentrales,Prorocentraceae,Prorocentrum,uncultured Prorocentrum,
-ASV780,Eukaryota,Dinophyceae,Dinophyceae,Syndiniales,Syndiniaceae,Hematodinium,Hematodinium sp.,
-ASV394,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV518,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV617,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV631,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV707,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV884,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV1041,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV1297,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV1559,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV2074,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate,
-ASV576,Eukaryota,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,unknown genus,Amphiodia,
-ASV873,Eukaryota,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,unknown genus,Amphiodia,
-ASV905,Eukaryota,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,unknown genus,Amphiodia,
-ASV1022,Eukaryota,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,unknown genus,Amphiodia,
-ASV1461,Eukaryota,Evosea,unknown class,unknown order,unknown family,Squamamoeba,Squamamoeba japonica,
-ASV927,Eukaryota,Haptophyta,unknown class,Coccolithales,Coccolithaceae,unknown genus,Coccolithus,
-ASV970,Eukaryota,Haptophyta,unknown class,Coccolithales,Coccolithaceae,unknown genus,Coccolithus,
-ASV199,Eukaryota,Haptophyta,unknown class,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis antarctica,
-ASV1227,Eukaryota,Haptophyta,unknown class,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis antarctica,
-ASV291,Eukaryota,Haptophyta,unknown class,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis globosa,
-ASV1179,Eukaryota,Mollusca,Bivalvia,Cardiida,Cardiidae,Clinocardium,Clinocardium nuttallii,
-ASV450,Eukaryota,Mollusca,Bivalvia,Cardiida,Psammobiidae,Nuttallia,Nuttallia japonica,
-ASV1309,Eukaryota,Mollusca,Bivalvia,Galeommatida,Montacutidae,Kurtiella,Kurtiella bidentata,
-ASV645,Eukaryota,Mollusca,Bivalvia,Myida,Myidae,Mya,Mya arenaria,
-ASV1415,Eukaryota,Mollusca,Bivalvia,Myida,Teredinidae,Bankia,Bankia setacea,
-ASV41,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV42,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV250,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV335,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV357,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV413,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV466,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV549,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV624,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV640,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV643,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV686,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV689,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV709,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV735,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV742,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV806,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV876,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV877,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV891,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV912,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV920,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV924,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV933,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV955,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV1029,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV1040,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV1141,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV1252,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV1276,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV1318,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,
-ASV57,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV70,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV111,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV333,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV711,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV768,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV807,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV822,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV887,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV907,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV1467,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV2079,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,unknown genus,Mytilus,
-ASV503,Eukaryota,Mollusca,Bivalvia,Mytilida,unknown family,unknown genus,Mytilidae,
-ASV1337,Eukaryota,Mollusca,Bivalvia,Nuculida,Nuculidae,Acila,Acila castrensis,
-ASV79,Eukaryota,Mollusca,Bivalvia,Ostreida,Ostreidae,Crassostrea,Crassostrea gigas,
-ASV1101,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,no identification,no identification,
-ASV1534,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,no identification,no identification,
-ASV1427,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,Ruditapes,Ruditapes philippinarum,
-ASV1910,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,Ruditapes,Ruditapes philippinarum,
-ASV1942,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,Saxidomus,Saxidomus gigantea,
-ASV409,Eukaryota,Mollusca,Gastropoda,Cephalaspidea,Cylichnidae,unknown genus,Cylichna,
-ASV252,Eukaryota,Mollusca,Gastropoda,Neogastropoda,Nassariidae,Nassarius,Nassarius mendicus,
-ASV471,Eukaryota,Mollusca,Gastropoda,Nudibranchia,Onchidorididae,Corambe,Corambe steinbergae,
-ASV883,Eukaryota,Mollusca,Gastropoda,Nudibranchia,Onchidorididae,Corambe,Corambe steinbergae,
-ASV2088,Eukaryota,Oomycota,unknown class,Lagenidiales,Lagenidiaceae,Lagenidium,Lagenidium caudatum,
-ASV1992,Eukaryota,Oomycota,unknown class,no identification,no identification,no identification,no identification,
-ASV1268,Eukaryota,Picozoa,unknown class,unknown order,unknown family,unknown genus,Picobiliphyte sp. MS584-11,
-ASV1676,Eukaryota,Picozoa,unknown class,unknown order,unknown family,unknown genus,Picobiliphyte sp. MS584-11,
-ASV1578,Eukaryota,Raphidophyceae,Raphidophyceae,Chattonellales,Chattonellaceae,Heterosigma,Heterosigma akashiwo,
-ASV1218,Eukaryota,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Pyropia,Pyropia nitida,
-ASV808,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,no identification,
-ASV104,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV126,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV154,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV155,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV229,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV397,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV407,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV418,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV498,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta baltica,
-ASV1577,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta cecilia,
-ASV7,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV19,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV22,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV30,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV75,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV410,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV505,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV511,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV1019,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV1123,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV1507,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,
-ASV365,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma,
-ASV385,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma,
-ASV526,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma,
-ASV555,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta vorax,
-ASV1143,Eukaryota,Rotifera,Eurotatoria,Ploima,unknown family,unknown genus,Synchaetidae,
-ASV779,Viridiplantae,Chlorophyta,Chloropicophyceae,Chloropicales,Chloropicaceae,Chloroparvula,Chloroparvula pacifica,
-ASV1984,Viridiplantae,Chlorophyta,Mamiellophyceae,Dolichomastigales,Dolichomastigaceae,Dolichomastix,Dolichomastix tenuilepis,
-ASV3,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV9,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV49,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV58,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV65,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV136,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV222,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV289,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV464,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV495,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,
-ASV26,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla,
-ASV55,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla,
-ASV745,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla,
-ASV72,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla CCMP1545,
-ASV91,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,no identification,
-ASV698,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,no identification,
-ASV440,Viridiplantae,Chlorophyta,Pyramimonadophyceae,Pyramimonadales,Pyramimonadaceae,Cymbomonas,Cymbomonas tetramitiformis,
-ASV1763,Viridiplantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,Chlorella,Chlorella sp. FACHB-1531,
-ASV120,Viridiplantae,Chlorophyta,unknown class,unknown order,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina,
-ASV437,Viridiplantae,Chlorophyta,unknown class,unknown order,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina,
+ASV,kingdom,phylum,class,order,family,genus,species
+ASV949,Eukaryota,Annelida,Polychaeta,Eunicida,Lumbrineridae,no identification,no identification
+ASV712,Eukaryota,Annelida,Polychaeta,Phyllodocida,Chrysopetalidae,Paleanotus,Paleanotus bellis
+ASV1104,Eukaryota,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana
+ASV438,Eukaryota,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana
+ASV790,Eukaryota,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana
+ASV824,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde picta
+ASV748,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde sp. 11BIOAK-0852
+ASV1127,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde sp. BCPOL601-10
+ASV311,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde sp. BCPOL601-10
+ASV961,Eukaryota,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde sp. BCPOL601-10
+ASV402,Eukaryota,Annelida,Polychaeta,Phyllodocida,Hesionidae,Micropodarke,Micropodarke dubia
+ASV777,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Laonice,Laonice cirrata CMC01
+ASV92,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Laonice,Laonice cirrata CMC01
+ASV105,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV1056,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV158,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV221,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV332,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV372,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV393,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV581,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV641,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV672,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV679,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV706,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV74,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta
+ASV1743,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora onagawaensis
+ASV1074,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV161,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV217,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV297,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV33,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV350,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV395,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV688,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV737,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV761,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV820,Eukaryota,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis
+ASV1531,Eukaryota,Annelida,Polychaeta,Terebellida,Ampharetidae,Ampharete,Ampharete americana
+ASV1261,Eukaryota,Annelida,Polychaeta,Terebellida,Pectinariidae,Pectinaria,Pectinaria aff. granulata CMC01
+ASV462,Eukaryota,Annelida,Polychaeta,Terebellida,Pectinariidae,Pectinaria,Pectinaria aff. granulata CMC01
+ASV428,Eukaryota,Annelida,Polychaeta,Terebellida,Terebellidae,Neoamphitrite,no identification
+ASV844,Eukaryota,Annelida,Polychaeta,unknown order,Capitellidae,unknown genus,Capitellidae sp. 11BIOAK-1459
+ASV1449,Eukaryota,Annelida,Polychaeta,unknown order,Opheliidae,Armandia,Armandia brevis
+ASV574,Eukaryota,Annelida,Polychaeta,unknown order,Opheliidae,Armandia,Armandia brevis
+ASV571,Eukaryota,Annelida,Polychaeta,unknown order,Opheliidae,Ophelina,Ophelina acuminata
+ASV2063,Eukaryota,Arthropoda,Arachnida,Araneae,Archaeidae,Austrarchaea,Austrarchaea sp. QLD_2
+ASV155,Eukaryota,Arthropoda,Branchiopoda,Diplostraca,Podonidae,Evadne,Evadne sp.
+ASV397,Eukaryota,Arthropoda,Branchiopoda,Diplostraca,Podonidae,Evadne,Evadne sp.
+ASV407,Eukaryota,Arthropoda,Branchiopoda,Diplostraca,Podonidae,Evadne,Evadne sp.
+ASV418,Eukaryota,Arthropoda,Branchiopoda,Diplostraca,Podonidae,Evadne,Evadne sp.
+ASV62,Eukaryota,Arthropoda,Branchiopoda,Diplostraca,Podonidae,Pleopis,Pleopis polyphemoides
+ASV621,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Acartiidae,Acartia,Acartia hudsonica
+ASV1108,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Acartiidae,Acartia,Acartia longiremis
+ASV277,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Acartiidae,Acartia,Acartia longiremis
+ASV879,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Acartiidae,Acartia,Acartia longiremis
+ASV373,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Calanidae,Calanus,Calanus pacificus
+ASV455,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Calanidae,Calanus,Calanus pacificus
+ASV854,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,no identification
+ASV1031,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV1042,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV1048,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV1091,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV1131,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV1187,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV122,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV123,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV1231,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV13,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV1818,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV210,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV242,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV251,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV336,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV337,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV415,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV491,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV519,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV657,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV669,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV760,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV770,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV812,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV952,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani
+ASV100,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica
+ASV306,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica
+ASV417,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica
+ASV763,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica
+ASV977,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Metridinidae,Metridia,Metridia pacifica
+ASV212,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus
+ASV575,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus
+ASV995,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus
+ASV101,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV139,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV1485,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV2003,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV2039,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV659,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV691,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV813,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV87,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Paracalanidae,Paracalanus,Paracalanus sp. C AC-2013
+ASV836,Eukaryota,Arthropoda,Hexanauplia,Calanoida,Temoridae,Eurytemora,Eurytemora americana
+ASV234,Eukaryota,Arthropoda,Hexanauplia,Calanoida,unknown family,unknown genus,Calanoida sp. NJCGS407-10
+ASV661,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,Halicyclops,Halicyclops itohi
+ASV1026,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV1053,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV1139,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV1204,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV236,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV268,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV424,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV556,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV582,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV665,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV701,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV724,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV751,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV762,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV875,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV886,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV888,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV940,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV975,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV987,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Cyclopidae,unknown genus,Cyclopidae sp. CCG1_Katla
+ASV1146,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV1174,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV12,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV300,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV404,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV477,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV528,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV702,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV713,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV865,Eukaryota,Arthropoda,Hexanauplia,Cyclopoida,Oithonidae,Oithona,Oithona similis
+ASV325,Eukaryota,Arthropoda,Hexanauplia,Harpacticoida,unknown family,unknown genus,Harpacticoida sp. 10BIOBC-00676
+ASV364,Eukaryota,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus crenatus
+ASV281,Eukaryota,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus nubilus
+ASV958,Eukaryota,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus sp. BCC2010-012
+ASV1015,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Cylindrotheca,Cylindrotheca closterium
+ASV1224,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Cylindrotheca,Cylindrotheca closterium
+ASV1334,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia cf. promare
+ASV1945,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia inconspicua
+ASV2031,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,no identification
+ASV1848,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia delicatissima
+ASV1159,Eukaryota,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia multiseries
+ASV771,Eukaryota,Bacillariophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,Pleurosigma strigosum
+ASV2097,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Attheyaceae,Attheya,Attheya longicornis
+ASV1184,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,Chaetoceros socialis
+ASV971,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,Chaetoceros socialis
+ASV660,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,Chaetoceros tenuissimus
+ASV138,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Chaetocerotales,Chaetocerotaceae,Chaetoceros,no identification
+ASV151,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,Coscinodiscus granii
+ASV564,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,Coscinodiscus granii
+ASV1413,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides
+ASV610,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides
+ASV993,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides
+ASV1175,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,Stephanopyxis turris
+ASV740,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Paraliales,Paraliaceae,Paralia,Paralia sulcata
+ASV203,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,Guinardia delicatula
+ASV1830,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,Rhizosolenia setigera
+ASV2080,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Stephanodiscales,Stephanodiscaceae,Cyclostephanos,Cyclostephanos sp. WTC16
+ASV10,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Stephanodiscales,Stephanodiscaceae,Cyclotella,Cyclotella cryptica
+ASV1144,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Stephanodiscales,Stephanodiscaceae,Cyclotella,Cyclotella cryptica
+ASV1670,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,no identification,no identification,no identification
+ASV1180,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,no identification
+ASV6,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,no identification
+ASV1329,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema japonicum
+ASV85,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema japonicum
+ASV2,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema marinoi
+ASV36,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema marinoi
+ASV129,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Skeletonemataceae,Skeletonema,Skeletonema subsalsum
+ASV1974,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira nordenskioeldii
+ASV327,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira nordenskioeldii
+ASV1700,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira pseudonana
+ASV540,Eukaryota,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira pseudonana
+ASV422,Eukaryota,Bacillariophyta,Fragilariophyceae,Fragilariales,Fragilariaceae,Asterionellopsis,Asterionellopsis glacialis
+ASV131,Eukaryota,Bacillariophyta,Fragilariophyceae,Thalassionemales,Thalassionemataceae,Thalassionema,Thalassionema nitzschioides
+ASV472,Eukaryota,Bacillariophyta,Mediophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus
+ASV635,Eukaryota,Bacillariophyta,Mediophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus
+ASV84,Eukaryota,Bacillariophyta,Mediophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus
+ASV1386,Eukaryota,Bacillariophyta,Mediophyceae,Eupodiscales,Parodontellaceae,Trieres,Trieres chinensis
+ASV421,Eukaryota,Bacillariophyta,Mediophyceae,Eupodiscales,Parodontellaceae,Trieres,Trieres chinensis
+ASV1193,Eukaryota,Bacillariophyta,Mediophyceae,Hemiaulales,Hemiaulaceae,Eucampia,Eucampia zodiacus
+ASV1747,Eukaryota,Bacillariophyta,Mediophyceae,Hemiaulales,Hemiaulaceae,Eucampia,Eucampia zodiacus
+ASV1163,Eukaryota,Bacillariophyta,Mediophyceae,Hemiaulales,Hemiaulaceae,Hemiaulus,Hemiaulus sinensis
+ASV53,Eukaryota,Bacillariophyta,Mediophyceae,Lithodesmiales,Lithodesmiaceae,Ditylum,Ditylum brightwellii
+ASV1097,Eukaryota,Bacillariophyta,unknown class,unknown order,unknown family,unknown genus,uncultured diatom
+ASV1455,Eukaryota,Bacillariophyta,unknown class,unknown order,unknown family,unknown genus,uncultured diatom
+ASV1407,Eukaryota,Bryozoa,Gymnolaemata,Ctenostomatida,Vesiculariidae,Amathia,Amathia sp. 149959
+ASV1149,Eukaryota,Bryozoa,Gymnolaemata,Ctenostomatida,Vesiculariidae,no identification,no identification
+ASV1062,Eukaryota,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis
+ASV1200,Eukaryota,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis
+ASV193,Eukaryota,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis
+ASV227,Eukaryota,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis
+ASV1564,Eukaryota,Chrysophyceae,Chrysophyceae,Chromulinales,Paraphysomonadaceae,Paraphysomonas,Paraphysomonas sp.
+ASV1240,Eukaryota,Cryptophyceae,Cryptophyceae,Kathablepharidacea,Katablepharidaceae,Leucocryptos,Leucocryptos marina
+ASV1262,Eukaryota,Cryptophyceae,Cryptophyceae,Kathablepharidacea,Katablepharidaceae,Leucocryptos,Leucocryptos marina
+ASV653,Eukaryota,Ctenophora,Tentaculata,Cydippida,Pleurobrachiidae,Pleurobrachia,Pleurobrachia bachei
+ASV785,Eukaryota,Ctenophora,Tentaculata,Cydippida,Pleurobrachiidae,Pleurobrachia,Pleurobrachia bachei
+ASV960,Eukaryota,Dictyochophyceae,Dictyochophyceae,Dictyochales,Dictyochaceae,Dictyocha,Dictyocha speculum
+ASV1671,Eukaryota,Dinophyceae,Dinophyceae,Gymnodiniales,Kareniaceae,unknown genus,uncultured Kareniaceae
+ASV870,Eukaryota,Dinophyceae,Dinophyceae,Gymnodiniales,Kareniaceae,unknown genus,uncultured Kareniaceae
+ASV1703,Eukaryota,Dinophyceae,Dinophyceae,Lophodiniales,Lophodiniaceae,Biecheleriopsis,Biecheleriopsis adriatica
+ASV1621,Eukaryota,Dinophyceae,Dinophyceae,no identification,no identification,no identification,no identification
+ASV840,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Heterocapsaceae,Heterocapsa,Heterocapsa rotundata
+ASV897,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Heterocapsaceae,Heterocapsa,Heterocapsa rotundata
+ASV173,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Peridiniaceae,Scrippsiella,Scrippsiella precaria
+ASV1516,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Protoperidiniaceae,Protoperidinium,Protoperidinium cf. depressum
+ASV764,Eukaryota,Dinophyceae,Dinophyceae,Peridiniales,Protoperidiniaceae,Protoperidinium,Protoperidinium cf. depressum
+ASV1986,Eukaryota,Dinophyceae,Dinophyceae,Prorocentrales,Prorocentraceae,Prorocentrum,Prorocentrum pervagatum
+ASV1770,Eukaryota,Dinophyceae,Dinophyceae,Prorocentrales,Prorocentraceae,Prorocentrum,uncultured Prorocentrum
+ASV780,Eukaryota,Dinophyceae,Dinophyceae,Syndiniales,Syndiniaceae,Hematodinium,Hematodinium sp.
+ASV1041,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV1297,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV1559,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV2074,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV394,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV518,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV617,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV631,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV707,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV884,Eukaryota,Dinophyceae,Dinophyceae,unknown order,unknown family,unknown genus,uncultured dinoflagellate
+ASV576,Eukaryota,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,Amphiodia,Amphiodia cf. urtica EAC-2010
+ASV873,Eukaryota,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,Amphiodia,Amphiodia cf. urtica EAC-2010
+ASV905,Eukaryota,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,Amphiodia,Amphiodia cf. urtica EAC-2010
+ASV1022,Eukaryota,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,Amphiodia,Amphiodia cf. urtica KSL-2016
+ASV1461,Eukaryota,Evosea,unknown class,unknown order,unknown family,Squamamoeba,Squamamoeba japonica
+ASV1227,Eukaryota,Haptophyta,unknown class,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis antarctica
+ASV199,Eukaryota,Haptophyta,unknown class,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis antarctica
+ASV291,Eukaryota,Haptophyta,unknown class,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis globosa
+ASV1179,Eukaryota,Mollusca,Bivalvia,Cardiida,Cardiidae,Clinocardium,Clinocardium nuttallii
+ASV450,Eukaryota,Mollusca,Bivalvia,Cardiida,Psammobiidae,Nuttallia,Nuttallia japonica
+ASV1309,Eukaryota,Mollusca,Bivalvia,Galeommatida,Montacutidae,Kurtiella,Kurtiella bidentata
+ASV645,Eukaryota,Mollusca,Bivalvia,Myida,Myidae,Mya,Mya arenaria
+ASV1415,Eukaryota,Mollusca,Bivalvia,Myida,Teredinidae,Bankia,Bankia setacea
+ASV1029,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV1040,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV111,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV1141,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV1252,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV1276,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV1318,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV1467,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV2079,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV250,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV333,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV335,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV357,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV41,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV413,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV42,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV466,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV503,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV549,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV57,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV624,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV640,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV643,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV686,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV689,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV70,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV709,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV711,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV735,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV742,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV768,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV806,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV807,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV822,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV876,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV877,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV887,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV891,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV907,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV912,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV920,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV924,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV933,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV955,Eukaryota,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus
+ASV1337,Eukaryota,Mollusca,Bivalvia,Nuculida,Nuculidae,Acila,Acila castrensis
+ASV79,Eukaryota,Mollusca,Bivalvia,Ostreida,Ostreidae,Magallana,Magallana gigas
+ASV1101,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,Nutricola,Nutricola tantilla
+ASV1534,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,Nutricola,Nutricola tantilla
+ASV1427,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,Ruditapes,Ruditapes philippinarum
+ASV1910,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,Ruditapes,Ruditapes philippinarum
+ASV1942,Eukaryota,Mollusca,Bivalvia,Venerida,Veneridae,Saxidomus,Saxidomus gigantea
+ASV252,Eukaryota,Mollusca,Gastropoda,Neogastropoda,Nassariidae,Nassarius,Nassarius mendicus
+ASV471,Eukaryota,Mollusca,Gastropoda,Nudibranchia,Onchidorididae,Corambe,Corambe steinbergae
+ASV883,Eukaryota,Mollusca,Gastropoda,Nudibranchia,Onchidorididae,Corambe,Corambe steinbergae
+ASV104,Eukaryota,no identification,no identification,no identification,no identification,no identification,no identification
+ASV126,Eukaryota,no identification,no identification,no identification,no identification,no identification,no identification
+ASV154,Eukaryota,no identification,no identification,no identification,no identification,no identification,no identification
+ASV229,Eukaryota,no identification,no identification,no identification,no identification,no identification,no identification
+ASV498,Eukaryota,no identification,no identification,no identification,no identification,no identification,no identification
+ASV2088,Eukaryota,Oomycota,unknown class,Lagenidiales,Lagenidiaceae,Lagenidium,Lagenidium caudatum
+ASV1992,Eukaryota,Oomycota,unknown class,no identification,no identification,no identification,no identification
+ASV1268,Eukaryota,Picozoa,unknown class,unknown order,unknown family,unknown genus,Picobiliphyte sp. MS584-11
+ASV1676,Eukaryota,Picozoa,unknown class,unknown order,unknown family,unknown genus,Picobiliphyte sp. MS584-11
+ASV1578,Eukaryota,Raphidophyceae,Raphidophyceae,Chattonellales,Chattonellaceae,Heterosigma,Heterosigma akashiwo
+ASV1218,Eukaryota,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Pyropia,Pyropia nitida
+ASV808,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,no identification
+ASV1577,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta cecilia
+ASV1019,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV1123,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV1507,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV19,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV22,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV30,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV410,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV505,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV511,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV7,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV75,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina
+ASV365,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma
+ASV385,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma
+ASV526,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma
+ASV555,Eukaryota,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta vorax
+ASV779,Viridiplantae,Chlorophyta,Chloropicophyceae,Chloropicales,Chloropicaceae,Chloroparvula,Chloroparvula pacifica
+ASV1984,Viridiplantae,Chlorophyta,Mamiellophyceae,Dolichomastigales,Dolichomastigaceae,Dolichomastix,Dolichomastix tenuilepis
+ASV136,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV222,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV289,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV3,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV464,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV49,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV495,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV58,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV65,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV9,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos
+ASV26,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla
+ASV55,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla
+ASV745,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla
+ASV72,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla CCMP1545
+ASV698,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,no identification
+ASV91,Viridiplantae,Chlorophyta,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,no identification
+ASV440,Viridiplantae,Chlorophyta,Pyramimonadophyceae,Pyramimonadales,Pyramimonadaceae,Cymbomonas,Cymbomonas tetramitiformis
+ASV1763,Viridiplantae,Chlorophyta,Trebouxiophyceae,Chlorellales,Chlorellaceae,Chlorella,Chlorella sp. FACHB-1531
+ASV120,Viridiplantae,Chlorophyta,unknown class,unknown order,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina
+ASV437,Viridiplantae,Chlorophyta,unknown class,unknown order,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina
+ASV927,Viridiplantae,Chlorophyta,unknown class,unknown order,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina
+ASV970,Viridiplantae,Chlorophyta,unknown class,unknown order,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina
