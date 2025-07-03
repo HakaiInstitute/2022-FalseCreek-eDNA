@@ -1,0 +1,1 @@
+This folder contains the source files from the False Creek BioBlitz eDNA survey (`metabarcoding`), and DNA samples taken from organisms that have been published to the Barcode of Life Data Systems (BoLD) (`DNA_barcoding`). 
