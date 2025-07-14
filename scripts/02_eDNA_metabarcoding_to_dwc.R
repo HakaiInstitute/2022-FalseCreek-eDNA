@@ -104,18 +104,16 @@ colnames(tax_table_12S)[1] <- "ASV"
 
 # Grab the most granular taxonomic data (i.e., the last column populated before
 # 'NA' information is provided):
-tax_table_12S$scientificName <- apply(tax_table_12S, 1, function(row) {
-  last_value <- tail(na.omit(row), 1) 
-  if (length(last_value) == 0) NA else last_value
-})
+
+# tax_table_12S$scientificName <- apply(tax_table_12S, 1, function(row) {
+#   last_value <- tail(na.omit(row), 1) 
+#   if (length(last_value) == 0) NA else last_value
+# })
 
 # Join ASV to samples and taxonomic information:
 DNAtable_12S <- dplyr::left_join(tax_table_12S, FC_ASV_12S, by = "ASV")
 DNAtable_12S <- dplyr::left_join(DNAtable_12S, event, by = c("materialSampleID", "eventID"))
 DNAtable_12S <- dplyr::left_join(DNAtable_12S, fasta_12S, by = "ASV")
-
-# Capture original recording of species under verbatimIdentifation:
-DNAtable_12S$verbatimIdentification <- DNAtable_12S$Species
 
 # Occurrence table: each unique sequence by sample combination is considered one occurrence.
 sequence_meta_12S <- sequence_meta_12S %>% mutate(materialSampleID = gsub("_", "-", sequence_meta_12S$materialSampleID))
@@ -126,6 +124,12 @@ DNA_occ_12S <- left_join(DNAtable_12S, sequence_meta_12S, by = "materialSampleID
          occurrenceID,
          basisOfRecord,
          scientificName,
+         scientificNameID,
+         taxonRank = Rank,
+         scientificNameAuthorship,
+         Kingdom,
+         Phylum,
+         Class, Order, Family, Genus,
          organismQuantity,
          organismQuantityType,
          sampleSizeValue,
@@ -136,22 +140,10 @@ DNA_occ_12S <- left_join(DNAtable_12S, sequence_meta_12S, by = "materialSampleID
          identificationRemarks,
          materialSampleID)
 
-# To match with the WoRMS taxonomic database we'll need to remove the ' sp.' from the scientificName
-DNA_occ_12S$scientificName <- trimws(gsub(" sp\\..*$", "", DNA_occ_12S$scientificName))
-
-DNA_worms_12S <- worrms::wm_records_names(unique(DNA_occ_12S$scientificName), marine_only = F) %>% 
-  dplyr::bind_rows() %>%
-  filter(status == "accepted") %>%
-  dplyr::rename(scientificName = scientificname) %>%
-  select(scientificName, 
-         scientificNameAuthorship = authority, 
-         taxonRank = rank, 
-         kingdom, phylum, class, order, family, genus,
-         scientificNameID = lsid)
-
 # Join the occurrence data with the WoRMS taxa information:
-FC_occ_S12 <- left_join(DNA_occ_12S, DNA_worms_12S, by = "scientificName") %>%
-  mutate(occurrenceStatus = "present")
+FC_occ_S12 <- DNA_occ_12S %>%
+  mutate(occurrenceStatus = "present") %>%
+  mutate(ASV = stringr::str_extract(occurrenceID, "ASV\\d+"))
 
 # Save this data table in the obis folder
 write_csv(FC_occ_S12, here("obis", "interim_obis", "edna", "FC2022_occ_S12.csv"))
@@ -180,8 +172,10 @@ taxonomy_COI_worms <- taxonomy_COI_worms %>%
          order = Order,
          family = Family,
          genus = Genus,
-         species = Species) %>%
-  mutate(scientificName = species)
+         scientificNameID,
+         taxonRank = Rank,
+         scientificName,
+         verbatimIdentification)
 
 #  Pivot the ASV table
 FC_ASV_COI <- FC_ASV_COI %>%
@@ -206,18 +200,12 @@ DNA_sequence_COI <- unname(unlist(fasta_COI))
 fasta_COI <- cbind(ASV_COI, DNA_sequence_COI) %>% as.data.frame() %>%
   dplyr::rename(ASV = ASV_COI)
 
-# As per conversation with Matt Lemay, for species names with sp. followed by a string
-# we can remove this, but keep original recording under verbatimIdentification:
-taxonomy_COI_worms$verbatimIdentification <- taxonomy_COI_worms$species
-taxonomy_COI_worms$scientificName <- gsub("sp\\..*", "", taxonomy_COI_worms$scientificName)
-taxonomy_COI_worms$scientificName <- gsub("CCMP1545|CMC01", "", taxonomy_COI_worms$scientificName) %>% trimws()
-
 # Capture identificationQualifiers and remove them from the scientificName:
 taxonomy_COI_worms <- taxonomy_COI_worms %>%
   mutate(identificationQualifier = case_when(
-    grepl("cf. promare", taxonomy_COI_worms$scientificName) ~ "cf. promare",
-    grepl("cf. depressum", taxonomy_COI_worms$scientificName) ~ "cf. depressum"))
-taxonomy_COI_worms$scientificName <- gsub("cf. promare|cf. depressum", "", taxonomy_COI_worms$scientificName) %>% trimws()
+    grepl("cf. promare", taxonomy_COI_worms$verbatimIdentification) ~ "cf. promare",
+    grepl("cf. depressum", taxonomy_COI_worms$verbatimIdentification) ~ "cf. depressum"))
+
 
 # Join ASV to samples and taxonomic information:
 DNAtable_COI <- dplyr::left_join(taxonomy_COI_worms, FC_ASV_COI, by = "ASV")
@@ -230,6 +218,9 @@ DNA_occ_COI <- left_join(DNAtable_COI, sequence_meta_COI, by = "materialSampleID
          occurrenceID,
          basisOfRecord,
          scientificName,
+         scientificNameID,
+         kingdom, phylum, class, order, family, genus,
+         taxonRank, verbatimIdentification, identificationQualifier,
          organismQuantity,
          organismQuantityType,
          sampleSizeValue,
@@ -240,19 +231,8 @@ DNA_occ_COI <- left_join(DNAtable_COI, sequence_meta_COI, by = "materialSampleID
          identificationRemarks,
          materialSampleID)
 
-# For each row, grab the following taxonomic hierarchical information: scientificNameAuthorship, taxonRank and 
-# scientificNameID:
-DNA_worms_COI <- worrms::wm_records_names(unique(taxonomy_COI_worms$scientificName), marine_only = F) %>%
-  dplyr::bind_rows() %>%
-  filter(status == "accepted") %>%
-  filter(AphiaID != 119270) %>%
-  select(scientificName = scientificname,
-         taxonRank = rank,
-         scientificNameAuthorship = authority,
-         kingdom, phylum, class, order, family, genus,
-         scientificNameID = lsid)
-
-FC_occ_COI <- left_join(DNA_occ_COI, DNA_worms_COI, by = "scientificName") %>%
+# Extract ASV as well so that we can do manual referencing:
+FC_occ_COI <- DNA_occ_COI %>%
   mutate(occurrenceStatus = "present") %>%
   mutate(ASV = stringr::str_extract(occurrenceID, "ASV\\d+"))
 

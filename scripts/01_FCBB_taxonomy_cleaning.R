@@ -15,6 +15,7 @@ library(taxize) # c 0.9.100
 library(microViz)
 library(data.table)
 library(phyloseq)
+library(here)
 
 # data processing ----
 ## 12S ----
@@ -42,7 +43,7 @@ tax_tab_12S_fixed <- tax_tab_12S %>%
 # Store the verbatimIdentification separately that we'll cbind to the 
 # taxonomic data later:
 verbatimIdentification <- tax_tab_12S_fixed$species
-names(verbatimIdentification) <- rownames(tax_tab_12S)
+names(verbatimIdentification) <- rownames(tax_tab_12S_fixed)
 verbatimIdentification <- as.data.frame(verbatimIdentification)
 
 # get list of taxa, remove the taxon ranks (eg "Pleuronectidae family") from the species names
@@ -100,42 +101,14 @@ worms_df_12S <- tax_lookup_tbl_12S %>%
 # specify the order for the columns so the taxonomic ranks are in biological order
 cols_order_standard <- c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species")
 
-# cols_order_12S <- c("Kingdom", "Phylum", "Subphylum", "Infraphylum", "Parvphylum",
-#                     "Gigaclass", "Superclass", "Class", "Subclass", "Infraclass", 
-#                     "Superorder", "Order", "Suborder", "Family", "Subfamily",
-#                     "Genus", "Species")
-
-# replace NAs with unknown so we can use taxfix to propagate out missing ranks
-worms_tax_tab_12S <- worms_df_12S %>% 
-  select(Species, all_of(setdiff(cols_order_standard, "Species"))) %>% # leave species first to prevent taxfix from erroring over having it alone when worms wasn't able to match taxon
-  mutate(across(everything(), ~ replace_na(., "unknown")))
-
-# propagate the taxa ranks out
-worms_tax_tab_12S_fixed <- as.data.frame(tax_table(as.matrix(worms_tax_tab_12S)) %>% 
-                                           tax_fix(
-                                             unknowns = c("unknown"),
-                                             sep = " ", anon_unique = TRUE,
-                                             suffix_rank = "classified"))
-
-# for anything worms couldn't identify the taxfix will fill them all out as the ASV. Get that ASV, replace all the columns with "no WoRMS ID" except the species column
-worms_tax_tab_12S_full <- worms_tax_tab_12S_fixed %>%
-  select(all_of(cols_order_standard)) %>% # reorder columns in correct taxonomic rank order
-  mutate(no_worms = str_detect(Genus, "Species$")) %>% # column IDing rows that worms didn't ID
-  mutate(across(
-    -c(Species, no_worms),
-    ~ if_else(no_worms & str_detect(., "Species$"), "No WoRMS ID", .))) %>% # change the ASVs to no WoRMS ID
-  rownames_to_column("ASV") %>% # add the ASV back in so we can join
-  left_join(tax_lookup_tbl_12S, by = "ASV", suffix = c("", "_lookup")) %>% # add tax lookup data
-  left_join(select(worms_df_12S, c("Species", "AphiaID", "Rank")) %>% distinct(Species, .keep_all = TRUE), by = "Species") %>% 
-  select(-Species_lookup, -no_worms) %>% # remove those two columns we made
-  column_to_rownames("ASV") %>%
-  rename(scientificName = Species,
-         scientificNameID = AphiaID)
-
 # Add in the verbatimIdentification, merging based on row names (ASV)
-worms_tax_tab_12S_full <- merge(worms_tax_tab_12S_full, verbatimIdentification, by = "row.names", all = TRUE)
+worms_tax_tab_12S_full <- merge(worms_df_12S, verbatimIdentification, by = "row.names", all = TRUE)
 rownames(worms_tax_tab_12S_full) <- worms_tax_tab_12S_full$Row.names
 worms_tax_tab_12S_full$Row.names <- NULL
+
+worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
+  rename(scientificNameID = AphiaID,
+         taxonRank = Rank)
 
 # For one taxa, Ptychocheilus, taxize could not find taxonomic information. 
 # Use the worrms package to look up this information.
@@ -149,8 +122,28 @@ taxonomy <- classification[classification$rank %in% cols_order_standard, c("rank
          scientificNameID = paste0("urn:lsid:marinespecies.org:taxname:", ptychocheilus$AphiaID),
          taxonRank = ptychocheilus$rank)
 
-# Add into data frame:
-worms_tax_tab_12S_full[worms_tax_tab_12S_full$scientificName == "Ptychocheilus", ] <- taxonomy
+# Add into data frame, however the number of cols differs between data frames, and we don't want
+# to duplicate the taxonomy df cols across the row. Find the common cols:
+common_cols <- intersect(names(worms_tax_tab_12S_full), names(taxonomy))
+
+# Find matching row index:
+row_idx <- which(worms_tax_tab_12S_full$Species == "Ptychocheilus")
+
+# In that row, replace the values where columns match:
+worms_tax_tab_12S_full[row_idx, common_cols] <- taxonomy[1, common_cols]
+
+# Select the right columns, renaming slightly:
+worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
+  select(kingdom = Kingdom,
+         phylum = Phylum,
+         class = Class,
+         order = Order,
+         family = Family,
+         genus = Genus,
+         scientificName = Species,
+         scientificNameID,
+         taxonRank,
+         verbatimIdentification)
 
 # Grab authority data from the AphiaID
 worms_tax_tab_12S_full$aphiaID <- as.numeric(sub("urn:lsid:marinespecies.org:taxname:", "", worms_tax_tab_12S_full$scientificNameID))
@@ -166,12 +159,15 @@ worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
   mutate(scientificNameAuthorship = sapply(worms_tax_tab_12S_full$aphiaID, get_authority)) %>%
   select(-aphiaID)
 
-# Remove "Family" from the Genus:
-worms_tax_tab_12S_full$Genus <- gsub("Family", "", worms_tax_tab_12S_full$Genus) %>% trimws()
-
 # did we lose anyone?
 all(rownames(worms_tax_tab_12S_full) %in% rownames(tax_tab_12S)) & all(rownames(tax_tab_12S) %in% rownames(worms_tax_tab_12S_full))
 
+# Change rownames to column, remove NAs"
+worms_tax_tab_12S_full <- rownames_to_column(worms_tax_tab_12S_full, var = "ASV")
+worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
+  mutate(across(everything(), ~ replace(.x, is.na(.x), "")))
+
+# Save the file:
 write.csv(worms_tax_tab_12S_full, here("data", "metabarcoding", "12S", "FC_taxonomy_12s_worms.csv"), quote = FALSE, row.names = TRUE)
 
 ## COI ----
@@ -208,19 +204,8 @@ verbatimIdentification_COI <- tax_tab_COI$scientificName
 names(verbatimIdentification_COI) <- rownames(tax_tab_COI)
 verbatimIdentification_COI <- as.data.frame(verbatimIdentification_COI)
 
-tax_tab_COI <- tax_table(as.matrix(tax_tab_COI))
-
-# clean up unknown and propogate lowest rank out to the species column
-tax_tab_COI_fixed <- tax_tab_COI %>% 
-  tax_fix(
-    min_length = 4,
-    unknowns = NA,
-    sep = " ", anon_unique = TRUE,
-    suffix_rank = "classified") %>%
-  as.data.frame()
-
 # Capture identificationQualifiers and remove them from the scientificName:
-tax_tab_COI_fixed <- tax_tab_COI_fixed %>%
+tax_tab_COI_fixed <- tax_tab_COI %>%
   mutate(identificationQualifier = case_when(
     grepl("cf. promare", Species) ~ "cf. promare",
     grepl("cf. depressum", Species) ~ "cf. depressum",
@@ -234,8 +219,7 @@ tax_tab_COI_fixed$scientificName <- gsub("CCMP1545|CMC01|EAC-2010|KSL-2016", "",
 
 # get list of taxa, remove the taxon ranks (eg "Pleuronectidae family") from the species names
 ncbi_taxa_COI <- as.data.frame(tax_tab_COI_fixed) %>%
-  transmute(species_clean = str_remove_all(scientificName, " sp\\.$| Genus| Family| Order| Class| Phylum| Kingdom")) %>%
-  pull(species_clean)
+  pull(scientificName)
 
 # keep the ASV names 
 names(ncbi_taxa_COI) <- rownames(tax_tab_COI_fixed)
@@ -259,46 +243,15 @@ worms_taxonomy_tbl_COI <- map_dfr(unique_species_COI, get_worms_lineage)
 # join lineage info back to ASVs
 worms_df_COI <- tax_lookup_tbl_COI %>%
   left_join(worms_taxonomy_tbl_COI, by = "Species") %>% 
-  column_to_rownames("ASV")
-
-# # reorder the columns so the taxonomic ranks are in biological order
-# cols_order_COI <- c(
-#   "Kingdom", "Subkingdom", "Infrakingdom", "Phylum", "Phylum (Division)",
-#   "Subphylum", "Subphylum (Subdivision)", "Infraphylum", "Superclass", "Class", 
-#   "Subclass", "Infraclass", "Subterclass", "Order", "Suborder", "Infraorder", 
-#   "Superorder", "Family", "Subfamily", "Superfamily", "Tribe", "Genus", "Species")
-
-# replace NAs with unknown so we can use taxfix to propagate out missing ranks
-worms_tax_tab_COI <- worms_df_COI %>% 
-  select(Species, all_of(setdiff(cols_order_standard, "Species"))) %>% # leave species first to prevent taxfix from erroring over having it alone when worms wasn't able to match taxon
-  mutate(across(everything(), ~ replace_na(., "unknown")))
-
-# propagate the taxa ranks out
-worms_tax_tab_COI_fixed <- as.data.frame(tax_table(as.matrix(worms_tax_tab_COI)) %>% 
-                                           tax_fix(
-                                             unknowns = c("unknown"),
-                                             sep = " ", anon_unique = TRUE,
-                                             suffix_rank = "classified"))
-
-# for anything worms couldn't identify the taxfix will fill them all out as the ASV. Get that ASV, replace all the columns with "no WoRMS ID" except the species column
-worms_tax_tab_COI_full <- worms_tax_tab_COI_fixed %>%
-  select(all_of(cols_order_standard)) %>% # reorder columns in correct taxonomic rank order
-  mutate(no_worms = str_detect(Genus, "Species$")) %>% # column IDing rows that worms didn't ID
-  mutate(across(
-    -c(Species, no_worms),
-    ~ if_else(no_worms & str_detect(., "Species$"), "No WoRMS ID", .))) %>% # change the ASVs to no WoRMS ID
-  rownames_to_column("ASV") %>% # add the ASV back in so we can join
-  left_join(tax_lookup_tbl_COI, by = "ASV", suffix = c("", "_lookup")) %>% # add tax lookup data
-  left_join(select(worms_df_COI, c("Species", "AphiaID", "Rank")) %>% distinct(Species, .keep_all = TRUE), by = "Species") %>% 
-  select(-Species_lookup, -no_worms) %>% # remove those two columns we made
   column_to_rownames("ASV") %>%
-  rename(scientificName = Species,
-         scientificNameID = AphiaID)
+  rename(scientificNameID = AphiaID,
+         taxonRank = Rank)
 
 # Add in the verbatimIdentification, merging based on row names (ASV)
-worms_tax_tab_COI_full <- merge(worms_tax_tab_COI_full, verbatimIdentification_COI, by = "row.names", all = TRUE)
+worms_tax_tab_COI_full <- merge(worms_df_COI, verbatimIdentification_COI, by = "row.names", all = TRUE)
 rownames(worms_tax_tab_COI_full) <- worms_tax_tab_COI_full$Row.names
 worms_tax_tab_COI_full$Row.names <- NULL
+worms_tax_tab_COI_full <- worms_tax_tab_COI_full %>% rename(verbatimIdentification = verbatimIdentification_COI)
 
 # Grab authority data from the AphiaID
 worms_tax_tab_COI_full$aphiaID <- as.numeric(sub("urn:lsid:marinespecies.org:taxname:", "", worms_tax_tab_COI_full$scientificNameID))
@@ -313,17 +266,24 @@ get_authority <- function(id) {
 worms_tax_tab_COI_full <- worms_tax_tab_COI_full %>%
   mutate(scientificNameAuthorship = sapply(worms_tax_tab_COI_full$aphiaID, get_authority))
 
+worms_tax_tab_COI_full <- worms_tax_tab_COI_full %>%
+  select(kingdom = Kingdom, 
+         phylum = Phylum, 
+         class = Class, 
+         order = Order, 
+         family = Family, 
+         genus = Genus,
+         scientificName = Species,
+         scientificNameID,
+         taxonRank,
+         verbatimIdentification, aphiaID, scientificNameAuthorship)
+
 # Upon inspection, there are 8 unique taxa for which there is no associated WoRMS LSID. 
 # Three of these taxa can be manually found on WoRMS, and their AphiaIDs have been verified with Libby Natola
-# However, Prorocentrum pervagatum has been backed up to genus level because there's not a species match from 
-# the original ncbi taxonomy (NCBI calls it "unclassified": https://www.marinespecies.org/aphia.php?p=taxdetails&id=109566)
-
-worms_tax_tab_COI_full$scientificName <- gsub("Prorocentrum pervagatum", "Prorocentrum", worms_tax_tab_COI_full$scientificName)
-
 # Their taxonomic information, lsid, rank and scientificNameAuthorship are created below and then merged
 # into the worms_tax_tab_COI_full data. 
 
-names <- c("Nitzschia inconspicua", "Prorocentrum", "Synchaeta kitina")
+names <- c("Nitzschia inconspicua", "Prorocentrum pervagatum", "Synchaeta kitina")
 records <- worrms::wm_records_names(name = names, marine_only = F)
 
 # Extract AphiaID, authority, etc.
@@ -334,54 +294,59 @@ flat_info <- lapply(seq_along(records), function(i) {
   if (!is.null(rec) && nrow(rec) > 0) {
     tibble(
       scientificName = name,
-      Kingdom = rec$kingdom[1],
-      Phylum = rec$phylum[1],
-      Class = rec$class[1],
-      Order = rec$order[1],
-      Family = rec$family[1],
-      Genus = rec$genus[1],
+      kingdom = rec$kingdom[1],
+      phylum = rec$phylum[1],
+      class = rec$class[1],
+      order = rec$order[1],
+      family = rec$family[1],
+      genus = rec$genus[1],
       aphiaID = rec$AphiaID[1],
       scientificNameAuthorship = rec$authority[1],
-      Rank = rec$rank[1],
+      taxonRank = rec$rank[1],
     )
   } else {
     tibble(
       scientificName = name,
       scientificNameID = NA,
-      Kingdom = NA,
-      Phylum = NA,
-      Class = NA,
-      Order = NA,
-      Family = NA,
-      Genus = NA,
+      kingdom = NA,
+      phylum = NA,
+      class = NA,
+      order = NA,
+      family = NA,
+      genus = NA,
       aphiaID = NA,
       scientificNameAuthorship = NA,
-      rank = NA
+      taxonRank = NA
     )
   }
 })
 
 df <- bind_rows(flat_info) %>%
   mutate(scientificNameID = paste0("urn:lsid:marinespecies.org:taxname:", aphiaID),
-         verbatimIdentification_COI = scientificName)
-df <- df[c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "scientificName",
-           "scientificNameID", "Rank", "verbatimIdentification_COI", "aphiaID", "scientificNameAuthorship")]
+         verbatimIdentification = scientificName)
+df <- df[c("kingdom", "phylum", "class", "order", "family", "genus", "scientificName",
+           "scientificNameID", "taxonRank", "verbatimIdentification", "aphiaID", "scientificNameAuthorship")]
 
 tax_Nitzschia <- df %>% filter(scientificName == "Nitzschia inconspicua")
-tax_Proro <- df %>% filter(scientificName == "Prorocentrum")
+tax_Proro <- df %>% filter(scientificName == "Prorocentrum pervagatum")
 tax_kitina <- df %>% filter(scientificName == "Synchaeta kitina")
 
 # Add into data frame:
 worms_tax_tab_COI_full[worms_tax_tab_COI_full$scientificName == "Nitzschia inconspicua", ] <- tax_Nitzschia
-worms_tax_tab_COI_full[worms_tax_tab_COI_full$scientificName == "Prorocentrum", ] <- tax_Proro
+worms_tax_tab_COI_full[worms_tax_tab_COI_full$scientificName == "Prorocentrum pervagatum", ] <- tax_Proro
 worms_tax_tab_COI_full[worms_tax_tab_COI_full$scientificName == "Synchaeta kitina", ] <- tax_kitina
 
-# Still a few AphiaIDs missing
-#TODO: Figure out whether to include these or omit them from submission to OBIS
+# Add identificationQualifier column from the tax_tab_COI_fixed df:
+worms_tax_tab_COI_full$identificationQualifier <- tax_tab_COI_fixed[rownames(worms_tax_tab_COI_full), "identificationQualifier"]
+
+# Still a few AphiaIDs missing - Verified with Matt Lemay that these taxa can be omitted from submission to OBIS:
 worms_tax_tab_COI_full <- worms_tax_tab_COI_full %>%
-  filter(!scientificName %in% c("Eukaryota", "Picobiliphyte", "Lagenidium caudatum", "Austrarchaea", "Trieres chinensis"))
+  filter(!scientificName %in% c("Eukaryota", "Picobiliphyte", "Lagenidium caudatum", "Austrarchaea", "Trieres chinensis")) %>%
+  select(-aphiaID)
 
-# did we lose anyone? Yes, as per above.
-all(rownames(worms_tax_tab_COI_full) %in% rownames(tax_tab_COI)) & all(rownames(tax_tab_COI) %in% rownames(worms_tax_tab_COI_full))
+# Change rownames to column, remove NAs"
+worms_tax_tab_COI_full <- rownames_to_column(worms_tax_tab_COI_full, var = "ASV")
+worms_tax_tab_COI_full <- worms_tax_tab_COI_full %>%
+  mutate(across(everything(), ~ replace(.x, is.na(.x), "")))
 
-write.csv(worms_tax_tab_COI_full, "FC_taxonomy_COI_worms.csv", quote = FALSE, row.names = TRUE)
+write.csv(worms_tax_tab_COI_full, here("data", "metabarcoding", "COI", "FC_taxonomy_COI_worms.csv"))

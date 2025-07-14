@@ -1,4 +1,4 @@
-,Kingdom,Phylum,Class,Order,Family,Genus,scientificName,scientificNameID,Rank,verbatimIdentification_COI,aphiaID,scientificNameAuthorship
+,Kingdom,Phylum,Class,Order,Family,Genus,scientificName,scientificNameID,Rank,verbatimIdentification,aphiaID,scientificNameAuthorship
 ASV10,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Stephanodiscaceae,Cyclotella,Cyclotella cryptica,urn:lsid:marinespecies.org:taxname:148998,Species,Cyclotella cryptica,148998,Reimann, Lewin & Guillard, 1963
 ASV100,Animalia,Arthropoda,Copepoda,Calanoida,Metridinidae,Metridia,Metridia pacifica,urn:lsid:marinespecies.org:taxname:196784,Species,Metridia pacifica,196784,Brodsky, 1950
 ASV101,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,104196,Boeck, 1865
@@ -108,7 +108,7 @@ ASV1942,Animalia,Mollusca,Bivalvia,Venerida,Veneridae,Saxidomus,Saxidomus gigant
 ASV1945,Chromista,Heterokontophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia inconspicua,urn:lsid:marinespecies.org:taxname:175420,Species,Nitzschia inconspicua,175420,Grunow, 1862
 ASV1974,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira nordenskioeldii,urn:lsid:marinespecies.org:taxname:148931,Species,Thalassiosira nordenskioeldii,148931,Cleve, 1873
 ASV1984,Plantae,Plantae Kingdom,Mamiellophyceae,Dolichomastigales,Dolichomastigaceae,Dolichomastix,Dolichomastix tenuilepis,urn:lsid:marinespecies.org:taxname:345463,Species,Dolichomastix tenuilepis,345463,J.Throndsen & A.Zingone, 1997
-ASV1986,No WoRMS ID,No WoRMS ID,No WoRMS ID,No WoRMS ID,No WoRMS ID,No WoRMS ID,Prorocentrum pervagatum,NA,NA,Prorocentrum pervagatum,NA,NA
+ASV1986,Chromista,Myzozoa,Dinophyceae,Prorocentrales,Prorocentraceae,Prorocentrum,Prorocentrum pervagatum,urn:lsid:marinespecies.org:taxname:1635283,Species,Prorocentrum pervagatum,1635283,Tillmann, Hoppenrath & Gottschling, 2022
 ASV199,Chromista,Haptophyta,Coccolithophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis antarctica,urn:lsid:marinespecies.org:taxname:341585,Species,Phaeocystis antarctica,341585,Karsten, 1905
 ASV1992,Chromista,Oomycota,Oomycota Phylum,Oomycota Phylum,Oomycota Phylum,Oomycota Phylum,Oomycota,urn:lsid:marinespecies.org:taxname:22154,Phylum,Oomycota,22154,NA
 ASV2,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,Skeletonema marinoi,urn:lsid:marinespecies.org:taxname:376667,Species,Skeletonema marinoi,376667,Sarno & Zingone, 2005
