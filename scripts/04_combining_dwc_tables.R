@@ -3,7 +3,6 @@
 
 library(tidyr)
 library(dplyr)
-library(obistools)
 library(janitor)
 library(here)
 library(readxl)
@@ -27,6 +26,8 @@ write_csv(FC2022_event, here("obis", "FC2022_event.csv"))
 metabarcoding_occ <- read_csv(here("obis", "interim_obis", "edna", "FC2022_occ.csv"))
 dna_barcoding_occ <- read_csv(here("obis", "interim_obis", "bold", "FC2022_BoLD_occ.csv"))
 FC2022_occ <- bind_rows(metabarcoding_occ, dna_barcoding_occ)
+FC2022_occ <- FC2022_occ %>%
+  mutate(across(everything(), ~ ifelse(is.na(.), "", .)))
 
 # Save in obis folder:
 write_csv(FC2022_occ, here("obis", "FC2022_occ.csv"))
