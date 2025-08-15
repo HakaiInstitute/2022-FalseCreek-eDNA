@@ -1,331 +1,331 @@
-"","ASV","kingdom","phylum","class","order","family","genus","scientificName","scientificNameID","taxonRank","verbatimIdentification","scientificNameAuthorship","identificationQualifier"
-"1","ASV10","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Stephanodiscaceae","Cyclotella","Cyclotella cryptica","urn:lsid:marinespecies.org:taxname:148998","Species","Cyclotella cryptica","Reimann, Lewin & Guillard, 1963",""
-"2","ASV100","Animalia","Arthropoda","Copepoda","Calanoida","Metridinidae","Metridia","Metridia pacifica","urn:lsid:marinespecies.org:taxname:196784","Species","Metridia pacifica","Brodsky, 1950",""
-"3","ASV101","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"4","ASV1015","Chromista","Heterokontophyta","Bacillariophyceae","Bacillariales","Bacillariaceae","Cylindrotheca","Cylindrotheca closterium","urn:lsid:marinespecies.org:taxname:149004","Species","Cylindrotheca closterium","(Ehrenberg) Reimann & J.C.Lewin, 1964",""
-"5","ASV1019","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"6","ASV1022","Animalia","Echinodermata","Ophiuroidea","Amphilepidida","Amphiuridae","Amphiodia","Amphiodia","urn:lsid:marinespecies.org:taxname:172595","Genus","Amphiodia cf. urtica KSL-2016","Verrill, 1899","cf. urtica"
-"7","ASV1026","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"8","ASV1029","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"9","ASV1031","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"10","ASV1040","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"11","ASV1041","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"12","ASV1042","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"13","ASV1048","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"14","ASV105","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"15","ASV1053","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"16","ASV1056","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"17","ASV1062","Animalia","Chordata","Ascidiacea","Phlebobranchia","Perophoridae","Perophora","Perophora sagamiensis","urn:lsid:marinespecies.org:taxname:250618","Species","Perophora sagamiensis","Tokioka, 1953",""
-"18","ASV1074","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"19","ASV1091","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"20","ASV1097","Chromista","Bacillariophyta","","","","","Bacillariophyta","urn:lsid:marinespecies.org:taxname:148898","Phylum","Bacillariophyta","",""
-"21","ASV1101","Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Nutricola","Nutricola tantilla","urn:lsid:marinespecies.org:taxname:507789","Species","Nutricola tantilla","(A. Gould, 1853)",""
-"22","ASV1104","Animalia","Annelida","Polychaeta","Phyllodocida","Glyceridae","Glycera","Glycera americana","urn:lsid:marinespecies.org:taxname:157388","Species","Glycera americana","Leidy, 1855",""
-"23","ASV1108","Animalia","Arthropoda","Copepoda","Calanoida","Acartiidae","Acartia","Acartia longiremis","urn:lsid:marinespecies.org:taxname:104257","Species","Acartia longiremis","(Lilljeborg, 1853)",""
-"24","ASV111","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"25","ASV1123","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"26","ASV1127","Animalia","Annelida","Polychaeta","Phyllodocida","Goniadidae","Glycinde","Glycinde","urn:lsid:marinespecies.org:taxname:129299","Genus","Glycinde sp. BCPOL601-10","Müller, 1858",""
-"27","ASV1131","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"28","ASV1139","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"29","ASV1141","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"30","ASV1144","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Stephanodiscaceae","Cyclotella","Cyclotella cryptica","urn:lsid:marinespecies.org:taxname:148998","Species","Cyclotella cryptica","Reimann, Lewin & Guillard, 1963",""
-"31","ASV1146","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"32","ASV1149","Animalia","Bryozoa","Gymnolaemata","Ctenostomatida","Vesiculariidae","","Vesiculariidae","urn:lsid:marinespecies.org:taxname:110802","Family","Vesiculariidae","Johnston, 1838",""
-"33","ASV1159","Chromista","Heterokontophyta","Bacillariophyceae","Bacillariales","Bacillariaceae","Pseudo-nitzschia","Pseudo-nitzschia multiseries","urn:lsid:marinespecies.org:taxname:175738","Species","Pseudo-nitzschia multiseries","(Hasle) Hasle, 1995",""
-"34","ASV1163","Chromista","Heterokontophyta","Bacillariophyceae","Hemiaulales","Hemiaulaceae","Hemiaulus","Hemiaulus sinensis","urn:lsid:marinespecies.org:taxname:163250","Species","Hemiaulus sinensis","Greville, 1865",""
-"35","ASV1174","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"36","ASV1175","Chromista","Heterokontophyta","Bacillariophyceae","Melosirales","Stephanopyxidaceae","Stephanopyxis","Stephanopyxis turris","urn:lsid:marinespecies.org:taxname:149631","Species","Stephanopyxis turris","(Greville) Ralfs, 1861",""
-"37","ASV1179","Animalia","Mollusca","Bivalvia","Cardiida","Cardiidae","Clinocardium","Clinocardium nuttallii","urn:lsid:marinespecies.org:taxname:381980","Species","Clinocardium nuttallii","(Conrad, 1837)",""
-"38","ASV1180","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema","urn:lsid:marinespecies.org:taxname:149073","Genus","Skeletonema","R.K. Greville, 1865",""
-"39","ASV1184","Chromista","Heterokontophyta","Bacillariophyceae","Chaetocerotanae incertae sedis","Chaetocerotaceae","Chaetoceros","Chaetoceros socialis","urn:lsid:marinespecies.org:taxname:149123","Species","Chaetoceros socialis","H.S.Lauder, 1864",""
-"40","ASV1187","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"41","ASV1193","Chromista","Heterokontophyta","Bacillariophyceae","Hemiaulales","Hemiaulaceae","Eucampia","Eucampia zodiacus","urn:lsid:marinespecies.org:taxname:149131","Species","Eucampia zodiacus","Ehrenberg, 1839",""
-"42","ASV12","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"43","ASV120","Plantae","","Pyramimonadophyceae","Pseudoscourfieldiales","Pycnococcaceae","Pseudoscourfieldia","Pseudoscourfieldia marina","urn:lsid:marinespecies.org:taxname:134566","Species","Pseudoscourfieldia marina","(J.Throndsen) Manton, 1975",""
-"44","ASV1200","Animalia","Chordata","Ascidiacea","Phlebobranchia","Perophoridae","Perophora","Perophora sagamiensis","urn:lsid:marinespecies.org:taxname:250618","Species","Perophora sagamiensis","Tokioka, 1953",""
-"45","ASV1204","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"46","ASV1218","Plantae","","Bangiophyceae","Bangiales","Bangiaceae","Pyropia","Pyropia nitida","urn:lsid:marinespecies.org:taxname:1359675","Species","Pyropia nitida","L.K.Harden, K.M.Morales & Hughey, 2015",""
-"47","ASV122","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"48","ASV1224","Chromista","Heterokontophyta","Bacillariophyceae","Bacillariales","Bacillariaceae","Cylindrotheca","Cylindrotheca closterium","urn:lsid:marinespecies.org:taxname:149004","Species","Cylindrotheca closterium","(Ehrenberg) Reimann & J.C.Lewin, 1964",""
-"49","ASV1227","Chromista","Haptophyta","Coccolithophyceae","Phaeocystales","Phaeocystaceae","Phaeocystis","Phaeocystis antarctica","urn:lsid:marinespecies.org:taxname:341585","Species","Phaeocystis antarctica","Karsten, 1905",""
-"50","ASV123","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"51","ASV1231","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"52","ASV1240","Chromista","Cryptophyta","Cryptophyta incertae sedis","","Katablepharidaceae","Leucocryptos","Leucocryptos marina","urn:lsid:marinespecies.org:taxname:119077","Species","Leucocryptos marina","(Braarud) Butcher, 1967",""
-"53","ASV1252","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"54","ASV1261","Animalia","Annelida","Polychaeta","Terebellida","Pectinariidae","Pectinaria","Pectinaria","urn:lsid:marinespecies.org:taxname:129437","Genus","Pectinaria aff. granulata CMC01","Lamarck, 1818","cf. aff. granulata"
-"55","ASV1262","Chromista","Cryptophyta","Cryptophyta incertae sedis","","Katablepharidaceae","Leucocryptos","Leucocryptos marina","urn:lsid:marinespecies.org:taxname:119077","Species","Leucocryptos marina","(Braarud) Butcher, 1967",""
-"56","ASV1276","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"57","ASV129","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema subsalsum","urn:lsid:marinespecies.org:taxname:149075","Species","Skeletonema subsalsum","(Cleve-Euler) Bethge, 1928",""
-"58","ASV1297","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"59","ASV13","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"60","ASV1309","Animalia","Mollusca","Bivalvia","Galeommatida","Lasaeidae","Kurtiella","Kurtiella bidentata","urn:lsid:marinespecies.org:taxname:345281","Species","Kurtiella bidentata","(Montagu, 1803)",""
-"61","ASV131","Chromista","Heterokontophyta","Bacillariophyceae","Thalassionematales","Thalassionemataceae","Thalassionema","Thalassionema nitzschioides","urn:lsid:marinespecies.org:taxname:149093","Species","Thalassionema nitzschioides","(Grunow) Mereschkowsky, 1902",""
-"62","ASV1318","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"63","ASV1329","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema japonicum","urn:lsid:marinespecies.org:taxname:376666","Species","Skeletonema japonicum","Zingone & Sarno, 2005",""
-"64","ASV1334","Chromista","Heterokontophyta","Bacillariophyceae","Bacillariales","Bacillariaceae","Nitzschia","Nitzschia","urn:lsid:marinespecies.org:taxname:149045","Genus","Nitzschia cf. promare","A.H. Hassall, 1845","cf. promare"
-"65","ASV1337","Animalia","Mollusca","Bivalvia","Nuculida","Nuculidae","Acila","Acila castrensis","urn:lsid:marinespecies.org:taxname:506568","Species","Acila castrensis","(Hinds, 1843)",""
-"66","ASV136","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"67","ASV138","Chromista","Heterokontophyta","Bacillariophyceae","Chaetocerotanae incertae sedis","Chaetocerotaceae","Chaetoceros","Chaetoceros","urn:lsid:marinespecies.org:taxname:148985","Genus","Chaetoceros","C.G. Ehrenberg, 1844",""
-"68","ASV139","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"69","ASV1407","Animalia","Bryozoa","Gymnolaemata","Ctenostomatida","Vesiculariidae","Amathia","Amathia","urn:lsid:marinespecies.org:taxname:111022","Genus","Amathia sp. 149959","Lamouroux, 1812",""
-"70","ASV1413","Chromista","Heterokontophyta","Bacillariophyceae","Melosirales","Melosiraceae","Melosira","Melosira nummuloides","urn:lsid:marinespecies.org:taxname:149044","Species","Melosira nummuloides","C.Agardh, 1824",""
-"71","ASV1415","Animalia","Mollusca","Bivalvia","Myida","Teredinidae","Bankia","Bankia setacea","urn:lsid:marinespecies.org:taxname:527858","Species","Bankia setacea","(Tryon, 1863)",""
-"72","ASV1427","Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","Ruditapes philippinarum","urn:lsid:marinespecies.org:taxname:231750","Species","Ruditapes philippinarum","(A. Adams & Reeve, 1850)",""
-"73","ASV1449","Animalia","Annelida","Polychaeta","","Opheliidae","Armandia","Armandia brevis","urn:lsid:marinespecies.org:taxname:333048","Species","Armandia brevis","(Moore, 1906)",""
-"74","ASV1455","Chromista","Bacillariophyta","","","","","Bacillariophyta","urn:lsid:marinespecies.org:taxname:148898","Phylum","Bacillariophyta","",""
-"75","ASV1461","Protozoa","Amoebozoa","Discosea","Dactylopodida","Dactylopodida incertae sedis","Squamamoeba","Squamamoeba japonica","urn:lsid:marinespecies.org:taxname:761218","Species","Squamamoeba japonica","Kudryavtsev & Pawlowski, 2013",""
-"76","ASV1467","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"77","ASV1485","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"78","ASV1507","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"79","ASV151","Chromista","Heterokontophyta","Bacillariophyceae","Coscinodiscales","Coscinodiscaceae","Coscinodiscus","Coscinodiscus granii","urn:lsid:marinespecies.org:taxname:149271","Species","Coscinodiscus granii","Gough, 1905",""
-"80","ASV1516","Chromista","Myzozoa","Dinophyceae","Peridiniales","Protoperidiniaceae","Protoperidinium","Protoperidinium","urn:lsid:marinespecies.org:taxname:109553","Genus","Protoperidinium cf. depressum","Bergh, 1881","cf. depressum"
-"81","ASV1531","Animalia","Annelida","Polychaeta","Terebellida","Ampharetidae","Ampharete","Ampharete americana","urn:lsid:marinespecies.org:taxname:326311","Species","Ampharete americana","Day, 1973",""
-"82","ASV1534","Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Nutricola","Nutricola tantilla","urn:lsid:marinespecies.org:taxname:507789","Species","Nutricola tantilla","(A. Gould, 1853)",""
-"83","ASV155","Animalia","Arthropoda","Branchiopoda","Onychopoda","Podonidae","Evadne","Evadne","urn:lsid:marinespecies.org:taxname:106267","Genus","Evadne sp.","Lovén, 1836",""
-"84","ASV1559","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"85","ASV1564","Chromista","Ochrophyta","Chrysophyceae","Chromulinales","Paraphysomonadaceae","Paraphysomonas","Paraphysomonas","urn:lsid:marinespecies.org:taxname:291417","Genus","Paraphysomonas sp.","De Saedeleer, 1930",""
-"86","ASV1577","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta cecilia","urn:lsid:marinespecies.org:taxname:135049","Species","Synchaeta cecilia","Rousselet, 1902",""
-"87","ASV1578","Chromista","Ochrophyta","Raphidophyceae","Chattonellales","Chattonellaceae","Heterosigma","Heterosigma akashiwo","urn:lsid:marinespecies.org:taxname:160585","Species","Heterosigma akashiwo","(Hada) Hada ex Y.Hara & Chihara, 1987",""
-"88","ASV158","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"89","ASV161","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"90","ASV1621","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"91","ASV1670","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","","","Thalassiosirales","urn:lsid:marinespecies.org:taxname:148903","Order","Thalassiosirales","Glezer & Makarova, 1986",""
-"92","ASV1671","Chromista","Myzozoa","Dinophyceae","Gymnodiniales","Kareniaceae","","Kareniaceae","urn:lsid:marinespecies.org:taxname:599664","Family","Kareniaceae","Bergholtz, Daugbjerg, Moestrup & Fernández-Tejedor, 2005",""
-"93","ASV1700","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Thalassiosiraceae","Thalassiosira","Thalassiosira pseudonana","urn:lsid:marinespecies.org:taxname:148934","Species","Thalassiosira pseudonana","Hasle & Heimdal, 1970",""
-"94","ASV1703","Chromista","Myzozoa","Dinophyceae","Lophodiniales","Lophodiniaceae","Biecheleriopsis","Biecheleriopsis adriatica","urn:lsid:marinespecies.org:taxname:837989","Species","Biecheleriopsis adriatica","Moestrup, Lindberg & Daugbjerg, 2009",""
-"95","ASV173","Chromista","Myzozoa","Dinophyceae","Thoracosphaerales","Thoracosphaeraceae","Scrippsiella","Scrippsiella precaria","urn:lsid:marinespecies.org:taxname:110173","Species","Scrippsiella precaria","M.Montresor & A.Zingone, 1988",""
-"96","ASV1743","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora onagawaensis","urn:lsid:marinespecies.org:taxname:1611501","Species","Polydora onagawaensis","Teramoto, Sato-Okoshi, Abe, Nishitani & Endo, 2013",""
-"97","ASV1747","Chromista","Heterokontophyta","Bacillariophyceae","Hemiaulales","Hemiaulaceae","Eucampia","Eucampia zodiacus","urn:lsid:marinespecies.org:taxname:149131","Species","Eucampia zodiacus","Ehrenberg, 1839",""
-"98","ASV1763","Plantae","","Trebouxiophyceae","Chlorellales","Chlorellaceae","Chlorella","Chlorella","urn:lsid:marinespecies.org:taxname:160576","Genus","Chlorella sp. FACHB-1531","M.Beijerinck, 1890",""
-"99","ASV1770","Chromista","Myzozoa","Dinophyceae","Prorocentrales","Prorocentraceae","Prorocentrum","Prorocentrum","urn:lsid:marinespecies.org:taxname:109566","Genus","Prorocentrum","Ehrenberg, 1834",""
-"100","ASV1818","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"101","ASV1830","Chromista","Heterokontophyta","Bacillariophyceae","Rhizosoleniales","Rhizosoleniaceae","Rhizosolenia","Rhizosolenia setigera","urn:lsid:marinespecies.org:taxname:149115","Species","Rhizosolenia setigera","Brightwell, 1858",""
-"102","ASV1848","Chromista","Heterokontophyta","Bacillariophyceae","Bacillariales","Bacillariaceae","Pseudo-nitzschia","Pseudo-nitzschia delicatissima","urn:lsid:marinespecies.org:taxname:149153","Species","Pseudo-nitzschia delicatissima","(Cleve) Heiden, 1928",""
-"103","ASV19","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"104","ASV1910","Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","Ruditapes philippinarum","urn:lsid:marinespecies.org:taxname:231750","Species","Ruditapes philippinarum","(A. Adams & Reeve, 1850)",""
-"105","ASV193","Animalia","Chordata","Ascidiacea","Phlebobranchia","Perophoridae","Perophora","Perophora sagamiensis","urn:lsid:marinespecies.org:taxname:250618","Species","Perophora sagamiensis","Tokioka, 1953",""
-"106","ASV1942","Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Saxidomus","Saxidomus gigantea","urn:lsid:marinespecies.org:taxname:546014","Species","Saxidomus gigantea","(Deshayes, 1839)",""
-"107","ASV1945","Chromista","Heterokontophyta","Bacillariophyceae","Bacillariales","Bacillariaceae","Nitzschia","Nitzschia inconspicua","urn:lsid:marinespecies.org:taxname:175420","Species","Nitzschia inconspicua","Grunow, 1862",""
-"108","ASV1974","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Thalassiosiraceae","Thalassiosira","Thalassiosira nordenskioeldii","urn:lsid:marinespecies.org:taxname:148931","Species","Thalassiosira nordenskioeldii","Cleve, 1873",""
-"109","ASV1984","Plantae","","Mamiellophyceae","Dolichomastigales","Dolichomastigaceae","Dolichomastix","Dolichomastix tenuilepis","urn:lsid:marinespecies.org:taxname:345463","Species","Dolichomastix tenuilepis","J.Throndsen & A.Zingone, 1997",""
-"110","ASV1986","Chromista","Myzozoa","Dinophyceae","Prorocentrales","Prorocentraceae","Prorocentrum","Prorocentrum pervagatum","urn:lsid:marinespecies.org:taxname:1635283","Species","Prorocentrum pervagatum","Tillmann, Hoppenrath & Gottschling, 2022",""
-"111","ASV199","Chromista","Haptophyta","Coccolithophyceae","Phaeocystales","Phaeocystaceae","Phaeocystis","Phaeocystis antarctica","urn:lsid:marinespecies.org:taxname:341585","Species","Phaeocystis antarctica","Karsten, 1905",""
-"112","ASV1992","Chromista","Oomycota","","","","","Oomycota","urn:lsid:marinespecies.org:taxname:22154","Phylum","Oomycota","",""
-"113","ASV2","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema marinoi","urn:lsid:marinespecies.org:taxname:376667","Species","Skeletonema marinoi","Sarno & Zingone, 2005",""
-"114","ASV2003","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"115","ASV203","Chromista","Heterokontophyta","Bacillariophyceae","Rhizosoleniales","Rhizosoleniaceae","Guinardia","Guinardia delicatula","urn:lsid:marinespecies.org:taxname:149112","Species","Guinardia delicatula","(Cleve) Hasle, 1997",""
-"116","ASV2031","Chromista","Heterokontophyta","Bacillariophyceae","Bacillariales","Bacillariaceae","Nitzschia","Nitzschia","urn:lsid:marinespecies.org:taxname:149045","Genus","Nitzschia","A.H. Hassall, 1845",""
-"117","ASV2039","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"118","ASV2074","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"119","ASV2079","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"120","ASV2080","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Stephanodiscaceae","Cyclostephanos","Cyclostephanos","urn:lsid:marinespecies.org:taxname:148995","Genus","Cyclostephanos sp. WTC16","F.E. Round ex Theriot, Hakansson, Kociolek, Round & Stoermer, 1987",""
-"121","ASV2097","Chromista","Heterokontophyta","Bacillariophyceae","Chaetocerotanae incertae sedis","Attheyaceae","Attheya","Attheya longicornis","urn:lsid:marinespecies.org:taxname:464444","Species","Attheya longicornis","R.M.Crawford & C.Gardner, 1994",""
-"122","ASV210","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"123","ASV212","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus parvus","urn:lsid:marinespecies.org:taxname:104685","Species","Paracalanus parvus","(Claus, 1863)",""
-"124","ASV217","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"125","ASV22","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"126","ASV221","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"127","ASV222","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"128","ASV227","Animalia","Chordata","Ascidiacea","Phlebobranchia","Perophoridae","Perophora","Perophora sagamiensis","urn:lsid:marinespecies.org:taxname:250618","Species","Perophora sagamiensis","Tokioka, 1953",""
-"129","ASV234","Animalia","Arthropoda","Copepoda","Calanoida","","","Calanoida","urn:lsid:marinespecies.org:taxname:1100","Order","Calanoida sp. NJCGS407-10","Sars G.O., 1903",""
-"130","ASV236","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"131","ASV242","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"132","ASV250","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"133","ASV251","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"134","ASV252","Animalia","Mollusca","Gastropoda","Neogastropoda","Nassariidae","Nassarius","Nassarius mendicus","urn:lsid:marinespecies.org:taxname:560256","Species","Nassarius mendicus","(A. Gould, 1850)",""
-"135","ASV26","Plantae","","Mamiellophyceae","Mamiellales","Mamiellaceae","Micromonas","Micromonas pusilla","urn:lsid:marinespecies.org:taxname:134564","Species","Micromonas pusilla","(Butcher) Manton & Parke, 1960",""
-"136","ASV268","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"137","ASV277","Animalia","Arthropoda","Copepoda","Calanoida","Acartiidae","Acartia","Acartia longiremis","urn:lsid:marinespecies.org:taxname:104257","Species","Acartia longiremis","(Lilljeborg, 1853)",""
-"138","ASV281","Animalia","Arthropoda","Thecostraca","Balanomorpha","Balanidae","Balanus","Balanus nubilus","urn:lsid:marinespecies.org:taxname:594745","Species","Balanus nubilus","Darwin, 1854",""
-"139","ASV289","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"140","ASV291","Chromista","Haptophyta","Coccolithophyceae","Phaeocystales","Phaeocystaceae","Phaeocystis","Phaeocystis globosa","urn:lsid:marinespecies.org:taxname:160538","Species","Phaeocystis globosa","Scherffel, 1899",""
-"141","ASV297","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"142","ASV3","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"143","ASV30","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"144","ASV300","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"145","ASV306","Animalia","Arthropoda","Copepoda","Calanoida","Metridinidae","Metridia","Metridia pacifica","urn:lsid:marinespecies.org:taxname:196784","Species","Metridia pacifica","Brodsky, 1950",""
-"146","ASV311","Animalia","Annelida","Polychaeta","Phyllodocida","Goniadidae","Glycinde","Glycinde","urn:lsid:marinespecies.org:taxname:129299","Genus","Glycinde sp. BCPOL601-10","Müller, 1858",""
-"147","ASV325","Animalia","Arthropoda","Copepoda","Harpacticoida","","","Harpacticoida","urn:lsid:marinespecies.org:taxname:1102","Order","Harpacticoida sp. 10BIOBC-00676","Sars G.O., 1903",""
-"148","ASV327","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Thalassiosiraceae","Thalassiosira","Thalassiosira nordenskioeldii","urn:lsid:marinespecies.org:taxname:148931","Species","Thalassiosira nordenskioeldii","Cleve, 1873",""
-"149","ASV33","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"150","ASV332","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"151","ASV333","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"152","ASV335","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"153","ASV336","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"154","ASV337","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"155","ASV350","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"156","ASV357","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"157","ASV36","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema marinoi","urn:lsid:marinespecies.org:taxname:376667","Species","Skeletonema marinoi","Sarno & Zingone, 2005",""
-"158","ASV364","Animalia","Arthropoda","Thecostraca","Balanomorpha","Balanidae","Balanus","Balanus crenatus","urn:lsid:marinespecies.org:taxname:106215","Species","Balanus crenatus","Bruguière, 1789",""
-"159","ASV365","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta triophthalma","urn:lsid:marinespecies.org:taxname:135066","Species","Synchaeta triophthalma","Lauterborn, 1894",""
-"160","ASV372","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"161","ASV373","Animalia","Arthropoda","Copepoda","Calanoida","Calanidae","Calanus","Calanus pacificus","urn:lsid:marinespecies.org:taxname:196771","Species","Calanus pacificus","Brodsky, 1948",""
-"162","ASV385","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta triophthalma","urn:lsid:marinespecies.org:taxname:135066","Species","Synchaeta triophthalma","Lauterborn, 1894",""
-"163","ASV393","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"164","ASV394","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"165","ASV395","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"166","ASV397","Animalia","Arthropoda","Branchiopoda","Onychopoda","Podonidae","Evadne","Evadne","urn:lsid:marinespecies.org:taxname:106267","Genus","Evadne sp.","Lovén, 1836",""
-"167","ASV402","Animalia","Annelida","Polychaeta","Phyllodocida","Hesionidae","Micropodarke","Micropodarke dubia","urn:lsid:marinespecies.org:taxname:334017","Species","Micropodarke dubia","(Hessle, 1925)",""
-"168","ASV404","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"169","ASV407","Animalia","Arthropoda","Branchiopoda","Onychopoda","Podonidae","Evadne","Evadne","urn:lsid:marinespecies.org:taxname:106267","Genus","Evadne sp.","Lovén, 1836",""
-"170","ASV41","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"171","ASV410","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"172","ASV413","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"173","ASV415","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"174","ASV417","Animalia","Arthropoda","Copepoda","Calanoida","Metridinidae","Metridia","Metridia pacifica","urn:lsid:marinespecies.org:taxname:196784","Species","Metridia pacifica","Brodsky, 1950",""
-"175","ASV418","Animalia","Arthropoda","Branchiopoda","Onychopoda","Podonidae","Evadne","Evadne","urn:lsid:marinespecies.org:taxname:106267","Genus","Evadne sp.","Lovén, 1836",""
-"176","ASV42","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"177","ASV422","Chromista","Heterokontophyta","Bacillariophyceae","Fragilariales","Fragilariaceae","Asterionellopsis","Asterionellopsis glacialis","urn:lsid:marinespecies.org:taxname:149139","Species","Asterionellopsis glacialis","(Castracane) Round, 1990",""
-"178","ASV424","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"179","ASV428","Animalia","Annelida","Polychaeta","Terebellida","Terebellidae","Neoamphitrite","Neoamphitrite","urn:lsid:marinespecies.org:taxname:129702","Genus","Neoamphitrite","Hessle, 1917",""
-"180","ASV437","Plantae","","Pyramimonadophyceae","Pseudoscourfieldiales","Pycnococcaceae","Pseudoscourfieldia","Pseudoscourfieldia marina","urn:lsid:marinespecies.org:taxname:134566","Species","Pseudoscourfieldia marina","(J.Throndsen) Manton, 1975",""
-"181","ASV438","Animalia","Annelida","Polychaeta","Phyllodocida","Glyceridae","Glycera","Glycera americana","urn:lsid:marinespecies.org:taxname:157388","Species","Glycera americana","Leidy, 1855",""
-"182","ASV440","Plantae","","Pyramimonadophyceae","Pyramimonadales","Pyramimonadaceae","Cymbomonas","Cymbomonas tetramitiformis","urn:lsid:marinespecies.org:taxname:134545","Species","Cymbomonas tetramitiformis","Schiller, 1913",""
-"183","ASV450","Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","Nuttallia japonica","urn:lsid:marinespecies.org:taxname:507188","Species","Nuttallia japonica","(Reeve, 1857)",""
-"184","ASV455","Animalia","Arthropoda","Copepoda","Calanoida","Calanidae","Calanus","Calanus pacificus","urn:lsid:marinespecies.org:taxname:196771","Species","Calanus pacificus","Brodsky, 1948",""
-"185","ASV462","Animalia","Annelida","Polychaeta","Terebellida","Pectinariidae","Pectinaria","Pectinaria","urn:lsid:marinespecies.org:taxname:129437","Genus","Pectinaria aff. granulata CMC01","Lamarck, 1818","cf. aff. granulata"
-"186","ASV464","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"187","ASV466","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"188","ASV471","Animalia","Mollusca","Gastropoda","Nudibranchia","Corambidae","Corambe","Corambe steinbergae","urn:lsid:marinespecies.org:taxname:535679","Species","Corambe steinbergae","(Lance, 1962)",""
-"189","ASV472","Chromista","Heterokontophyta","Bacillariophyceae","Cymatosirales","Cymatosiraceae","Minutocellus","Minutocellus polymorphus","urn:lsid:marinespecies.org:taxname:464449","Species","Minutocellus polymorphus","(Hargraves & Guillard) Hasle, Stosch & Syvertsen, 1983",""
-"190","ASV477","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"191","ASV49","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"192","ASV491","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"193","ASV495","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"194","ASV503","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"195","ASV505","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"196","ASV511","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"197","ASV518","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"198","ASV519","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"199","ASV526","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta triophthalma","urn:lsid:marinespecies.org:taxname:135066","Species","Synchaeta triophthalma","Lauterborn, 1894",""
-"200","ASV528","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"201","ASV53","Chromista","Heterokontophyta","Bacillariophyceae","Lithodesmiales","Lithodesmiaceae","Ditylum","Ditylum brightwellii","urn:lsid:marinespecies.org:taxname:149023","Species","Ditylum brightwellii","(T.West) Grunow, 1885",""
-"202","ASV540","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Thalassiosiraceae","Thalassiosira","Thalassiosira pseudonana","urn:lsid:marinespecies.org:taxname:148934","Species","Thalassiosira pseudonana","Hasle & Heimdal, 1970",""
-"203","ASV549","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"204","ASV55","Plantae","","Mamiellophyceae","Mamiellales","Mamiellaceae","Micromonas","Micromonas pusilla","urn:lsid:marinespecies.org:taxname:134564","Species","Micromonas pusilla","(Butcher) Manton & Parke, 1960",""
-"205","ASV555","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta vorax","urn:lsid:marinespecies.org:taxname:135067","Species","Synchaeta vorax","Rousselet, 1902",""
-"206","ASV556","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"207","ASV564","Chromista","Heterokontophyta","Bacillariophyceae","Coscinodiscales","Coscinodiscaceae","Coscinodiscus","Coscinodiscus granii","urn:lsid:marinespecies.org:taxname:149271","Species","Coscinodiscus granii","Gough, 1905",""
-"208","ASV57","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"209","ASV571","Animalia","Annelida","Polychaeta","","Opheliidae","Ophelina","Ophelina acuminata","urn:lsid:marinespecies.org:taxname:130500","Species","Ophelina acuminata","Örsted, 1843",""
-"210","ASV574","Animalia","Annelida","Polychaeta","","Opheliidae","Armandia","Armandia brevis","urn:lsid:marinespecies.org:taxname:333048","Species","Armandia brevis","(Moore, 1906)",""
-"211","ASV575","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus parvus","urn:lsid:marinespecies.org:taxname:104685","Species","Paracalanus parvus","(Claus, 1863)",""
-"212","ASV576","Animalia","Echinodermata","Ophiuroidea","Amphilepidida","Amphiuridae","Amphiodia","Amphiodia","urn:lsid:marinespecies.org:taxname:172595","Genus","Amphiodia cf. urtica EAC-2010","Verrill, 1899","cf. urtica"
-"213","ASV58","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"214","ASV581","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"215","ASV582","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"216","ASV6","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema","urn:lsid:marinespecies.org:taxname:149073","Genus","Skeletonema","R.K. Greville, 1865",""
-"217","ASV610","Chromista","Heterokontophyta","Bacillariophyceae","Melosirales","Melosiraceae","Melosira","Melosira nummuloides","urn:lsid:marinespecies.org:taxname:149044","Species","Melosira nummuloides","C.Agardh, 1824",""
-"218","ASV617","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"219","ASV62","Animalia","Arthropoda","Branchiopoda","Onychopoda","Podonidae","Pleopis","Pleopis polyphemoides","urn:lsid:marinespecies.org:taxname:247981","Species","Pleopis polyphemoides","(Leuckart, 1859)",""
-"220","ASV621","Animalia","Arthropoda","Copepoda","Calanoida","Acartiidae","Acartia","Acartia hudsonica","urn:lsid:marinespecies.org:taxname:157664","Species","Acartia hudsonica","Pinhey, 1926",""
-"221","ASV624","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"222","ASV631","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"223","ASV635","Chromista","Heterokontophyta","Bacillariophyceae","Cymatosirales","Cymatosiraceae","Minutocellus","Minutocellus polymorphus","urn:lsid:marinespecies.org:taxname:464449","Species","Minutocellus polymorphus","(Hargraves & Guillard) Hasle, Stosch & Syvertsen, 1983",""
-"224","ASV640","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"225","ASV641","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"226","ASV643","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"227","ASV645","Animalia","Mollusca","Bivalvia","Myida","Myidae","Mya","Mya arenaria","urn:lsid:marinespecies.org:taxname:140430","Species","Mya arenaria","Linnaeus, 1758",""
-"228","ASV65","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"229","ASV653","Animalia","Ctenophora","Tentaculata","Cydippida","Cydippidae","Pleurobrachia","Pleurobrachia bachei","urn:lsid:marinespecies.org:taxname:265191","Species","Pleurobrachia bachei","A. Agassiz, in L. Agassiz, 1860",""
-"230","ASV657","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"231","ASV659","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"232","ASV660","Chromista","Heterokontophyta","Bacillariophyceae","Chaetocerotanae incertae sedis","Chaetocerotaceae","Chaetoceros","Chaetoceros tenuissimus","urn:lsid:marinespecies.org:taxname:156623","Species","Chaetoceros tenuissimus","Meunier, 1913",""
-"233","ASV661","Animalia","Arthropoda","Copepoda","Cyclopoida","Halicyclopidae","Halicyclops","Halicyclops itohi","urn:lsid:marinespecies.org:taxname:606470","Species","Halicyclops itohi","Ueda & Nagai, 2012",""
-"234","ASV665","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"235","ASV669","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"236","ASV672","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"237","ASV679","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"238","ASV686","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"239","ASV688","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"240","ASV689","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"241","ASV691","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"242","ASV698","Plantae","","Mamiellophyceae","Mamiellales","Mamiellaceae","Micromonas","Micromonas","urn:lsid:marinespecies.org:taxname:134533","Genus","Micromonas","I.Manton & M.Parke, 1960",""
-"243","ASV7","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"244","ASV70","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"245","ASV701","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"246","ASV702","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"247","ASV706","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"248","ASV707","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"249","ASV709","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"250","ASV711","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"251","ASV712","Animalia","Annelida","Polychaeta","Phyllodocida","Chrysopetalidae","Paleanotus","Paleanotus bellis","urn:lsid:marinespecies.org:taxname:334328","Species","Paleanotus bellis","(Johnson, 1897)",""
-"252","ASV713","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"253","ASV72","Plantae","","Mamiellophyceae","Mamiellales","Mamiellaceae","Micromonas","Micromonas pusilla","urn:lsid:marinespecies.org:taxname:134564","Species","Micromonas pusilla CCMP1545","(Butcher) Manton & Parke, 1960",""
-"254","ASV724","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"255","ASV735","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"256","ASV737","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"257","ASV74","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Polydora","Polydora cornuta","urn:lsid:marinespecies.org:taxname:131143","Species","Polydora cornuta","Bosc, 1802",""
-"258","ASV740","Chromista","Heterokontophyta","Bacillariophyceae","Paraliales","Paraliaceae","Paralia","Paralia sulcata","urn:lsid:marinespecies.org:taxname:149055","Species","Paralia sulcata","(Ehrenberg) Cleve, 1873",""
-"259","ASV742","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"260","ASV745","Plantae","","Mamiellophyceae","Mamiellales","Mamiellaceae","Micromonas","Micromonas pusilla","urn:lsid:marinespecies.org:taxname:134564","Species","Micromonas pusilla","(Butcher) Manton & Parke, 1960",""
-"261","ASV748","Animalia","Annelida","Polychaeta","Phyllodocida","Goniadidae","Glycinde","Glycinde","urn:lsid:marinespecies.org:taxname:129299","Genus","Glycinde sp. 11BIOAK-0852","Müller, 1858",""
-"262","ASV75","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta kitina","urn:lsid:marinespecies.org:taxname:1796196","Species","Synchaeta kitina","Rousselet, 1902",""
-"263","ASV751","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"264","ASV760","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"265","ASV761","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"266","ASV762","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"267","ASV763","Animalia","Arthropoda","Copepoda","Calanoida","Metridinidae","Metridia","Metridia pacifica","urn:lsid:marinespecies.org:taxname:196784","Species","Metridia pacifica","Brodsky, 1950",""
-"268","ASV764","Chromista","Myzozoa","Dinophyceae","Peridiniales","Protoperidiniaceae","Protoperidinium","Protoperidinium","urn:lsid:marinespecies.org:taxname:109553","Genus","Protoperidinium cf. depressum","Bergh, 1881","cf. depressum"
-"269","ASV768","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"270","ASV770","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"271","ASV771","Chromista","Heterokontophyta","Bacillariophyceae","Naviculales","Pleurosigmataceae","Pleurosigma","Pleurosigma strigosum","urn:lsid:marinespecies.org:taxname:156586","Species","Pleurosigma strigosum","W.Smith, 1852",""
-"272","ASV777","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Laonice","Laonice cirrata","urn:lsid:marinespecies.org:taxname:131128","Species","Laonice cirrata CMC01","(M. Sars, 1851)",""
-"273","ASV779","Plantae","","Chloropicophyceae","Chloropicales","Chloropicaceae","Chloroparvula","Chloroparvula pacifica","urn:lsid:marinespecies.org:taxname:1361158","Species","Chloroparvula pacifica","Lopes dos Santos, Noël & Eikrem, 2017",""
-"274","ASV780","Chromista","Myzozoa","Dinophyceae","Syndiniales","Syndiniaceae","Hematodinium","Hematodinium","urn:lsid:marinespecies.org:taxname:577498","Genus","Hematodinium sp.","Chatton & Poisson, 1930",""
-"275","ASV785","Animalia","Ctenophora","Tentaculata","Cydippida","Cydippidae","Pleurobrachia","Pleurobrachia bachei","urn:lsid:marinespecies.org:taxname:265191","Species","Pleurobrachia bachei","A. Agassiz, in L. Agassiz, 1860",""
-"276","ASV79","Animalia","Mollusca","Bivalvia","Ostreida","Ostreidae","Magallana","Magallana gigas","urn:lsid:marinespecies.org:taxname:836033","Species","Magallana gigas","(Thunberg, 1793)",""
-"277","ASV790","Animalia","Annelida","Polychaeta","Phyllodocida","Glyceridae","Glycera","Glycera americana","urn:lsid:marinespecies.org:taxname:157388","Species","Glycera americana","Leidy, 1855",""
-"278","ASV806","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"279","ASV807","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"280","ASV808","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta","urn:lsid:marinespecies.org:taxname:134958","Genus","Synchaeta","Ehrenberg, 1832",""
-"281","ASV812","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"282","ASV813","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"283","ASV820","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Pseudopolydora","Pseudopolydora bassarginensis","urn:lsid:marinespecies.org:taxname:334675","Species","Pseudopolydora bassarginensis","(Zachs, 1933)",""
-"284","ASV822","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"285","ASV824","Animalia","Annelida","Polychaeta","Phyllodocida","Goniadidae","Glycinde","Glycinde picta","urn:lsid:marinespecies.org:taxname:240625","Species","Glycinde picta","Berkeley, 1927",""
-"286","ASV836","Animalia","Arthropoda","Copepoda","Calanoida","Temoridae","Eurytemora","Eurytemora americana","urn:lsid:marinespecies.org:taxname:104873","Species","Eurytemora americana","Williams, 1906",""
-"287","ASV84","Chromista","Heterokontophyta","Bacillariophyceae","Cymatosirales","Cymatosiraceae","Minutocellus","Minutocellus polymorphus","urn:lsid:marinespecies.org:taxname:464449","Species","Minutocellus polymorphus","(Hargraves & Guillard) Hasle, Stosch & Syvertsen, 1983",""
-"288","ASV840","Chromista","Myzozoa","Dinophyceae","Peridiniales","Heterocapsaceae","Heterocapsa","Heterocapsa rotundata","urn:lsid:marinespecies.org:taxname:110152","Species","Heterocapsa rotundata","(Lohmann) Gert Hansen, 1995",""
-"289","ASV844","Animalia","Annelida","Polychaeta","","Capitellidae","","Capitellidae","urn:lsid:marinespecies.org:taxname:921","Family","Capitellidae sp. 11BIOAK-1459","Grube, 1862",""
-"290","ASV85","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema japonicum","urn:lsid:marinespecies.org:taxname:376666","Species","Skeletonema japonicum","Zingone & Sarno, 2005",""
-"291","ASV854","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus","urn:lsid:marinespecies.org:taxname:104165","Genus","Pseudocalanus","Boeck, 1873",""
-"292","ASV865","Animalia","Arthropoda","Copepoda","Cyclopoida","Oithonidae","Oithona","Oithona similis","urn:lsid:marinespecies.org:taxname:106656","Species","Oithona similis","Claus, 1866",""
-"293","ASV87","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus","urn:lsid:marinespecies.org:taxname:104196","Genus","Paracalanus sp. C AC-2013","Boeck, 1865",""
-"294","ASV870","Chromista","Myzozoa","Dinophyceae","Gymnodiniales","Kareniaceae","","Kareniaceae","urn:lsid:marinespecies.org:taxname:599664","Family","Kareniaceae","Bergholtz, Daugbjerg, Moestrup & Fernández-Tejedor, 2005",""
-"295","ASV873","Animalia","Echinodermata","Ophiuroidea","Amphilepidida","Amphiuridae","Amphiodia","Amphiodia","urn:lsid:marinespecies.org:taxname:172595","Genus","Amphiodia cf. urtica EAC-2010","Verrill, 1899","cf. urtica"
-"296","ASV875","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"297","ASV876","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"298","ASV877","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"299","ASV879","Animalia","Arthropoda","Copepoda","Calanoida","Acartiidae","Acartia","Acartia longiremis","urn:lsid:marinespecies.org:taxname:104257","Species","Acartia longiremis","(Lilljeborg, 1853)",""
-"300","ASV883","Animalia","Mollusca","Gastropoda","Nudibranchia","Corambidae","Corambe","Corambe steinbergae","urn:lsid:marinespecies.org:taxname:535679","Species","Corambe steinbergae","(Lance, 1962)",""
-"301","ASV884","Chromista","Myzozoa","Dinophyceae","","","","Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",""
-"302","ASV886","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"303","ASV887","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"304","ASV888","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"305","ASV891","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"306","ASV897","Chromista","Myzozoa","Dinophyceae","Peridiniales","Heterocapsaceae","Heterocapsa","Heterocapsa rotundata","urn:lsid:marinespecies.org:taxname:110152","Species","Heterocapsa rotundata","(Lohmann) Gert Hansen, 1995",""
-"307","ASV9","Plantae","","Mamiellophyceae","Mamiellales","Bathycoccaceae","Bathycoccus","Bathycoccus prasinos","urn:lsid:marinespecies.org:taxname:345459","Species","Bathycoccus prasinos","Eikrem & Throndsen, 1990",""
-"308","ASV905","Animalia","Echinodermata","Ophiuroidea","Amphilepidida","Amphiuridae","Amphiodia","Amphiodia","urn:lsid:marinespecies.org:taxname:172595","Genus","Amphiodia cf. urtica EAC-2010","Verrill, 1899","cf. urtica"
-"309","ASV907","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"310","ASV91","Plantae","","Mamiellophyceae","Mamiellales","Mamiellaceae","Micromonas","Micromonas","urn:lsid:marinespecies.org:taxname:134533","Genus","Micromonas","I.Manton & M.Parke, 1960",""
-"311","ASV912","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"312","ASV92","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Laonice","Laonice cirrata","urn:lsid:marinespecies.org:taxname:131128","Species","Laonice cirrata CMC01","(M. Sars, 1851)",""
-"313","ASV920","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"314","ASV924","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"315","ASV927","Plantae","","Pyramimonadophyceae","Pseudoscourfieldiales","Pycnococcaceae","Pseudoscourfieldia","Pseudoscourfieldia marina","urn:lsid:marinespecies.org:taxname:134566","Species","Pseudoscourfieldia marina","(J.Throndsen) Manton, 1975",""
-"316","ASV933","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"317","ASV940","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"318","ASV949","Animalia","Annelida","Polychaeta","Eunicida","Lumbrineridae","","Lumbrineridae","urn:lsid:marinespecies.org:taxname:967","Family","Lumbrineridae","Schmarda, 1861",""
-"319","ASV952","Animalia","Arthropoda","Copepoda","Calanoida","Clausocalanidae","Pseudocalanus","Pseudocalanus newmani","urn:lsid:marinespecies.org:taxname:157679","Species","Pseudocalanus newmani","Frost, 1989",""
-"320","ASV955","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. Gould, 1850",""
-"321","ASV958","Animalia","Arthropoda","Thecostraca","Balanomorpha","Balanidae","Balanus","Balanus","urn:lsid:marinespecies.org:taxname:106122","Genus","Balanus sp. BCC2010-012","Costa, 1778",""
-"322","ASV960","Chromista","Ochrophyta","Dictyochophyceae","Dictyochales","Dictyochaceae","Dictyocha","Dictyocha speculum","urn:lsid:marinespecies.org:taxname:157260","Species","Dictyocha speculum","Ehrenberg, 1839",""
-"323","ASV961","Animalia","Annelida","Polychaeta","Phyllodocida","Goniadidae","Glycinde","Glycinde","urn:lsid:marinespecies.org:taxname:129299","Genus","Glycinde sp. BCPOL601-10","Müller, 1858",""
-"324","ASV970","Plantae","","Pyramimonadophyceae","Pseudoscourfieldiales","Pycnococcaceae","Pseudoscourfieldia","Pseudoscourfieldia marina","urn:lsid:marinespecies.org:taxname:134566","Species","Pseudoscourfieldia marina","(J.Throndsen) Manton, 1975",""
-"325","ASV971","Chromista","Heterokontophyta","Bacillariophyceae","Chaetocerotanae incertae sedis","Chaetocerotaceae","Chaetoceros","Chaetoceros socialis","urn:lsid:marinespecies.org:taxname:149123","Species","Chaetoceros socialis","H.S.Lauder, 1864",""
-"326","ASV975","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"327","ASV977","Animalia","Arthropoda","Copepoda","Calanoida","Metridinidae","Metridia","Metridia pacifica","urn:lsid:marinespecies.org:taxname:196784","Species","Metridia pacifica","Brodsky, 1950",""
-"328","ASV987","Animalia","Arthropoda","Copepoda","Cyclopoida","Cyclopidae","","Cyclopidae","urn:lsid:marinespecies.org:taxname:106413","Family","Cyclopidae sp. CCG1_Katla","Rafinesque, 1815",""
-"329","ASV993","Chromista","Heterokontophyta","Bacillariophyceae","Melosirales","Melosiraceae","Melosira","Melosira nummuloides","urn:lsid:marinespecies.org:taxname:149044","Species","Melosira nummuloides","C.Agardh, 1824",""
-"330","ASV995","Animalia","Arthropoda","Copepoda","Calanoida","Paracalanidae","Paracalanus","Paracalanus parvus","urn:lsid:marinespecies.org:taxname:104685","Species","Paracalanus parvus","(Claus, 1863)",""
+ASV,kingdom,phylum,class,order,family,genus,scientificName,scientificNameID,taxonRank,verbatimIdentification,scientificNameAuthorship,identificationQualifier
+ASV10,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Stephanodiscaceae,Cyclotella,Cyclotella cryptica,urn:lsid:marinespecies.org:taxname:148998,Species,Cyclotella cryptica,"Reimann, Lewin & Guillard, 1963",
+ASV100,Animalia,Arthropoda,Copepoda,Calanoida,Metridinidae,Metridia,Metridia pacifica,urn:lsid:marinespecies.org:taxname:196784,Species,Metridia pacifica,"Brodsky, 1950",
+ASV101,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV1015,Chromista,Heterokontophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Cylindrotheca,Cylindrotheca closterium,urn:lsid:marinespecies.org:taxname:149004,Species,Cylindrotheca closterium,"(Ehrenberg) Reimann & J.C.Lewin, 1964",
+ASV1019,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV1022,Animalia,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,Amphiodia,Amphiodia,urn:lsid:marinespecies.org:taxname:172595,Genus,Amphiodia cf. urtica KSL-2016,"Verrill, 1899",cf. urtica
+ASV1026,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV1029,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV1031,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1040,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV1041,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV1042,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1048,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV105,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV1053,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV1056,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV1062,Animalia,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis,urn:lsid:marinespecies.org:taxname:250618,Species,Perophora sagamiensis,"Tokioka, 1953",
+ASV1074,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV1091,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1097,Chromista,Bacillariophyta,,,,,Bacillariophyta,urn:lsid:marinespecies.org:taxname:148898,Phylum,Bacillariophyta,,
+ASV1101,Animalia,Mollusca,Bivalvia,Venerida,Veneridae,Nutricola,Nutricola tantilla,urn:lsid:marinespecies.org:taxname:507789,Species,Nutricola tantilla,"(A. Gould, 1853)",
+ASV1104,Animalia,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana,urn:lsid:marinespecies.org:taxname:157388,Species,Glycera americana,"Leidy, 1855",
+ASV1108,Animalia,Arthropoda,Copepoda,Calanoida,Acartiidae,Acartia,Acartia longiremis,urn:lsid:marinespecies.org:taxname:104257,Species,Acartia longiremis,"(Lilljeborg, 1853)",
+ASV111,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV1123,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV1127,Animalia,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde,urn:lsid:marinespecies.org:taxname:129299,Genus,Glycinde sp. BCPOL601-10,"Müller, 1858",
+ASV1131,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1139,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV1141,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV1144,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Stephanodiscaceae,Cyclotella,Cyclotella cryptica,urn:lsid:marinespecies.org:taxname:148998,Species,Cyclotella cryptica,"Reimann, Lewin & Guillard, 1963",
+ASV1146,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV1149,Animalia,Bryozoa,Gymnolaemata,Ctenostomatida,Vesiculariidae,,Vesiculariidae,urn:lsid:marinespecies.org:taxname:110802,Family,Vesiculariidae,"Johnston, 1838",
+ASV1159,Chromista,Heterokontophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia multiseries,urn:lsid:marinespecies.org:taxname:175738,Species,Pseudo-nitzschia multiseries,"(Hasle) Hasle, 1995",
+ASV1163,Chromista,Heterokontophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Hemiaulus,Hemiaulus sinensis,urn:lsid:marinespecies.org:taxname:163250,Species,Hemiaulus sinensis,"Greville, 1865",
+ASV1174,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV1175,Chromista,Heterokontophyta,Bacillariophyceae,Melosirales,Stephanopyxidaceae,Stephanopyxis,Stephanopyxis turris,urn:lsid:marinespecies.org:taxname:149631,Species,Stephanopyxis turris,"(Greville) Ralfs, 1861",
+ASV1179,Animalia,Mollusca,Bivalvia,Cardiida,Cardiidae,Clinocardium,Clinocardium nuttallii,urn:lsid:marinespecies.org:taxname:381980,Species,Clinocardium nuttallii,"(Conrad, 1837)",
+ASV1180,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,Skeletonema,urn:lsid:marinespecies.org:taxname:149073,Genus,Skeletonema,"R.K. Greville, 1865",
+ASV1184,Chromista,Heterokontophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,Chaetoceros socialis,urn:lsid:marinespecies.org:taxname:149123,Species,Chaetoceros socialis,"H.S.Lauder, 1864",
+ASV1187,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1193,Chromista,Heterokontophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,Eucampia zodiacus,urn:lsid:marinespecies.org:taxname:149131,Species,Eucampia zodiacus,"Ehrenberg, 1839",
+ASV12,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV120,Plantae,,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina,urn:lsid:marinespecies.org:taxname:134566,Species,Pseudoscourfieldia marina,"(J.Throndsen) Manton, 1975",
+ASV1200,Animalia,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis,urn:lsid:marinespecies.org:taxname:250618,Species,Perophora sagamiensis,"Tokioka, 1953",
+ASV1204,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV1218,Plantae,,Bangiophyceae,Bangiales,Bangiaceae,Pyropia,Pyropia nitida,urn:lsid:marinespecies.org:taxname:1359675,Species,Pyropia nitida,"L.K.Harden, K.M.Morales & Hughey, 2015",
+ASV122,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1224,Chromista,Heterokontophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Cylindrotheca,Cylindrotheca closterium,urn:lsid:marinespecies.org:taxname:149004,Species,Cylindrotheca closterium,"(Ehrenberg) Reimann & J.C.Lewin, 1964",
+ASV1227,Chromista,Haptophyta,Coccolithophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis antarctica,urn:lsid:marinespecies.org:taxname:341585,Species,Phaeocystis antarctica,"Karsten, 1905",
+ASV123,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1231,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1240,Chromista,Cryptophyta,Cryptophyta incertae sedis,,Katablepharidaceae,Leucocryptos,Leucocryptos marina,urn:lsid:marinespecies.org:taxname:119077,Species,Leucocryptos marina,"(Braarud) Butcher, 1967",
+ASV1252,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV1261,Animalia,Annelida,Polychaeta,Terebellida,Pectinariidae,Pectinaria,Pectinaria,urn:lsid:marinespecies.org:taxname:129437,Genus,Pectinaria aff. granulata CMC01,"Lamarck, 1818",cf. aff. granulata
+ASV1262,Chromista,Cryptophyta,Cryptophyta incertae sedis,,Katablepharidaceae,Leucocryptos,Leucocryptos marina,urn:lsid:marinespecies.org:taxname:119077,Species,Leucocryptos marina,"(Braarud) Butcher, 1967",
+ASV1276,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV129,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,Skeletonema subsalsum,urn:lsid:marinespecies.org:taxname:149075,Species,Skeletonema subsalsum,"(Cleve-Euler) Bethge, 1928",
+ASV1297,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV13,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1309,Animalia,Mollusca,Bivalvia,Galeommatida,Lasaeidae,Kurtiella,Kurtiella bidentata,urn:lsid:marinespecies.org:taxname:345281,Species,Kurtiella bidentata,"(Montagu, 1803)",
+ASV131,Chromista,Heterokontophyta,Bacillariophyceae,Thalassionematales,Thalassionemataceae,Thalassionema,Thalassionema nitzschioides,urn:lsid:marinespecies.org:taxname:149093,Species,Thalassionema nitzschioides,"(Grunow) Mereschkowsky, 1902",
+ASV1318,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV1329,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,Skeletonema japonicum,urn:lsid:marinespecies.org:taxname:376666,Species,Skeletonema japonicum,"Zingone & Sarno, 2005",
+ASV1334,Chromista,Heterokontophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia,urn:lsid:marinespecies.org:taxname:149045,Genus,Nitzschia cf. promare,"A.H. Hassall, 1845",cf. promare
+ASV1337,Animalia,Mollusca,Bivalvia,Nuculida,Nuculidae,Acila,Acila castrensis,urn:lsid:marinespecies.org:taxname:506568,Species,Acila castrensis,"(Hinds, 1843)",
+ASV136,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV138,Chromista,Heterokontophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,Chaetoceros,urn:lsid:marinespecies.org:taxname:148985,Genus,Chaetoceros,"C.G. Ehrenberg, 1844",
+ASV139,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV1407,Animalia,Bryozoa,Gymnolaemata,Ctenostomatida,Vesiculariidae,Amathia,Amathia,urn:lsid:marinespecies.org:taxname:111022,Genus,Amathia sp. 149959,"Lamouroux, 1812",
+ASV1413,Chromista,Heterokontophyta,Bacillariophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides,urn:lsid:marinespecies.org:taxname:149044,Species,Melosira nummuloides,"C.Agardh, 1824",
+ASV1415,Animalia,Mollusca,Bivalvia,Myida,Teredinidae,Bankia,Bankia setacea,urn:lsid:marinespecies.org:taxname:527858,Species,Bankia setacea,"(Tryon, 1863)",
+ASV1427,Animalia,Mollusca,Bivalvia,Venerida,Veneridae,Ruditapes,Ruditapes philippinarum,urn:lsid:marinespecies.org:taxname:231750,Species,Ruditapes philippinarum,"(A. Adams & Reeve, 1850)",
+ASV1449,Animalia,Annelida,Polychaeta,,Opheliidae,Armandia,Armandia brevis,urn:lsid:marinespecies.org:taxname:333048,Species,Armandia brevis,"(Moore, 1906)",
+ASV1455,Chromista,Bacillariophyta,,,,,Bacillariophyta,urn:lsid:marinespecies.org:taxname:148898,Phylum,Bacillariophyta,,
+ASV1461,Protozoa,Amoebozoa,Discosea,Dactylopodida,Dactylopodida incertae sedis,Squamamoeba,Squamamoeba japonica,urn:lsid:marinespecies.org:taxname:761218,Species,Squamamoeba japonica,"Kudryavtsev & Pawlowski, 2013",
+ASV1467,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV1485,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV1507,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV151,Chromista,Heterokontophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,Coscinodiscus granii,urn:lsid:marinespecies.org:taxname:149271,Species,Coscinodiscus granii,"Gough, 1905",
+ASV1516,Chromista,Myzozoa,Dinophyceae,Peridiniales,Protoperidiniaceae,Protoperidinium,Protoperidinium,urn:lsid:marinespecies.org:taxname:109553,Genus,Protoperidinium cf. depressum,"Bergh, 1881",cf. depressum
+ASV1531,Animalia,Annelida,Polychaeta,Terebellida,Ampharetidae,Ampharete,Ampharete americana,urn:lsid:marinespecies.org:taxname:326311,Species,Ampharete americana,"Day, 1973",
+ASV1534,Animalia,Mollusca,Bivalvia,Venerida,Veneridae,Nutricola,Nutricola tantilla,urn:lsid:marinespecies.org:taxname:507789,Species,Nutricola tantilla,"(A. Gould, 1853)",
+ASV155,Animalia,Arthropoda,Branchiopoda,Onychopoda,Podonidae,Evadne,Evadne,urn:lsid:marinespecies.org:taxname:106267,Genus,Evadne sp.,"Lovén, 1836",
+ASV1559,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV1564,Chromista,Ochrophyta,Chrysophyceae,Chromulinales,Paraphysomonadaceae,Paraphysomonas,Paraphysomonas,urn:lsid:marinespecies.org:taxname:291417,Genus,Paraphysomonas sp.,"De Saedeleer, 1930",
+ASV1577,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta cecilia,urn:lsid:marinespecies.org:taxname:135049,Species,Synchaeta cecilia,"Rousselet, 1902",
+ASV1578,Chromista,Ochrophyta,Raphidophyceae,Chattonellales,Chattonellaceae,Heterosigma,Heterosigma akashiwo,urn:lsid:marinespecies.org:taxname:160585,Species,Heterosigma akashiwo,"(Hada) Hada ex Y.Hara & Chihara, 1987",
+ASV158,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV161,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV1621,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV1670,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,,,Thalassiosirales,urn:lsid:marinespecies.org:taxname:148903,Order,Thalassiosirales,"Glezer & Makarova, 1986",
+ASV1671,Chromista,Myzozoa,Dinophyceae,Gymnodiniales,Kareniaceae,,Kareniaceae,urn:lsid:marinespecies.org:taxname:599664,Family,Kareniaceae,"Bergholtz, Daugbjerg, Moestrup & Fernández-Tejedor, 2005",
+ASV1700,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira pseudonana,urn:lsid:marinespecies.org:taxname:148934,Species,Thalassiosira pseudonana,"Hasle & Heimdal, 1970",
+ASV1703,Chromista,Myzozoa,Dinophyceae,Lophodiniales,Lophodiniaceae,Biecheleriopsis,Biecheleriopsis adriatica,urn:lsid:marinespecies.org:taxname:837989,Species,Biecheleriopsis adriatica,"Moestrup, Lindberg & Daugbjerg, 2009",
+ASV173,Chromista,Myzozoa,Dinophyceae,Thoracosphaerales,Thoracosphaeraceae,Scrippsiella,Scrippsiella precaria,urn:lsid:marinespecies.org:taxname:110173,Species,Scrippsiella precaria,"M.Montresor & A.Zingone, 1988",
+ASV1743,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora onagawaensis,urn:lsid:marinespecies.org:taxname:1611501,Species,Polydora onagawaensis,"Teramoto, Sato-Okoshi, Abe, Nishitani & Endo, 2013",
+ASV1747,Chromista,Heterokontophyta,Bacillariophyceae,Hemiaulales,Hemiaulaceae,Eucampia,Eucampia zodiacus,urn:lsid:marinespecies.org:taxname:149131,Species,Eucampia zodiacus,"Ehrenberg, 1839",
+ASV1763,Plantae,,Trebouxiophyceae,Chlorellales,Chlorellaceae,Chlorella,Chlorella,urn:lsid:marinespecies.org:taxname:160576,Genus,Chlorella sp. FACHB-1531,"M.Beijerinck, 1890",
+ASV1770,Chromista,Myzozoa,Dinophyceae,Prorocentrales,Prorocentraceae,Prorocentrum,Prorocentrum,urn:lsid:marinespecies.org:taxname:109566,Genus,Prorocentrum,"Ehrenberg, 1834",
+ASV1818,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV1830,Chromista,Heterokontophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Rhizosolenia,Rhizosolenia setigera,urn:lsid:marinespecies.org:taxname:149115,Species,Rhizosolenia setigera,"Brightwell, 1858",
+ASV1848,Chromista,Heterokontophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudo-nitzschia,Pseudo-nitzschia delicatissima,urn:lsid:marinespecies.org:taxname:149153,Species,Pseudo-nitzschia delicatissima,"(Cleve) Heiden, 1928",
+ASV19,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV1910,Animalia,Mollusca,Bivalvia,Venerida,Veneridae,Ruditapes,Ruditapes philippinarum,urn:lsid:marinespecies.org:taxname:231750,Species,Ruditapes philippinarum,"(A. Adams & Reeve, 1850)",
+ASV193,Animalia,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis,urn:lsid:marinespecies.org:taxname:250618,Species,Perophora sagamiensis,"Tokioka, 1953",
+ASV1942,Animalia,Mollusca,Bivalvia,Venerida,Veneridae,Saxidomus,Saxidomus gigantea,urn:lsid:marinespecies.org:taxname:546014,Species,Saxidomus gigantea,"(Deshayes, 1839)",
+ASV1945,Chromista,Heterokontophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia inconspicua,urn:lsid:marinespecies.org:taxname:175420,Species,Nitzschia inconspicua,"Grunow, 1862",
+ASV1974,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira nordenskioeldii,urn:lsid:marinespecies.org:taxname:148931,Species,Thalassiosira nordenskioeldii,"Cleve, 1873",
+ASV1984,Plantae,,Mamiellophyceae,Dolichomastigales,Dolichomastigaceae,Dolichomastix,Dolichomastix tenuilepis,urn:lsid:marinespecies.org:taxname:345463,Species,Dolichomastix tenuilepis,"J.Throndsen & A.Zingone, 1997",
+ASV1986,Chromista,Myzozoa,Dinophyceae,Prorocentrales,Prorocentraceae,Prorocentrum,Prorocentrum pervagatum,urn:lsid:marinespecies.org:taxname:1635283,Species,Prorocentrum pervagatum,"Tillmann, Hoppenrath & Gottschling, 2022",
+ASV199,Chromista,Haptophyta,Coccolithophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis antarctica,urn:lsid:marinespecies.org:taxname:341585,Species,Phaeocystis antarctica,"Karsten, 1905",
+ASV1992,Chromista,Oomycota,,,,,Oomycota,urn:lsid:marinespecies.org:taxname:22154,Phylum,Oomycota,,
+ASV2,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,Skeletonema marinoi,urn:lsid:marinespecies.org:taxname:376667,Species,Skeletonema marinoi,"Sarno & Zingone, 2005",
+ASV2003,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV203,Chromista,Heterokontophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,Guinardia delicatula,urn:lsid:marinespecies.org:taxname:149112,Species,Guinardia delicatula,"(Cleve) Hasle, 1997",
+ASV2031,Chromista,Heterokontophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia,urn:lsid:marinespecies.org:taxname:149045,Genus,Nitzschia,"A.H. Hassall, 1845",
+ASV2039,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV2074,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV2079,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV2080,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Stephanodiscaceae,Cyclostephanos,Cyclostephanos,urn:lsid:marinespecies.org:taxname:148995,Genus,Cyclostephanos sp. WTC16,"F.E. Round ex Theriot, Hakansson, Kociolek, Round & Stoermer, 1987",
+ASV2097,Chromista,Heterokontophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Attheyaceae,Attheya,Attheya longicornis,urn:lsid:marinespecies.org:taxname:464444,Species,Attheya longicornis,"R.M.Crawford & C.Gardner, 1994",
+ASV210,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV212,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus,urn:lsid:marinespecies.org:taxname:104685,Species,Paracalanus parvus,"(Claus, 1863)",
+ASV217,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV22,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV221,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV222,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV227,Animalia,Chordata,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora sagamiensis,urn:lsid:marinespecies.org:taxname:250618,Species,Perophora sagamiensis,"Tokioka, 1953",
+ASV234,Animalia,Arthropoda,Copepoda,Calanoida,,,Calanoida,urn:lsid:marinespecies.org:taxname:1100,Order,Calanoida sp. NJCGS407-10,"Sars G.O., 1903",
+ASV236,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV242,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV250,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV251,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV252,Animalia,Mollusca,Gastropoda,Neogastropoda,Nassariidae,Nassarius,Nassarius mendicus,urn:lsid:marinespecies.org:taxname:560256,Species,Nassarius mendicus,"(A. Gould, 1850)",
+ASV26,Plantae,,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla,urn:lsid:marinespecies.org:taxname:134564,Species,Micromonas pusilla,"(Butcher) Manton & Parke, 1960",
+ASV268,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV277,Animalia,Arthropoda,Copepoda,Calanoida,Acartiidae,Acartia,Acartia longiremis,urn:lsid:marinespecies.org:taxname:104257,Species,Acartia longiremis,"(Lilljeborg, 1853)",
+ASV281,Animalia,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus nubilus,urn:lsid:marinespecies.org:taxname:594745,Species,Balanus nubilus,"Darwin, 1854",
+ASV289,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV291,Chromista,Haptophyta,Coccolithophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis globosa,urn:lsid:marinespecies.org:taxname:160538,Species,Phaeocystis globosa,"Scherffel, 1899",
+ASV297,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV3,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV30,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV300,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV306,Animalia,Arthropoda,Copepoda,Calanoida,Metridinidae,Metridia,Metridia pacifica,urn:lsid:marinespecies.org:taxname:196784,Species,Metridia pacifica,"Brodsky, 1950",
+ASV311,Animalia,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde,urn:lsid:marinespecies.org:taxname:129299,Genus,Glycinde sp. BCPOL601-10,"Müller, 1858",
+ASV325,Animalia,Arthropoda,Copepoda,Harpacticoida,,,Harpacticoida,urn:lsid:marinespecies.org:taxname:1102,Order,Harpacticoida sp. 10BIOBC-00676,"Sars G.O., 1903",
+ASV327,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira nordenskioeldii,urn:lsid:marinespecies.org:taxname:148931,Species,Thalassiosira nordenskioeldii,"Cleve, 1873",
+ASV33,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV332,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV333,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV335,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV336,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV337,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV350,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV357,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV36,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,Skeletonema marinoi,urn:lsid:marinespecies.org:taxname:376667,Species,Skeletonema marinoi,"Sarno & Zingone, 2005",
+ASV364,Animalia,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus crenatus,urn:lsid:marinespecies.org:taxname:106215,Species,Balanus crenatus,"Bruguière, 1789",
+ASV365,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma,urn:lsid:marinespecies.org:taxname:135066,Species,Synchaeta triophthalma,"Lauterborn, 1894",
+ASV372,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV373,Animalia,Arthropoda,Copepoda,Calanoida,Calanidae,Calanus,Calanus pacificus,urn:lsid:marinespecies.org:taxname:196771,Species,Calanus pacificus,"Brodsky, 1948",
+ASV385,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma,urn:lsid:marinespecies.org:taxname:135066,Species,Synchaeta triophthalma,"Lauterborn, 1894",
+ASV393,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV394,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV395,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV397,Animalia,Arthropoda,Branchiopoda,Onychopoda,Podonidae,Evadne,Evadne,urn:lsid:marinespecies.org:taxname:106267,Genus,Evadne sp.,"Lovén, 1836",
+ASV402,Animalia,Annelida,Polychaeta,Phyllodocida,Hesionidae,Micropodarke,Micropodarke dubia,urn:lsid:marinespecies.org:taxname:334017,Species,Micropodarke dubia,"(Hessle, 1925)",
+ASV404,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV407,Animalia,Arthropoda,Branchiopoda,Onychopoda,Podonidae,Evadne,Evadne,urn:lsid:marinespecies.org:taxname:106267,Genus,Evadne sp.,"Lovén, 1836",
+ASV41,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV410,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV413,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV415,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV417,Animalia,Arthropoda,Copepoda,Calanoida,Metridinidae,Metridia,Metridia pacifica,urn:lsid:marinespecies.org:taxname:196784,Species,Metridia pacifica,"Brodsky, 1950",
+ASV418,Animalia,Arthropoda,Branchiopoda,Onychopoda,Podonidae,Evadne,Evadne,urn:lsid:marinespecies.org:taxname:106267,Genus,Evadne sp.,"Lovén, 1836",
+ASV42,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV422,Chromista,Heterokontophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Asterionellopsis,Asterionellopsis glacialis,urn:lsid:marinespecies.org:taxname:149139,Species,Asterionellopsis glacialis,"(Castracane) Round, 1990",
+ASV424,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV428,Animalia,Annelida,Polychaeta,Terebellida,Terebellidae,Neoamphitrite,Neoamphitrite,urn:lsid:marinespecies.org:taxname:129702,Genus,Neoamphitrite,"Hessle, 1917",
+ASV437,Plantae,,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina,urn:lsid:marinespecies.org:taxname:134566,Species,Pseudoscourfieldia marina,"(J.Throndsen) Manton, 1975",
+ASV438,Animalia,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana,urn:lsid:marinespecies.org:taxname:157388,Species,Glycera americana,"Leidy, 1855",
+ASV440,Plantae,,Pyramimonadophyceae,Pyramimonadales,Pyramimonadaceae,Cymbomonas,Cymbomonas tetramitiformis,urn:lsid:marinespecies.org:taxname:134545,Species,Cymbomonas tetramitiformis,"Schiller, 1913",
+ASV450,Animalia,Mollusca,Bivalvia,Cardiida,Psammobiidae,Nuttallia,Nuttallia japonica,urn:lsid:marinespecies.org:taxname:507188,Species,Nuttallia japonica,"(Reeve, 1857)",
+ASV455,Animalia,Arthropoda,Copepoda,Calanoida,Calanidae,Calanus,Calanus pacificus,urn:lsid:marinespecies.org:taxname:196771,Species,Calanus pacificus,"Brodsky, 1948",
+ASV462,Animalia,Annelida,Polychaeta,Terebellida,Pectinariidae,Pectinaria,Pectinaria,urn:lsid:marinespecies.org:taxname:129437,Genus,Pectinaria aff. granulata CMC01,"Lamarck, 1818",cf. aff. granulata
+ASV464,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV466,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV471,Animalia,Mollusca,Gastropoda,Nudibranchia,Corambidae,Corambe,Corambe steinbergae,urn:lsid:marinespecies.org:taxname:535679,Species,Corambe steinbergae,"(Lance, 1962)",
+ASV472,Chromista,Heterokontophyta,Bacillariophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus,urn:lsid:marinespecies.org:taxname:464449,Species,Minutocellus polymorphus,"(Hargraves & Guillard) Hasle, Stosch & Syvertsen, 1983",
+ASV477,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV49,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV491,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV495,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV503,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV505,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV511,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV518,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV519,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV526,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta triophthalma,urn:lsid:marinespecies.org:taxname:135066,Species,Synchaeta triophthalma,"Lauterborn, 1894",
+ASV528,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV53,Chromista,Heterokontophyta,Bacillariophyceae,Lithodesmiales,Lithodesmiaceae,Ditylum,Ditylum brightwellii,urn:lsid:marinespecies.org:taxname:149023,Species,Ditylum brightwellii,"(T.West) Grunow, 1885",
+ASV540,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,Thalassiosira pseudonana,urn:lsid:marinespecies.org:taxname:148934,Species,Thalassiosira pseudonana,"Hasle & Heimdal, 1970",
+ASV549,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV55,Plantae,,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla,urn:lsid:marinespecies.org:taxname:134564,Species,Micromonas pusilla,"(Butcher) Manton & Parke, 1960",
+ASV555,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta vorax,urn:lsid:marinespecies.org:taxname:135067,Species,Synchaeta vorax,"Rousselet, 1902",
+ASV556,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV564,Chromista,Heterokontophyta,Bacillariophyceae,Coscinodiscales,Coscinodiscaceae,Coscinodiscus,Coscinodiscus granii,urn:lsid:marinespecies.org:taxname:149271,Species,Coscinodiscus granii,"Gough, 1905",
+ASV57,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV571,Animalia,Annelida,Polychaeta,,Opheliidae,Ophelina,Ophelina acuminata,urn:lsid:marinespecies.org:taxname:130500,Species,Ophelina acuminata,"Örsted, 1843",
+ASV574,Animalia,Annelida,Polychaeta,,Opheliidae,Armandia,Armandia brevis,urn:lsid:marinespecies.org:taxname:333048,Species,Armandia brevis,"(Moore, 1906)",
+ASV575,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus,urn:lsid:marinespecies.org:taxname:104685,Species,Paracalanus parvus,"(Claus, 1863)",
+ASV576,Animalia,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,Amphiodia,Amphiodia,urn:lsid:marinespecies.org:taxname:172595,Genus,Amphiodia cf. urtica EAC-2010,"Verrill, 1899",cf. urtica
+ASV58,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV581,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV582,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV6,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,Skeletonema,urn:lsid:marinespecies.org:taxname:149073,Genus,Skeletonema,"R.K. Greville, 1865",
+ASV610,Chromista,Heterokontophyta,Bacillariophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides,urn:lsid:marinespecies.org:taxname:149044,Species,Melosira nummuloides,"C.Agardh, 1824",
+ASV617,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV62,Animalia,Arthropoda,Branchiopoda,Onychopoda,Podonidae,Pleopis,Pleopis polyphemoides,urn:lsid:marinespecies.org:taxname:247981,Species,Pleopis polyphemoides,"(Leuckart, 1859)",
+ASV621,Animalia,Arthropoda,Copepoda,Calanoida,Acartiidae,Acartia,Acartia hudsonica,urn:lsid:marinespecies.org:taxname:157664,Species,Acartia hudsonica,"Pinhey, 1926",
+ASV624,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV631,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV635,Chromista,Heterokontophyta,Bacillariophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus,urn:lsid:marinespecies.org:taxname:464449,Species,Minutocellus polymorphus,"(Hargraves & Guillard) Hasle, Stosch & Syvertsen, 1983",
+ASV640,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV641,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV643,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV645,Animalia,Mollusca,Bivalvia,Myida,Myidae,Mya,Mya arenaria,urn:lsid:marinespecies.org:taxname:140430,Species,Mya arenaria,"Linnaeus, 1758",
+ASV65,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV653,Animalia,Ctenophora,Tentaculata,Cydippida,Cydippidae,Pleurobrachia,Pleurobrachia bachei,urn:lsid:marinespecies.org:taxname:265191,Species,Pleurobrachia bachei,"A. Agassiz, in L. Agassiz, 1860",
+ASV657,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV659,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV660,Chromista,Heterokontophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,Chaetoceros tenuissimus,urn:lsid:marinespecies.org:taxname:156623,Species,Chaetoceros tenuissimus,"Meunier, 1913",
+ASV661,Animalia,Arthropoda,Copepoda,Cyclopoida,Halicyclopidae,Halicyclops,Halicyclops itohi,urn:lsid:marinespecies.org:taxname:606470,Species,Halicyclops itohi,"Ueda & Nagai, 2012",
+ASV665,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV669,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV672,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV679,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV686,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV688,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV689,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV691,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV698,Plantae,,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,urn:lsid:marinespecies.org:taxname:134533,Genus,Micromonas,"I.Manton & M.Parke, 1960",
+ASV7,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV70,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV701,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV702,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV706,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV707,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV709,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV711,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV712,Animalia,Annelida,Polychaeta,Phyllodocida,Chrysopetalidae,Paleanotus,Paleanotus bellis,urn:lsid:marinespecies.org:taxname:334328,Species,Paleanotus bellis,"(Johnson, 1897)",
+ASV713,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV72,Plantae,,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla,urn:lsid:marinespecies.org:taxname:134564,Species,Micromonas pusilla CCMP1545,"(Butcher) Manton & Parke, 1960",
+ASV724,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV735,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV737,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV74,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,urn:lsid:marinespecies.org:taxname:131143,Species,Polydora cornuta,"Bosc, 1802",
+ASV740,Chromista,Heterokontophyta,Bacillariophyceae,Paraliales,Paraliaceae,Paralia,Paralia sulcata,urn:lsid:marinespecies.org:taxname:149055,Species,Paralia sulcata,"(Ehrenberg) Cleve, 1873",
+ASV742,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV745,Plantae,,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas pusilla,urn:lsid:marinespecies.org:taxname:134564,Species,Micromonas pusilla,"(Butcher) Manton & Parke, 1960",
+ASV748,Animalia,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde,urn:lsid:marinespecies.org:taxname:129299,Genus,Glycinde sp. 11BIOAK-0852,"Müller, 1858",
+ASV75,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta kitina,urn:lsid:marinespecies.org:taxname:1796196,Species,Synchaeta kitina,"Rousselet, 1902",
+ASV751,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV760,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV761,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV762,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV763,Animalia,Arthropoda,Copepoda,Calanoida,Metridinidae,Metridia,Metridia pacifica,urn:lsid:marinespecies.org:taxname:196784,Species,Metridia pacifica,"Brodsky, 1950",
+ASV764,Chromista,Myzozoa,Dinophyceae,Peridiniales,Protoperidiniaceae,Protoperidinium,Protoperidinium,urn:lsid:marinespecies.org:taxname:109553,Genus,Protoperidinium cf. depressum,"Bergh, 1881",cf. depressum
+ASV768,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV770,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV771,Chromista,Heterokontophyta,Bacillariophyceae,Naviculales,Pleurosigmataceae,Pleurosigma,Pleurosigma strigosum,urn:lsid:marinespecies.org:taxname:156586,Species,Pleurosigma strigosum,"W.Smith, 1852",
+ASV777,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Laonice,Laonice cirrata,urn:lsid:marinespecies.org:taxname:131128,Species,Laonice cirrata CMC01,"(M. Sars, 1851)",
+ASV779,Plantae,,Chloropicophyceae,Chloropicales,Chloropicaceae,Chloroparvula,Chloroparvula pacifica,urn:lsid:marinespecies.org:taxname:1361158,Species,Chloroparvula pacifica,"Lopes dos Santos, Noël & Eikrem, 2017",
+ASV780,Chromista,Myzozoa,Dinophyceae,Syndiniales,Syndiniaceae,Hematodinium,Hematodinium,urn:lsid:marinespecies.org:taxname:577498,Genus,Hematodinium sp.,"Chatton & Poisson, 1930",
+ASV785,Animalia,Ctenophora,Tentaculata,Cydippida,Cydippidae,Pleurobrachia,Pleurobrachia bachei,urn:lsid:marinespecies.org:taxname:265191,Species,Pleurobrachia bachei,"A. Agassiz, in L. Agassiz, 1860",
+ASV79,Animalia,Mollusca,Bivalvia,Ostreida,Ostreidae,Magallana,Magallana gigas,urn:lsid:marinespecies.org:taxname:836033,Species,Magallana gigas,"(Thunberg, 1793)",
+ASV790,Animalia,Annelida,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera americana,urn:lsid:marinespecies.org:taxname:157388,Species,Glycera americana,"Leidy, 1855",
+ASV806,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV807,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV808,Animalia,Rotifera,Eurotatoria,Ploima,Synchaetidae,Synchaeta,Synchaeta,urn:lsid:marinespecies.org:taxname:134958,Genus,Synchaeta,"Ehrenberg, 1832",
+ASV812,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV813,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV820,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Pseudopolydora,Pseudopolydora bassarginensis,urn:lsid:marinespecies.org:taxname:334675,Species,Pseudopolydora bassarginensis,"(Zachs, 1933)",
+ASV822,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV824,Animalia,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde picta,urn:lsid:marinespecies.org:taxname:240625,Species,Glycinde picta,"Berkeley, 1927",
+ASV836,Animalia,Arthropoda,Copepoda,Calanoida,Temoridae,Eurytemora,Eurytemora americana,urn:lsid:marinespecies.org:taxname:104873,Species,Eurytemora americana,"Williams, 1906",
+ASV84,Chromista,Heterokontophyta,Bacillariophyceae,Cymatosirales,Cymatosiraceae,Minutocellus,Minutocellus polymorphus,urn:lsid:marinespecies.org:taxname:464449,Species,Minutocellus polymorphus,"(Hargraves & Guillard) Hasle, Stosch & Syvertsen, 1983",
+ASV840,Chromista,Myzozoa,Dinophyceae,Peridiniales,Heterocapsaceae,Heterocapsa,Heterocapsa rotundata,urn:lsid:marinespecies.org:taxname:110152,Species,Heterocapsa rotundata,"(Lohmann) Gert Hansen, 1995",
+ASV844,Animalia,Annelida,Polychaeta,,Capitellidae,,Capitellidae,urn:lsid:marinespecies.org:taxname:921,Family,Capitellidae sp. 11BIOAK-1459,"Grube, 1862",
+ASV85,Chromista,Heterokontophyta,Bacillariophyceae,Thalassiosirales,Skeletonemaceae,Skeletonema,Skeletonema japonicum,urn:lsid:marinespecies.org:taxname:376666,Species,Skeletonema japonicum,"Zingone & Sarno, 2005",
+ASV854,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus,urn:lsid:marinespecies.org:taxname:104165,Genus,Pseudocalanus,"Boeck, 1873",
+ASV865,Animalia,Arthropoda,Copepoda,Cyclopoida,Oithonidae,Oithona,Oithona similis,urn:lsid:marinespecies.org:taxname:106656,Species,Oithona similis,"Claus, 1866",
+ASV87,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus,urn:lsid:marinespecies.org:taxname:104196,Genus,Paracalanus sp. C AC-2013,"Boeck, 1865",
+ASV870,Chromista,Myzozoa,Dinophyceae,Gymnodiniales,Kareniaceae,,Kareniaceae,urn:lsid:marinespecies.org:taxname:599664,Family,Kareniaceae,"Bergholtz, Daugbjerg, Moestrup & Fernández-Tejedor, 2005",
+ASV873,Animalia,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,Amphiodia,Amphiodia,urn:lsid:marinespecies.org:taxname:172595,Genus,Amphiodia cf. urtica EAC-2010,"Verrill, 1899",cf. urtica
+ASV875,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV876,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV877,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV879,Animalia,Arthropoda,Copepoda,Calanoida,Acartiidae,Acartia,Acartia longiremis,urn:lsid:marinespecies.org:taxname:104257,Species,Acartia longiremis,"(Lilljeborg, 1853)",
+ASV883,Animalia,Mollusca,Gastropoda,Nudibranchia,Corambidae,Corambe,Corambe steinbergae,urn:lsid:marinespecies.org:taxname:535679,Species,Corambe steinbergae,"(Lance, 1962)",
+ASV884,Chromista,Myzozoa,Dinophyceae,,,,Dinophyceae,urn:lsid:marinespecies.org:taxname:19542,Class,Dinophyceae,"Fritsch, 1927",
+ASV886,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV887,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV888,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV891,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV897,Chromista,Myzozoa,Dinophyceae,Peridiniales,Heterocapsaceae,Heterocapsa,Heterocapsa rotundata,urn:lsid:marinespecies.org:taxname:110152,Species,Heterocapsa rotundata,"(Lohmann) Gert Hansen, 1995",
+ASV9,Plantae,,Mamiellophyceae,Mamiellales,Bathycoccaceae,Bathycoccus,Bathycoccus prasinos,urn:lsid:marinespecies.org:taxname:345459,Species,Bathycoccus prasinos,"Eikrem & Throndsen, 1990",
+ASV905,Animalia,Echinodermata,Ophiuroidea,Amphilepidida,Amphiuridae,Amphiodia,Amphiodia,urn:lsid:marinespecies.org:taxname:172595,Genus,Amphiodia cf. urtica EAC-2010,"Verrill, 1899",cf. urtica
+ASV907,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV91,Plantae,,Mamiellophyceae,Mamiellales,Mamiellaceae,Micromonas,Micromonas,urn:lsid:marinespecies.org:taxname:134533,Genus,Micromonas,"I.Manton & M.Parke, 1960",
+ASV912,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV92,Animalia,Annelida,Polychaeta,Spionida,Spionidae,Laonice,Laonice cirrata,urn:lsid:marinespecies.org:taxname:131128,Species,Laonice cirrata CMC01,"(M. Sars, 1851)",
+ASV920,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV924,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV927,Plantae,,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina,urn:lsid:marinespecies.org:taxname:134566,Species,Pseudoscourfieldia marina,"(J.Throndsen) Manton, 1975",
+ASV933,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV940,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV949,Animalia,Annelida,Polychaeta,Eunicida,Lumbrineridae,,Lumbrineridae,urn:lsid:marinespecies.org:taxname:967,Family,Lumbrineridae,"Schmarda, 1861",
+ASV952,Animalia,Arthropoda,Copepoda,Calanoida,Clausocalanidae,Pseudocalanus,Pseudocalanus newmani,urn:lsid:marinespecies.org:taxname:157679,Species,Pseudocalanus newmani,"Frost, 1989",
+ASV955,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus trossulus,urn:lsid:marinespecies.org:taxname:140482,Species,Mytilus trossulus,"A. Gould, 1850",
+ASV958,Animalia,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus,urn:lsid:marinespecies.org:taxname:106122,Genus,Balanus sp. BCC2010-012,"Costa, 1778",
+ASV960,Chromista,Ochrophyta,Dictyochophyceae,Dictyochales,Dictyochaceae,Dictyocha,Dictyocha speculum,urn:lsid:marinespecies.org:taxname:157260,Species,Dictyocha speculum,"Ehrenberg, 1839",
+ASV961,Animalia,Annelida,Polychaeta,Phyllodocida,Goniadidae,Glycinde,Glycinde,urn:lsid:marinespecies.org:taxname:129299,Genus,Glycinde sp. BCPOL601-10,"Müller, 1858",
+ASV970,Plantae,,Pyramimonadophyceae,Pseudoscourfieldiales,Pycnococcaceae,Pseudoscourfieldia,Pseudoscourfieldia marina,urn:lsid:marinespecies.org:taxname:134566,Species,Pseudoscourfieldia marina,"(J.Throndsen) Manton, 1975",
+ASV971,Chromista,Heterokontophyta,Bacillariophyceae,Chaetocerotanae incertae sedis,Chaetocerotaceae,Chaetoceros,Chaetoceros socialis,urn:lsid:marinespecies.org:taxname:149123,Species,Chaetoceros socialis,"H.S.Lauder, 1864",
+ASV975,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV977,Animalia,Arthropoda,Copepoda,Calanoida,Metridinidae,Metridia,Metridia pacifica,urn:lsid:marinespecies.org:taxname:196784,Species,Metridia pacifica,"Brodsky, 1950",
+ASV987,Animalia,Arthropoda,Copepoda,Cyclopoida,Cyclopidae,,Cyclopidae,urn:lsid:marinespecies.org:taxname:106413,Family,Cyclopidae sp. CCG1_Katla,"Rafinesque, 1815",
+ASV993,Chromista,Heterokontophyta,Bacillariophyceae,Melosirales,Melosiraceae,Melosira,Melosira nummuloides,urn:lsid:marinespecies.org:taxname:149044,Species,Melosira nummuloides,"C.Agardh, 1824",
+ASV995,Animalia,Arthropoda,Copepoda,Calanoida,Paracalanidae,Paracalanus,Paracalanus parvus,urn:lsid:marinespecies.org:taxname:104685,Species,Paracalanus parvus,"(Claus, 1863)",

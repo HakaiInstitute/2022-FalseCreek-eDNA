@@ -16,6 +16,7 @@ library(hms)
 
 # Read in the metabarcoding eDNA metadata tables:
 sample_meta <- read_csv(here("data", "metabarcoding", "FalseCreek_eDNA_sample_metadata.csv")) %>% janitor::clean_names()
+sample_meta <- sample_meta %>% mutate(sample_id = gsub("_", "-", sample_id))
 
 # Create project level information:
 FCBB <- data.frame(
@@ -40,7 +41,7 @@ event <- sample_meta %>%
          month = case_when(grepl("Sept", sample_meta$collection_date) ~ 9),
          day = as.numeric(stringr::str_extract(sample_meta$collection_date, "[0-9]+")),
          year = as.numeric(regmatches(sample_meta$collection_date, gregexpr("\\d{4}", sample_meta$collection_date))),
-         eventDate = (paste(year, month, day, sep = "-")),
+         eventDate = paste(year, month, day, sep = "-"),
          minimumDepthInMeters = depth_m,
          maximumDepthInMeters = depth_m,
          institutionCode = "Hakai Institute",
@@ -57,6 +58,9 @@ event <- sample_meta %>%
 # Combine for event table eDNA metabarcoding, and flatten:
 FC2022_event <- bind_rows(FCBB, event)
 FC2022_event <- obistools::flatten_event(FC2022_event)
+FC2022_event <- FC2022_event %>%
+  mutate(filter_start_time = as.character(filter_start_time),
+         filter_end_time = as.character(filter_end_time))
 FC2022_event[is.na(FC2022_event)] <- ""
 
 # Save this data table in the obis folder
@@ -70,9 +74,9 @@ write_csv(FC2022_event, here("obis", "interim_obis", "edna", "FC2022_event.csv")
 # Start by reading in the 12S data:
 FC_ASV_12S <- read_csv(here("data", "metabarcoding", "12S", "FC_ASVs_12s.csv"))
 fasta_12S <- seqinr::read.fasta(file = here("data", "metabarcoding", "12S", "FC_12S_ASV_sequences.fasta"), as.string = TRUE, forceDNAtolower = FALSE)
+sequence_meta_12S <- read_csv(here("data", "metabarcoding", "12S", "FC12S_Metabarcoding_OBIS_sample_metadata.csv"))
 taxonomy_12S <- read_csv(here("data", "metabarcoding", "12S", "FC_taxonomy_12s_worms.csv"))
 taxonomy_12S <- taxonomy_12S[, -1]
-sequence_meta_12S <- read_csv(here("data", "metabarcoding", "12S", "FC12S_Metabarcoding_OBIS_sample_metadata.csv"))
 
 #  Pivot the ASV table
 FC_ASV_12S <- FC_ASV_12S %>%
@@ -85,7 +89,7 @@ FC_ASV_12S <- FC_ASV_12S %>%
          sampleSizeUnit = "DNA sequence reads",
          basisOfRecord = "MaterialSample") %>%
   mutate(materialSampleID = gsub("_", "-", materialSampleID)) %>%
-  mutate(eventID = paste("Hakai", materialSampleID, sep = "-")) %>%
+  mutate(eventID = paste("Hakai-FCBB", materialSampleID, sep = "-")) %>%
   group_by(materialSampleID, ASV) %>%
   mutate(occurrenceID = paste(eventID, ASV, "12S", "occ", sep = "-"),
          sampleSizeValue = sum(organismQuantity)) %>%
@@ -96,14 +100,8 @@ ASV <- names(fasta_12S)
 DNA_sequence <- unname(unlist(fasta_12S))
 fasta_12S <- cbind(ASV, DNA_sequence) %>% as.data.frame()
 
-# Upon manual inspection, for some ASVs information is not provided at species level, 
-# for these taxa information is e.g. provided up to the genus level and species
-# information is recorded as "unknown". Change 'unknown' to NA
-tax_table_12S <- taxonomy_12S %>%
-  mutate(across(everything(), ~na_if(., "unknown"))) 
-
 # Join ASV to samples and taxonomic information:
-DNAtable_12S <- dplyr::left_join(tax_table_12S, FC_ASV_12S, by = "ASV")
+DNAtable_12S <- dplyr::left_join(taxonomy_12S, FC_ASV_12S, by = "ASV")
 DNAtable_12S <- dplyr::left_join(DNAtable_12S, event, by = c("materialSampleID", "eventID"))
 DNAtable_12S <- dplyr::left_join(DNAtable_12S, fasta_12S, by = "ASV")
 
@@ -119,24 +117,25 @@ DNA_occ_12S <- left_join(DNAtable_12S, sequence_meta_12S, by = "materialSampleID
          materialSampleID)
 
 # Join the occurrence data with the WoRMS taxa information:
-FC_occ_S12 <- DNA_occ_12S %>%
+FC_occ_12S <- DNA_occ_12S %>%
   mutate(occurrenceStatus = "present")
 
 # Save this data table in the obis folder, omitting the first column (ASV)
-write_csv(FC_occ_S12[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_S12.csv"))
+write_csv(FC_occ_12S[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_12S.csv"))
 
 ####################################################################################################################################
 
 # Read in the data files for COI:
 FC_ASV_COI <- read_csv(here("data", "metabarcoding", "COI", "FC_ASVs_COI.csv"))
+FC_ASV_COI <- FC_ASV_COI %>% select(-FC_NegPCR, -FCXN001, -FCXN002, -FCXN003)
 fasta_COI <- seqinr::read.fasta(file = here("data", "metabarcoding", "COI", "FC_CO1_ASV_sequences.fasta"),
                                 as.string = TRUE,
                                 forceDNAtolower = FALSE)
 
 # Taxa data was claned by Libby Natolia following script 01_FCBB_COI_taxonomy_cleaning.R
+sequence_meta_COI <- readxl::read_xlsx(here("data", "metabarcoding", "COI", "FC-COI_Metabarcoding_OBIS_sample_metadata.xlsx"), sheet = "Sheet1")
 taxonomy_COI_worms <- read_csv(here("data", "metabarcoding", "COI", "FC_taxonomy_COI_worms.csv"))
 taxonomy_COI_worms <- taxonomy_COI_worms[, -1]
-sequence_meta_COI <- readxl::read_xlsx(here("data", "metabarcoding", "COI", "FC-COI_Metabarcoding_OBIS_sample_metadata.xlsx"), sheet = "Sheet1")
 
 # Occurrence table: each unique sequence by sample combination is considered one occurrence.
 sequence_meta_COI <- sequence_meta_COI %>% mutate(materialSampleID = gsub("_", "-", sequence_meta_COI$materialSampleID))
