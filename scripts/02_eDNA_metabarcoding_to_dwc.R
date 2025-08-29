@@ -135,7 +135,6 @@ fasta_COI <- seqinr::read.fasta(file = here("data", "metabarcoding", "COI", "FC_
 # Taxa data was claned by Libby Natolia following script 01_FCBB_COI_taxonomy_cleaning.R
 sequence_meta_COI <- readxl::read_xlsx(here("data", "metabarcoding", "COI", "FC-COI_Metabarcoding_OBIS_sample_metadata.xlsx"), sheet = "Sheet1")
 taxonomy_COI_worms <- read_csv(here("data", "metabarcoding", "COI", "FC_taxonomy_COI_worms.csv"))
-taxonomy_COI_worms <- taxonomy_COI_worms[, -1]
 
 # Occurrence table: each unique sequence by sample combination is considered one occurrence.
 sequence_meta_COI <- sequence_meta_COI %>% mutate(materialSampleID = gsub("_", "-", sequence_meta_COI$materialSampleID))
@@ -151,7 +150,7 @@ FC_ASV_COI <- FC_ASV_COI %>%
          sampleSizeUnit = "DNA sequence reads",
          basisOfRecord = "MaterialSample") %>%
   mutate(materialSampleID = gsub("_", "-", materialSampleID)) %>%
-  mutate(eventID = paste("Hakai", materialSampleID, sep = "-")) %>%
+  mutate(eventID = paste("Hakai-FCBB", materialSampleID, sep = "-")) %>%
   group_by(materialSampleID, ASV) %>%
   mutate(occurrenceID = paste(eventID, ASV, "COI", "occ", sep = "-"),
          sampleSizeValue = sum(organismQuantity)) %>%
@@ -187,14 +186,65 @@ write_csv(FC_occ_COI[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_COI
 
 ## 16S
 # Read in the 16S data files:
+# Read in the data files for COI:
+FC_ASV_16S <- read_csv(here("data", "metabarcoding", "16S", "FC_ASV-table_16S.csv"))
+fasta_16S <- seqinr::read.fasta(file = here("data", "metabarcoding", "16S", "FC-16S-ASV-sequences.fasta"),
+                                as.string = TRUE,
+                                forceDNAtolower = FALSE)
 
+# Taxa data was claned by Libby Natolia following script 01_FCBB_COI_taxonomy_cleaning.R
+sequence_meta_16S <- read_csv(here("data", "metabarcoding", "16S", "FC16S_Metabarcoding_OBIS_sample_metadata.csv"))
+taxonomy_16S_worms <- read_csv(here("data", "metabarcoding", "16S", "FC_taxonomy_16S_worms.csv"))
 
+# Occurrence table: each unique sequence by sample combination is considered one occurrence.
+sequence_meta_16S <- sequence_meta_16S %>% mutate(materialSampleID = gsub("_", "-", sequence_meta_16S$materialSampleID))
 
+#  Pivot the ASV table
+FC_ASV_16S <- FC_ASV_16S %>%
+  pivot_longer(FC_002:FC_074,
+               names_to = "materialSampleID",
+               values_to = "organismQuantity") %>%
+  filter(organismQuantity != 0) %>%
+  mutate(organismQuantityType = "DNA sequence reads",
+         sampleSizeUnit = "DNA sequence reads",
+         basisOfRecord = "MaterialSample") %>%
+  mutate(materialSampleID = gsub("_", "-", materialSampleID)) %>%
+  mutate(eventID = paste("Hakai-FCBB", materialSampleID, sep = "-")) %>%
+  group_by(materialSampleID, ASV) %>%
+  mutate(occurrenceID = paste(eventID, ASV, "16S", "occ", sep = "-"),
+         sampleSizeValue = sum(organismQuantity)) %>%
+  ungroup()
+
+# Match ASV to the sequence and taxa information:
+ASV_16S <- names(fasta_16S)
+DNA_sequence_16S <- unname(unlist(fasta_16S))
+fasta_16S <- cbind(ASV_16S, DNA_sequence_16S) %>% as.data.frame() %>%
+  dplyr::rename(ASV = ASV_16S)
+
+# Join ASV to samples and taxonomic information:
+DNAtable_16S <- dplyr::left_join(taxonomy_16S_worms, FC_ASV_16S, by = "ASV")
+DNAtable_16S <- dplyr::left_join(DNAtable_16S, event, by = c("materialSampleID", "eventID"))
+DNAtable_16S <- dplyr::left_join(DNAtable_16S, fasta_16S, by = "ASV")
+
+# Join DNA table with sequence metadata:
+DNA_occ_16S <- left_join(DNAtable_16S, sequence_meta_16S, by = "materialSampleID") %>%
+  select(ASV, eventID, occurrenceID, basisOfRecord, scientificName, scientificNameID,
+         scientificNameAuthorship, kingdom, phylum, class, order, family, genus, 
+         taxonRank, verbatimIdentification, organismQuantity, 
+         organismQuantityType, sampleSizeValue, sampleSizeUnit, verbatimIdentification, 
+         samplingProtocol, associatedSequences, identificationRemarks, materialSampleID)
+
+# Extract ASV as well so that we can do manual referencing:
+FC_occ_16S <- DNA_occ_16S %>%
+  mutate(occurrenceStatus = "present")
+
+# Save this data table in the obis folder
+write_csv(FC_occ_16S[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_16S.csv"))
 
 #####################################################################################################################################
 
 # Combine the occurrence data table for S12, COI and S16 data:
-FC_occ <- bind_rows(FC_occ_S12, FC_occ_COI)
+FC_occ <- bind_rows(FC_occ_S12, FC_occ_COI, FC_occ_16S)
 FC_occ[is.na(FC_occ)] <- ""
 
 # Check for duplicate occurrenceIDs:
