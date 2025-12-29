@@ -1,150 +1,150 @@
 eventID,occurrenceID,measurementMethod,measurementType,measurementValue,measurementID,measurementValueID,measurementTypeID
-FCBB29-001,FCBB29-001-004,BOLD:AAB6306,lifeStage,juvenile,FCBB29-001-004-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB29-002,FCBB29-002-005,BOLD:AAB6306,lifeStage,juvenile,FCBB29-002-005-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB29-017,FCBB29-017-025,,sex,M,FCBB29-017-025-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
-FCBB29-021,FCBB29-021-029,,sex,F,FCBB29-021-029-sex,https://vocab.nerc.ac.uk/collection/S10/current/S102/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
-FCBB29-022,FCBB29-022-030,,sex,M,FCBB29-022-030-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
-FCBB29-023,FCBB29-023-031,,sex,M,FCBB29-023-031-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
-FCBB38-017,FCBB38-017-245,,sex,M,FCBB38-017-245-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
-FCBB38-026,FCBB38-026-255,,lifeStage,juvenile,FCBB38-026-255-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB41-047,FCBB41-047-260,BOLD:ABA3805,lifeStage,juvenile,FCBB41-047-260-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB41-048,FCBB41-048-261,BOLD:ACH0261,lifeStage,juvenile,FCBB41-048-261-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB42-013,FCBB42-013-265,,sex,F,FCBB42-013-265-sex,https://vocab.nerc.ac.uk/collection/S10/current/S102/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
-FCBB42-029,FCBB42-029-319,BOLD:AEX0495,lifeStage,juvenile,FCBB42-029-319-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB42-030,FCBB42-030-320,BOLD:AEX0495,lifeStage,juvenile,FCBB42-030-320-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB48-001,FCBB48-001-333,,sex,F,FCBB48-001-333-sex,https://vocab.nerc.ac.uk/collection/S10/current/S102/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
-FCBB48-002,FCBB48-002-334,,sex,M,FCBB48-002-334-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
-FCBB26-001,FCBB26-001-373,,lifeStage,larva,FCBB26-001-373-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-002,FCBB26-002-374,,lifeStage,larva,FCBB26-002-374-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB34-019,FCBB34-019-375,BOLD:AAF4324,lifeStage,larva,FCBB34-019-375-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB34-020,FCBB34-020-376,BOLD:AAD7203,lifeStage,larva,FCBB34-020-376-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB19-001,FCBB19-001-377,BOLD:AAB7148,lifeStage,juvenile,FCBB19-001-377-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-001,FCBB21-001-378,,lifeStage,juvenile,FCBB21-001-378-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-002,FCBB21-002-379,,lifeStage,juvenile,FCBB21-002-379-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-003,FCBB21-003-380,,lifeStage,juvenile,FCBB21-003-380-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-004,FCBB21-004-381,,lifeStage,juvenile,FCBB21-004-381-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-001,FCBB18-001-382,,lifeStage,juvenile,FCBB18-001-382-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-005,FCBB21-005-383,,lifeStage,juvenile,FCBB21-005-383-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-003,FCBB26-003-384,,lifeStage,juvenile,FCBB26-003-384-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-004,FCBB26-004-385,BOLD:ACM2550,lifeStage,juvenile,FCBB26-004-385-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-005,FCBB26-005-386,BOLD:ACM2550,lifeStage,juvenile,FCBB26-005-386-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-006,FCBB26-006-387,,lifeStage,juvenile,FCBB26-006-387-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-001,FCBB31-001-388,,lifeStage,juvenile,FCBB31-001-388-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-002,FCBB31-002-389,,lifeStage,juvenile,FCBB31-002-389-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-003,FCBB31-003-390,,lifeStage,juvenile,FCBB31-003-390-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-002,FCBB18-002-391,BOLD:ADY5722,lifeStage,adult,FCBB18-002-391-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-003,FCBB18-003-392,BOLD:ADY5722,lifeStage,adult,FCBB18-003-392-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-004,FCBB18-004-393,BOLD:AAN6231,lifeStage,adult,FCBB18-004-393-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-005,FCBB18-005-394,BOLD:AAN6231,lifeStage,adult,FCBB18-005-394-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-006,FCBB18-006-395,,lifeStage,adult,FCBB18-006-395-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-007,FCBB18-007-396,BOLD:AAN6231,lifeStage,adult,FCBB18-007-396-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-006,FCBB21-006-397,,lifeStage,megalopa,FCBB21-006-397-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-008,FCBB18-008-398,BOLD:AAE1628,lifeStage,adult,FCBB18-008-398-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-007,FCBB21-007-399,,lifeStage,megalopa,FCBB21-007-399-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-008,FCBB21-008-400,,lifeStage,megalopa,FCBB21-008-400-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB19-31-002,FCBB19-31-002-401,BOLD:AAE1628,lifeStage,adult,FCBB19-31-002-401-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB19-31-003,FCBB19-31-003-402,,lifeStage,adult,FCBB19-31-003-402-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB19-31-004,FCBB19-31-004-403,,lifeStage,adult,FCBB19-31-004-403-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB20-001,FCBB20-001-404,BOLD:AAN6231,lifeStage,adult,FCBB20-001-404-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB20-002,FCBB20-002-405,BOLD:ACK9448,lifeStage,adult,FCBB20-002-405-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB20-003,FCBB20-003-406,,lifeStage,adult,FCBB20-003-406-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-009,FCBB18-009-407,,lifeStage,megalopa,FCBB18-009-407-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-010,FCBB18-010-408,,lifeStage,adult,FCBB18-010-408-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-011,FCBB18-011-409,BOLD:AAN6231,lifeStage,adult,FCBB18-011-409-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-009,FCBB21-009-410,,lifeStage,adult,FCBB21-009-410-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-010,FCBB21-010-411,,lifeStage,megalopa,FCBB21-010-411-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-011,FCBB21-011-412,BOLD:AAN6231,lifeStage,adult,FCBB21-011-412-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB20-004,FCBB20-004-413,BOLD:ACK9448,lifeStage,adult,FCBB20-004-413-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB19-33-001,FCBB19-33-001-414,,lifeStage,adult,FCBB19-33-001-414-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB19-33-002,FCBB19-33-002-415,BOLD:AAE1628,lifeStage,adult,FCBB19-33-002-415-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-012,FCBB21-012-416,BOLD:ADY5722,lifeStage,adult,FCBB21-012-416-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-013,FCBB21-013-417,BOLD:AAE1628,lifeStage,adult,FCBB21-013-417-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-014,FCBB21-014-418,,lifeStage,adult,FCBB21-014-418-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-015,FCBB21-015-419,BOLD:AAN6231,lifeStage,adult,FCBB21-015-419-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB21-016,FCBB21-016-420,,lifeStage,megalopa,FCBB21-016-420-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-002,FCBB23-002-421,BOLD:AAN6231,lifeStage,adult,FCBB23-002-421-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-003,FCBB23-003-422,,lifeStage,adult,FCBB23-003-422-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-004,FCBB23-004-423,BOLD:AAN6231,lifeStage,adult,FCBB23-004-423-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-005,FCBB23-005-424,BOLD:AEB6958,lifeStage,adult,FCBB23-005-424-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-006,FCBB23-006-425,,lifeStage,nauplius,FCBB23-006-425-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1130/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-007,FCBB23-007-426,BOLD:ACH6536,lifeStage,adult,FCBB23-007-426-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-008,FCBB23-008-427,BOLD:ACH6536,lifeStage,adult,FCBB23-008-427-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB24-001,FCBB24-001-428,BOLD:AAE1628,lifeStage,adult,FCBB24-001-428-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB24-002,FCBB24-002-429,,lifeStage,megalopa,FCBB24-002-429-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-009,FCBB23-009-430,BOLD:ACH6536,lifeStage,adult,FCBB23-009-430-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-010,FCBB23-010-431,BOLD:ACH6536,lifeStage,adult,FCBB23-010-431-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-011,FCBB23-011-432,BOLD:AAE1628,lifeStage,adult,FCBB23-011-432-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-012,FCBB23-012-433,,lifeStage,adult,FCBB23-012-433-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-013,FCBB23-013-434,,lifeStage,adult,FCBB23-013-434-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB24-003,FCBB24-003-435,BOLD:ADY5722,lifeStage,adult,FCBB24-003-435-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB24-004,FCBB24-004-436,,lifeStage,adult,FCBB24-004-436-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB24-005,FCBB24-005-437,BOLD:AAE1628,lifeStage,adult,FCBB24-005-437-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-014,FCBB23-014-438,BOLD:AFA2682,lifeStage,adult,FCBB23-014-438-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-015,FCBB23-015-439,,lifeStage,adult,FCBB23-015-439-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB27-001,FCBB27-001-440,BOLD:ACG4332,lifeStage,zoea,FCBB27-001-440-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB27-002,FCBB27-002-441,BOLD:ACG4332,lifeStage,zoea,FCBB27-002-441-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB27-003,FCBB27-003-442,BOLD:ACG4332,lifeStage,zoea,FCBB27-003-442-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB27-004,FCBB27-004-443,BOLD:ACG4332,lifeStage,zoea,FCBB27-004-443-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB24-006,FCBB24-006-444,,lifeStage,zoea,FCBB24-006-444-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB27-005,FCBB27-005-445,BOLD:AAN6231,lifeStage,adult,FCBB27-005-445-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-004,FCBB31-004-446,BOLD:AAN6231,lifeStage,adult,FCBB31-004-446-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-005,FCBB31-005-447,BOLD:AAN6231,lifeStage,adult,FCBB31-005-447-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-006,FCBB31-006-448,BOLD:AAN6231,lifeStage,adult,FCBB31-006-448-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB34-021,FCBB34-021-449,,lifeStage,nauplius,FCBB34-021-449-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1130/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-007,FCBB31-007-450,BOLD:AFF1264,lifeStage,adult,FCBB31-007-450-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-008,FCBB31-008-451,BOLD:AAL0725,lifeStage,adult,FCBB31-008-451-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB34-022,FCBB34-022-452,BOLD:ACK9448,lifeStage,adult,FCBB34-022-452-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB34-023,FCBB34-023-453,BOLD:ACK9448,lifeStage,adult,FCBB34-023-453-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB34-024,FCBB34-024-454,BOLD:ACK9448,lifeStage,adult,FCBB34-024-454-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB34-025,FCBB34-025-455,,lifeStage,adult,FCBB34-025-455-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-009,FCBB31-009-456,,lifeStage,adult,FCBB31-009-456-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-010,FCBB31-010-457,,lifeStage,adult,FCBB31-010-457-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-011,FCBB31-011-458,,lifeStage,adult,FCBB31-011-458-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-012,FCBB31-012-459,BOLD:AAL0725,lifeStage,adult,FCBB31-012-459-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-013,FCBB31-013-460,,lifeStage,adult,FCBB31-013-460-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-014,FCBB31-014-461,,lifeStage,adult,FCBB31-014-461-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-015,FCBB31-015-462,,lifeStage,adult,FCBB31-015-462-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-012,FCBB18-012-463,BOLD:ACW9066,lifeStage,adult,FCBB18-012-463-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-013,FCBB18-013-464,BOLD:AAB8895,lifeStage,larva,FCBB18-013-464-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-007,FCBB26-007-465,BOLD:AAB8895,lifeStage,larva,FCBB26-007-465-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-008,FCBB26-008-466,BOLD:AAB8895,lifeStage,larva,FCBB26-008-466-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-014,FCBB18-014-467,BOLD:ACW9066,lifeStage,larva,FCBB18-014-467-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-009,FCBB26-009-468,,lifeStage,larva,FCBB26-009-468-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-010,FCBB26-010-469,BOLD:AAB8895,lifeStage,larva,FCBB26-010-469-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-011,FCBB26-011-470,BOLD:AAB8895,lifeStage,larva,FCBB26-011-470-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB19-32-002,FCBB19-32-002-471,,lifeStage,adult,FCBB19-32-002-471-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-015,FCBB18-015-472,,lifeStage,adult,FCBB18-015-472-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-016,FCBB18-016-473,,lifeStage,adult,FCBB18-016-473-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-017,FCBB18-017-474,,lifeStage,metatrocophore,FCBB18-017-474-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-018,FCBB18-018-475,,lifeStage,metatrocophore,FCBB18-018-475-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-019,FCBB18-019-476,,lifeStage,metatrocophore,FCBB18-019-476-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-020,FCBB18-020-477,,lifeStage,metatrocophore,FCBB18-020-477-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB18-021,FCBB18-021-478,,lifeStage,metatrocophore,FCBB18-021-478-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB20-005,FCBB20-005-479,,lifeStage,metatrocophore,FCBB20-005-479-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-016,FCBB23-016-480,BOLD:ADO9741,lifeStage,metatrocophore,FCBB23-016-480-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB23-017,FCBB23-017-481,,lifeStage,metatrocophore,FCBB23-017-481-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB28-001,FCBB28-001-482,,lifeStage,metatrocophore,FCBB28-001-482-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB28-002,FCBB28-002-483,,lifeStage,metatrocophore,FCBB28-002-483-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB28-003,FCBB28-003-484,,lifeStage,metatrocophore,FCBB28-003-484-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB28-004,FCBB28-004-485,,lifeStage,metatrocophore,FCBB28-004-485-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB28-005,FCBB28-005-486,,lifeStage,metatrocophore,FCBB28-005-486-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-016,FCBB31-016-487,,lifeStage,metatrocophore,FCBB31-016-487-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-017,FCBB31-017-488,,lifeStage,metatrocophore,FCBB31-017-488-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB37-054,FCBB37-054-489,,lifeStage,metatrocophore,FCBB37-054-489-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-018,FCBB31-018-490,,lifeStage,metatrocophore,FCBB31-018-490-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-019,FCBB31-019-491,,lifeStage,metatrocophore,FCBB31-019-491-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB30-001,FCBB30-001-492,,lifeStage,metatrocophore,FCBB30-001-492-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB31-020,FCBB31-020-493,,lifeStage,metatrocophore,FCBB31-020-493-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26P-001,FCBB26P-001-501,,lifeStage,adult,FCBB26P-001-501-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26P-002,FCBB26P-002-502,,lifeStage,adult,FCBB26P-002-502-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26P-003,FCBB26P-003-503,,lifeStage,adult,FCBB26P-003-503-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26P-004,FCBB26P-004-504,,lifeStage,medusa,FCBB26P-004-504-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1129/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-012,FCBB26-012-505,,lifeStage,adult,FCBB26-012-505-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-013,FCBB26-013-506,,lifeStage,adult,FCBB26-013-506-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-014,FCBB26-014-507,,lifeStage,adult,FCBB26-014-507-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-015,FCBB26-015-508,,lifeStage,adult,FCBB26-015-508-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-016,FCBB26-016-509,,lifeStage,adult,FCBB26-016-509-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-017,FCBB26-017-510,,lifeStage,adult,FCBB26-017-510-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-018,FCBB26-018-511,,lifeStage,larva,FCBB26-018-511-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB26-019,FCBB26-019-512,,lifeStage,larva,FCBB26-019-512-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
-FCBB30-002,FCBB30-002-513,,lifeStage,adult,FCBB30-002-513-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+BHAK-12005-FCBB-001,BHAK-12005-FCBB-001-004,BOLD ID Engine,lifeStage,juvenile,BHAK-12005-FCBB-001-004-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+BHAK-12006-FCBB-001,BHAK-12006-FCBB-001-005,BOLD ID Engine,lifeStage,juvenile,BHAK-12006-FCBB-001-005-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+BHAK-12032-FCBB-001,BHAK-12032-FCBB-001-025,Morphology,sex,M,BHAK-12032-FCBB-001-025-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
+BHAK-12036-FCBB-001,BHAK-12036-FCBB-001-029,Morphology,sex,F,BHAK-12036-FCBB-001-029-sex,https://vocab.nerc.ac.uk/collection/S10/current/S102/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
+BHAK-12037-FCBB-001,BHAK-12037-FCBB-001-030,Morphology,sex,M,BHAK-12037-FCBB-001-030-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
+BHAK-12038-FCBB-001,BHAK-12038-FCBB-001-031,Morphology,sex,M,BHAK-12038-FCBB-001-031-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
+BHAK-12176-FCBB-001,BHAK-12176-FCBB-001-245,Morphology,sex,M,BHAK-12176-FCBB-001-245-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
+BHAK-12270-FCBB-001,BHAK-12270-FCBB-001-255,Morphology,lifeStage,juvenile,BHAK-12270-FCBB-001-255-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+BHAK-12295-FCBB-001,BHAK-12295-FCBB-001-260,Morphology,lifeStage,juvenile,BHAK-12295-FCBB-001-260-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+BHAK-12300-FCBB-001,BHAK-12300-FCBB-001-261,BOLD ID Engine,lifeStage,juvenile,BHAK-12300-FCBB-001-261-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+BHAK-12296-FCBB-001,BHAK-12296-FCBB-001-265,Morphology,sex,F,BHAK-12296-FCBB-001-265-sex,https://vocab.nerc.ac.uk/collection/S10/current/S102/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
+BHAK-12324-FCBB-001,BHAK-12324-FCBB-001-319,BOLD ID Engine,lifeStage,juvenile,BHAK-12324-FCBB-001-319-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+BHAK-12325-FCBB-001,BHAK-12325-FCBB-001-320,BOLD ID Engine,lifeStage,juvenile,BHAK-12325-FCBB-001-320-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+BHAK-12312-FCBB-001,BHAK-12312-FCBB-001-333,Morphology,sex,F,BHAK-12312-FCBB-001-333-sex,https://vocab.nerc.ac.uk/collection/S10/current/S102/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
+BHAK-12495-FCBB-001,BHAK-12495-FCBB-001-334,Morphology,sex,M,BHAK-12495-FCBB-001-334-sex,https://vocab.nerc.ac.uk/collection/S10/current/S103/,https://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/
+ZHAK-01253-FCBB-001,ZHAK-01253-FCBB-001-373,BOLD ID Engine,lifeStage,larva,ZHAK-01253-FCBB-001-373-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-01254-FCBB-001,ZHAK-01254-FCBB-001-374,Morphology,lifeStage,larva,ZHAK-01254-FCBB-001-374-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-01255-FCBB-001,ZHAK-01255-FCBB-001-375,BOLD ID Engine,lifeStage,larva,ZHAK-01255-FCBB-001-375-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-01256-FCBB-001,ZHAK-01256-FCBB-001-376,BOLD ID Engine,lifeStage,larva,ZHAK-01256-FCBB-001-376-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02425-FCBB-001,ZHAK-02425-FCBB-001-377,BOLD ID Engine,lifeStage,juvenile,ZHAK-02425-FCBB-001-377-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02426-FCBB-001,ZHAK-02426-FCBB-001-378,Morphology,lifeStage,juvenile,ZHAK-02426-FCBB-001-378-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02427-FCBB-001,ZHAK-02427-FCBB-001-379,Morphology,lifeStage,juvenile,ZHAK-02427-FCBB-001-379-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02428-FCBB-001,ZHAK-02428-FCBB-001-380,Morphology,lifeStage,juvenile,ZHAK-02428-FCBB-001-380-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02429-FCBB-001,ZHAK-02429-FCBB-001-381,Morphology,lifeStage,juvenile,ZHAK-02429-FCBB-001-381-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02430-FCBB-001,ZHAK-02430-FCBB-001-382,Morphology,lifeStage,juvenile,ZHAK-02430-FCBB-001-382-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02431-FCBB-001,ZHAK-02431-FCBB-001-383,Morphology,lifeStage,juvenile,ZHAK-02431-FCBB-001-383-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02432-FCBB-001,ZHAK-02432-FCBB-001-384,Morphology,lifeStage,juvenile,ZHAK-02432-FCBB-001-384-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02433-FCBB-001,ZHAK-02433-FCBB-001-385,BOLD ID Engine,lifeStage,juvenile,ZHAK-02433-FCBB-001-385-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02434-FCBB-001,ZHAK-02434-FCBB-001-386,BOLD ID Engine,lifeStage,juvenile,ZHAK-02434-FCBB-001-386-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02435-FCBB-001,ZHAK-02435-FCBB-001-387,Morphology,lifeStage,juvenile,ZHAK-02435-FCBB-001-387-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02436-FCBB-001,ZHAK-02436-FCBB-001-388,Morphology,lifeStage,juvenile,ZHAK-02436-FCBB-001-388-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02437-FCBB-001,ZHAK-02437-FCBB-001-389,Morphology,lifeStage,juvenile,ZHAK-02437-FCBB-001-389-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02438-FCBB-001,ZHAK-02438-FCBB-001-390,Morphology,lifeStage,juvenile,ZHAK-02438-FCBB-001-390-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1127/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02235-FCBB-001,ZHAK-02235-FCBB-001-391,BOLD ID Engine,lifeStage,adult,ZHAK-02235-FCBB-001-391-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02236-FCBB-001,ZHAK-02236-FCBB-001-392,BOLD ID Engine,lifeStage,adult,ZHAK-02236-FCBB-001-392-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02237-FCBB-001,ZHAK-02237-FCBB-001-393,BOLD ID Engine,lifeStage,adult,ZHAK-02237-FCBB-001-393-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02238-FCBB-001,ZHAK-02238-FCBB-001-394,BOLD ID Engine,lifeStage,adult,ZHAK-02238-FCBB-001-394-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02239-FCBB-001,ZHAK-02239-FCBB-001-395,Morphology,lifeStage,adult,ZHAK-02239-FCBB-001-395-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02240-FCBB-001,ZHAK-02240-FCBB-001-396,BOLD ID Engine,lifeStage,adult,ZHAK-02240-FCBB-001-396-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02241-FCBB-001,ZHAK-02241-FCBB-001-397,Morphology,lifeStage,megalopa,ZHAK-02241-FCBB-001-397-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02242-FCBB-001,ZHAK-02242-FCBB-001-398,BOLD ID Engine,lifeStage,adult,ZHAK-02242-FCBB-001-398-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02243-FCBB-001,ZHAK-02243-FCBB-001-399,Morphology,lifeStage,megalopa,ZHAK-02243-FCBB-001-399-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02244-FCBB-001,ZHAK-02244-FCBB-001-400,Morphology,lifeStage,megalopa,ZHAK-02244-FCBB-001-400-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02245-FCBB-001,ZHAK-02245-FCBB-001-401,BOLD ID Engine,lifeStage,adult,ZHAK-02245-FCBB-001-401-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02246-FCBB-001,ZHAK-02246-FCBB-001-402,Morphology,lifeStage,adult,ZHAK-02246-FCBB-001-402-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02247-FCBB-001,ZHAK-02247-FCBB-001-403,Morphology,lifeStage,adult,ZHAK-02247-FCBB-001-403-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02248-FCBB-001,ZHAK-02248-FCBB-001-404,BOLD ID Engine,lifeStage,adult,ZHAK-02248-FCBB-001-404-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02249-FCBB-001,ZHAK-02249-FCBB-001-405,BOLD ID Engine,lifeStage,adult,ZHAK-02249-FCBB-001-405-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02250-FCBB-001,ZHAK-02250-FCBB-001-406,Morphology,lifeStage,adult,ZHAK-02250-FCBB-001-406-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02251-FCBB-001,ZHAK-02251-FCBB-001-407,Morphology,lifeStage,megalopa,ZHAK-02251-FCBB-001-407-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02252-FCBB-001,ZHAK-02252-FCBB-001-408,Morphology,lifeStage,adult,ZHAK-02252-FCBB-001-408-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02253-FCBB-001,ZHAK-02253-FCBB-001-409,BOLD ID Engine,lifeStage,adult,ZHAK-02253-FCBB-001-409-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02254-FCBB-001,ZHAK-02254-FCBB-001-410,BOLD ID Engine,lifeStage,adult,ZHAK-02254-FCBB-001-410-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02255-FCBB-001,ZHAK-02255-FCBB-001-411,Morphology,lifeStage,megalopa,ZHAK-02255-FCBB-001-411-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02256-FCBB-001,ZHAK-02256-FCBB-001-412,BOLD ID Engine,lifeStage,adult,ZHAK-02256-FCBB-001-412-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02257-FCBB-001,ZHAK-02257-FCBB-001-413,BOLD ID Engine,lifeStage,adult,ZHAK-02257-FCBB-001-413-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02258-FCBB-001,ZHAK-02258-FCBB-001-414,Morphology,lifeStage,adult,ZHAK-02258-FCBB-001-414-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02259-FCBB-001,ZHAK-02259-FCBB-001-415,BOLD ID Engine,lifeStage,adult,ZHAK-02259-FCBB-001-415-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02260-FCBB-001,ZHAK-02260-FCBB-001-416,BOLD ID Engine,lifeStage,adult,ZHAK-02260-FCBB-001-416-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02261-FCBB-001,ZHAK-02261-FCBB-001-417,BOLD ID Engine,lifeStage,adult,ZHAK-02261-FCBB-001-417-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02262-FCBB-001,ZHAK-02262-FCBB-001-418,BOLD ID Engine,lifeStage,adult,ZHAK-02262-FCBB-001-418-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02263-FCBB-001,ZHAK-02263-FCBB-001-419,BOLD ID Engine,lifeStage,adult,ZHAK-02263-FCBB-001-419-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02264-FCBB-001,ZHAK-02264-FCBB-001-420,Morphology,lifeStage,megalopa,ZHAK-02264-FCBB-001-420-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02265-FCBB-001,ZHAK-02265-FCBB-001-421,BOLD ID Engine,lifeStage,adult,ZHAK-02265-FCBB-001-421-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02266-FCBB-001,ZHAK-02266-FCBB-001-422,Morphology,lifeStage,adult,ZHAK-02266-FCBB-001-422-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02267-FCBB-001,ZHAK-02267-FCBB-001-423,BOLD ID Engine,lifeStage,adult,ZHAK-02267-FCBB-001-423-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02268-FCBB-001,ZHAK-02268-FCBB-001-424,Morphology,lifeStage,adult,ZHAK-02268-FCBB-001-424-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02269-FCBB-001,ZHAK-02269-FCBB-001-425,Morphology,lifeStage,nauplius,ZHAK-02269-FCBB-001-425-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1130/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02270-FCBB-001,ZHAK-02270-FCBB-001-426,BOLD ID Engine,lifeStage,adult,ZHAK-02270-FCBB-001-426-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02271-FCBB-001,ZHAK-02271-FCBB-001-427,BOLD ID Engine,lifeStage,adult,ZHAK-02271-FCBB-001-427-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02272-FCBB-001,ZHAK-02272-FCBB-001-428,BOLD ID Engine,lifeStage,adult,ZHAK-02272-FCBB-001-428-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02273-FCBB-001,ZHAK-02273-FCBB-001-429,Morphology,lifeStage,megalopa,ZHAK-02273-FCBB-001-429-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1167/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02274-FCBB-001,ZHAK-02274-FCBB-001-430,BOLD ID Engine,lifeStage,adult,ZHAK-02274-FCBB-001-430-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02275-FCBB-001,ZHAK-02275-FCBB-001-431,BOLD ID Engine,lifeStage,adult,ZHAK-02275-FCBB-001-431-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02276-FCBB-001,ZHAK-02276-FCBB-001-432,BOLD ID Engine,lifeStage,adult,ZHAK-02276-FCBB-001-432-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02277-FCBB-001,ZHAK-02277-FCBB-001-433,Morphology,lifeStage,adult,ZHAK-02277-FCBB-001-433-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02278-FCBB-001,ZHAK-02278-FCBB-001-434,BOLD ID Engine,lifeStage,adult,ZHAK-02278-FCBB-001-434-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02279-FCBB-001,ZHAK-02279-FCBB-001-435,BOLD ID Engine,lifeStage,adult,ZHAK-02279-FCBB-001-435-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02280-FCBB-001,ZHAK-02280-FCBB-001-436,Morphology,lifeStage,adult,ZHAK-02280-FCBB-001-436-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02281-FCBB-001,ZHAK-02281-FCBB-001-437,BOLD ID Engine,lifeStage,adult,ZHAK-02281-FCBB-001-437-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02282-FCBB-001,ZHAK-02282-FCBB-001-438,Morphology,lifeStage,adult,ZHAK-02282-FCBB-001-438-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02283-FCBB-001,ZHAK-02283-FCBB-001-439,Morphology,lifeStage,adult,ZHAK-02283-FCBB-001-439-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02284-FCBB-001,ZHAK-02284-FCBB-001-440,BOLD ID Engine,lifeStage,zoea,ZHAK-02284-FCBB-001-440-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02285-FCBB-001,ZHAK-02285-FCBB-001-441,BOLD ID Engine,lifeStage,zoea,ZHAK-02285-FCBB-001-441-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02286-FCBB-001,ZHAK-02286-FCBB-001-442,BOLD ID Engine,lifeStage,zoea,ZHAK-02286-FCBB-001-442-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02287-FCBB-001,ZHAK-02287-FCBB-001-443,BOLD ID Engine,lifeStage,zoea,ZHAK-02287-FCBB-001-443-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02288-FCBB-001,ZHAK-02288-FCBB-001-444,Morphology,lifeStage,zoea,ZHAK-02288-FCBB-001-444-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1137/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02289-FCBB-001,ZHAK-02289-FCBB-001-445,BOLD ID Engine,lifeStage,adult,ZHAK-02289-FCBB-001-445-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02290-FCBB-001,ZHAK-02290-FCBB-001-446,BOLD ID Engine,lifeStage,adult,ZHAK-02290-FCBB-001-446-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02291-FCBB-001,ZHAK-02291-FCBB-001-447,BOLD ID Engine,lifeStage,adult,ZHAK-02291-FCBB-001-447-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02292-FCBB-001,ZHAK-02292-FCBB-001-448,BOLD ID Engine,lifeStage,adult,ZHAK-02292-FCBB-001-448-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02293-FCBB-001,ZHAK-02293-FCBB-001-449,BOLD ID Engine,lifeStage,nauplius,ZHAK-02293-FCBB-001-449-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1130/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02294-FCBB-001,ZHAK-02294-FCBB-001-450,Morphology,lifeStage,adult,ZHAK-02294-FCBB-001-450-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02295-FCBB-001,ZHAK-02295-FCBB-001-451,BOLD ID Engine,lifeStage,adult,ZHAK-02295-FCBB-001-451-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02296-FCBB-001,ZHAK-02296-FCBB-001-452,BOLD ID Engine,lifeStage,adult,ZHAK-02296-FCBB-001-452-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02297-FCBB-001,ZHAK-02297-FCBB-001-453,BOLD ID Engine,lifeStage,adult,ZHAK-02297-FCBB-001-453-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02298-FCBB-001,ZHAK-02298-FCBB-001-454,BOLD ID Engine,lifeStage,adult,ZHAK-02298-FCBB-001-454-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02299-FCBB-001,ZHAK-02299-FCBB-001-455,Morphology,lifeStage,adult,ZHAK-02299-FCBB-001-455-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02300-FCBB-001,ZHAK-02300-FCBB-001-456,Morphology,lifeStage,adult,ZHAK-02300-FCBB-001-456-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02301-FCBB-001,ZHAK-02301-FCBB-001-457,BOLD ID Engine,lifeStage,adult,ZHAK-02301-FCBB-001-457-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02302-FCBB-001,ZHAK-02302-FCBB-001-458,Morphology,lifeStage,adult,ZHAK-02302-FCBB-001-458-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02303-FCBB-001,ZHAK-02303-FCBB-001-459,BOLD ID Engine,lifeStage,adult,ZHAK-02303-FCBB-001-459-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02304-FCBB-001,ZHAK-02304-FCBB-001-460,Morphology,lifeStage,adult,ZHAK-02304-FCBB-001-460-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02305-FCBB-001,ZHAK-02305-FCBB-001-461,Morphology,lifeStage,adult,ZHAK-02305-FCBB-001-461-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02306-FCBB-001,ZHAK-02306-FCBB-001-462,Morphology,lifeStage,adult,ZHAK-02306-FCBB-001-462-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02520-FCBB-001,ZHAK-02520-FCBB-001-463,BOLD ID Engine,lifeStage,adult,ZHAK-02520-FCBB-001-463-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02521-FCBB-001,ZHAK-02521-FCBB-001-464,Morphology,lifeStage,larva,ZHAK-02521-FCBB-001-464-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02522-FCBB-001,ZHAK-02522-FCBB-001-465,Morphology,lifeStage,larva,ZHAK-02522-FCBB-001-465-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02523-FCBB-001,ZHAK-02523-FCBB-001-466,Morphology,lifeStage,larva,ZHAK-02523-FCBB-001-466-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02524-FCBB-001,ZHAK-02524-FCBB-001-467,BOLD ID Engine,lifeStage,larva,ZHAK-02524-FCBB-001-467-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02525-FCBB-001,ZHAK-02525-FCBB-001-468,Morphology,lifeStage,larva,ZHAK-02525-FCBB-001-468-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02526-FCBB-001,ZHAK-02526-FCBB-001-469,Morphology,lifeStage,larva,ZHAK-02526-FCBB-001-469-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02527-FCBB-001,ZHAK-02527-FCBB-001-470,Morphology,lifeStage,larva,ZHAK-02527-FCBB-001-470-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02330-FCBB-001,ZHAK-02330-FCBB-001-471,Morphology,lifeStage,adult,ZHAK-02330-FCBB-001-471-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02331-FCBB-001,ZHAK-02331-FCBB-001-472,Morphology,lifeStage,adult,ZHAK-02331-FCBB-001-472-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02332-FCBB-001,ZHAK-02332-FCBB-001-473,Morphology,lifeStage,adult,ZHAK-02332-FCBB-001-473-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02333-FCBB-001,ZHAK-02333-FCBB-001-474,Morphology,lifeStage,metatrocophore,ZHAK-02333-FCBB-001-474-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02334-FCBB-001,ZHAK-02334-FCBB-001-475,Morphology,lifeStage,metatrocophore,ZHAK-02334-FCBB-001-475-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02335-FCBB-001,ZHAK-02335-FCBB-001-476,Morphology,lifeStage,metatrocophore,ZHAK-02335-FCBB-001-476-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02336-FCBB-001,ZHAK-02336-FCBB-001-477,Morphology,lifeStage,metatrocophore,ZHAK-02336-FCBB-001-477-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02337-FCBB-001,ZHAK-02337-FCBB-001-478,Morphology,lifeStage,metatrocophore,ZHAK-02337-FCBB-001-478-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02338-FCBB-001,ZHAK-02338-FCBB-001-479,Morphology,lifeStage,metatrocophore,ZHAK-02338-FCBB-001-479-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02339-FCBB-001,ZHAK-02339-FCBB-001-480,BOLD ID Engine,lifeStage,metatrocophore,ZHAK-02339-FCBB-001-480-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02340-FCBB-001,ZHAK-02340-FCBB-001-481,Morphology,lifeStage,metatrocophore,ZHAK-02340-FCBB-001-481-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02341-FCBB-001,ZHAK-02341-FCBB-001-482,Morphology,lifeStage,metatrocophore,ZHAK-02341-FCBB-001-482-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02342-FCBB-001,ZHAK-02342-FCBB-001-483,Morphology,lifeStage,metatrocophore,ZHAK-02342-FCBB-001-483-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02343-FCBB-001,ZHAK-02343-FCBB-001-484,Morphology,lifeStage,metatrocophore,ZHAK-02343-FCBB-001-484-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02344-FCBB-001,ZHAK-02344-FCBB-001-485,Morphology,lifeStage,metatrocophore,ZHAK-02344-FCBB-001-485-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02345-FCBB-001,ZHAK-02345-FCBB-001-486,Morphology,lifeStage,metatrocophore,ZHAK-02345-FCBB-001-486-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02346-FCBB-001,ZHAK-02346-FCBB-001-487,Morphology,lifeStage,metatrocophore,ZHAK-02346-FCBB-001-487-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02347-FCBB-001,ZHAK-02347-FCBB-001-488,Morphology,lifeStage,metatrocophore,ZHAK-02347-FCBB-001-488-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02348-FCBB-001,ZHAK-02348-FCBB-001-489,Morphology,lifeStage,metatrocophore,ZHAK-02348-FCBB-001-489-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02349-FCBB-001,ZHAK-02349-FCBB-001-490,Morphology,lifeStage,metatrocophore,ZHAK-02349-FCBB-001-490-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02350-FCBB-001,ZHAK-02350-FCBB-001-491,Morphology,lifeStage,metatrocophore,ZHAK-02350-FCBB-001-491-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02351-FCBB-001,ZHAK-02351-FCBB-001-492,Morphology,lifeStage,metatrocophore,ZHAK-02351-FCBB-001-492-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-02352-FCBB-001,ZHAK-02352-FCBB-001-493,Morphology,lifeStage,metatrocophore,ZHAK-02352-FCBB-001-493-lifeStage, ,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03002-FCBB-001,ZHAK-03002-FCBB-001-501,Morphology,lifeStage,adult,ZHAK-03002-FCBB-001-501-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03003-FCBB-001,ZHAK-03003-FCBB-001-502,Morphology,lifeStage,adult,ZHAK-03003-FCBB-001-502-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03004-FCBB-001,ZHAK-03004-FCBB-001-503,Morphology,lifeStage,adult,ZHAK-03004-FCBB-001-503-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03005-FCBB-001,ZHAK-03005-FCBB-001-504,Morphology,lifeStage,medusa,ZHAK-03005-FCBB-001-504-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1129/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03006-FCBB-001,ZHAK-03006-FCBB-001-505,Morphology,lifeStage,adult,ZHAK-03006-FCBB-001-505-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03007-FCBB-001,ZHAK-03007-FCBB-001-506,Morphology,lifeStage,adult,ZHAK-03007-FCBB-001-506-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03008-FCBB-001,ZHAK-03008-FCBB-001-507,Morphology,lifeStage,adult,ZHAK-03008-FCBB-001-507-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03009-FCBB-001,ZHAK-03009-FCBB-001-508,Morphology,lifeStage,adult,ZHAK-03009-FCBB-001-508-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03010-FCBB-001,ZHAK-03010-FCBB-001-509,Morphology,lifeStage,adult,ZHAK-03010-FCBB-001-509-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03011-FCBB-001,ZHAK-03011-FCBB-001-510,Morphology,lifeStage,adult,ZHAK-03011-FCBB-001-510-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03012-FCBB-001,ZHAK-03012-FCBB-001-511,Morphology,lifeStage,larva,ZHAK-03012-FCBB-001-511-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03013-FCBB-001,ZHAK-03013-FCBB-001-512,Morphology,lifeStage,larva,ZHAK-03013-FCBB-001-512-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1128/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/
+ZHAK-03014-FCBB-001,ZHAK-03014-FCBB-001-513,Morphology,lifeStage,adult,ZHAK-03014-FCBB-001-513-lifeStage,https://vocab.nerc.ac.uk/collection/S11/current/S1116/,https://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/

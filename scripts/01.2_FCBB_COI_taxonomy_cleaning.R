@@ -45,11 +45,13 @@ tax_tab_COI$scientificName <- apply(tax_tab_COI, 1, function(row) {
   if (length(last_value) == 0) NA else last_value
 })
 
+# Add in verbatimIdentification to capture original recorded name:
 verbatimIdentification <- tax_tab_COI$scientificName
 names(verbatimIdentification) <- rownames(tax_tab_COI)
 verbatimIdentification <- as.data.frame(verbatimIdentification)
 
-# Capture identificationQualifiers and remove them from the scientificName:
+# Capture identificationQualifiers and remove them from the scientificName.
+# Include them in a separate column:
 identificationQualifier <- tax_tab_COI %>%
   mutate(identificationQualifier = case_when(
     grepl("cf. promare", Species) ~ "cf. promare",
@@ -96,7 +98,6 @@ worms_df_COI <- tax_lookup_tbl_COI %>%
          taxonRank = Rank)
 
 # Append the verbatimIdentification and identificationQualifier, merging based on row names (ASV)
-
 worms_tax_tab_COI_full <- worms_df_COI %>%
   rownames_to_column("ASV") %>%
   full_join(verbatimIdentification %>% rownames_to_column("ASV"), by = "ASV") %>%
@@ -127,7 +128,7 @@ worms_tax_tab_COI_full <- worms_tax_tab_COI_full %>%
          scientificNameID,
          taxonRank,
          verbatimIdentification, 
-         aphiaID, scientificNameAuthorship)
+         aphiaID, scientificNameAuthorship) 
 
 # Upon inspection, there are 8 unique taxa for which there is no associated WoRMS LSID. 
 # Three of these taxa can be manually found on WoRMS, and their AphiaIDs have been verified with Libby Natola
@@ -190,7 +191,8 @@ worms_tax_tab_COI_full[worms_tax_tab_COI_full$scientificName == "Synchaeta kitin
 # Add identificationQualifier column from the tax_tab_COI_fixed df:
 worms_tax_tab_COI_full <- merge(worms_tax_tab_COI_full, identificationQualifier, by = "row.names", all = TRUE)
 
-# Still a few AphiaIDs missing - Verified with Matt Lemay that these taxa can be omitted from submission to OBIS:
+# Still a few AphiaIDs missing - 
+# !!! Verified with Matt Lemay that these taxa can be omitted from submission to OBIS:
 worms_tax_tab_COI_full <- worms_tax_tab_COI_full %>%
   filter(!scientificName %in% c("Eukaryota", "Picobiliphyte", "Lagenidium caudatum", "Austrarchaea", "Trieres chinensis")) %>%
   select(-aphiaID)

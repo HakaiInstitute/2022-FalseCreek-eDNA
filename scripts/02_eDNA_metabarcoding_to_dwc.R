@@ -23,7 +23,6 @@ FCBB <- data.frame(
   eventID = "Hakai-FCBB",
   language = "en",
   license = "http://creativecommons.org/licenses/by/4.0/legalcode",
-  bibliographicCitation = "Lemay, M., & Kellogg, C. (2025). Environmental DNA metabarcoding data from the False Creek Bioblitz, 2022 (v1.0). Hakai Institute. https://doi.org/10.21966/8sgn-jg38",
   rightsHolder = "Hakai Institute",
   modified = lubridate::today(),
   country = "Canada",
@@ -51,7 +50,8 @@ event <- sample_meta %>%
     verbatimLocality = location,
     decimalLatitude = lat,
     decimalLongitude = lon,
-    verbatimEventDate = collection_date) %>%
+    verbatimEventDate = collection_date,
+    fieldNotes = notes) %>%
   distinct() %>%
   select(-c(station_id, treatment, depth_m))
 
@@ -78,7 +78,7 @@ sequence_meta_12S <- read_csv(here("data", "metabarcoding", "12S", "FC12S_Metaba
 taxonomy_12S <- read_csv(here("data", "metabarcoding", "12S", "FC_taxonomy_12s_worms.csv"))
 taxonomy_12S <- taxonomy_12S[, -1]
 
-#  Pivot the ASV table
+# Pivot the ASV table
 FC_ASV_12S <- FC_ASV_12S %>%
   dplyr::rename(ASV = row_name) %>%
   pivot_longer(FC_002:FC_074,
@@ -119,6 +119,7 @@ DNA_occ_12S <- left_join(DNAtable_12S, sequence_meta_12S, by = "materialSampleID
 # Join the occurrence data with the WoRMS taxa information:
 FC_occ_12S <- DNA_occ_12S %>%
   mutate(occurrenceStatus = "present")
+FC_occ_12S[is.na(FC_occ_12S)] <- ""
 
 # Save this data table in the obis folder, omitting the first column (ASV)
 write_csv(FC_occ_12S[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_12S.csv"))
@@ -132,7 +133,7 @@ fasta_COI <- seqinr::read.fasta(file = here("data", "metabarcoding", "COI", "FC_
                                 as.string = TRUE,
                                 forceDNAtolower = FALSE)
 
-# Taxa data was claned by Libby Natolia following script 01_FCBB_COI_taxonomy_cleaning.R
+# Taxa data was claned by Libby Natolia following script 01.2_FCBB_COI_taxonomy_cleaning.R
 sequence_meta_COI <- readxl::read_xlsx(here("data", "metabarcoding", "COI", "FC-COI_Metabarcoding_OBIS_sample_metadata.xlsx"), sheet = "Sheet1")
 taxonomy_COI_worms <- read_csv(here("data", "metabarcoding", "COI", "FC_taxonomy_COI_worms.csv"))
 
@@ -178,6 +179,8 @@ DNA_occ_COI <- left_join(DNAtable_COI, sequence_meta_COI, by = "materialSampleID
 # Extract ASV as well so that we can do manual referencing:
 FC_occ_COI <- DNA_occ_COI %>%
   mutate(occurrenceStatus = "present")
+
+FC_occ_COI[is.na(FC_occ_COI)] <- ""
 
 # Save this data table in the obis folder
 write_csv(FC_occ_COI[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_COI.csv"))
@@ -238,13 +241,19 @@ DNA_occ_16S <- left_join(DNAtable_16S, sequence_meta_16S, by = "materialSampleID
 FC_occ_16S <- DNA_occ_16S %>%
   mutate(occurrenceStatus = "present")
 
+# Omit rows where organismQuantity is NA
+FC_occ_16S <- FC_occ_16S[!is.na(FC_occ_16S$organismQuantity), ]
+
+# Make sure all NA cells are blank:
+FC_occ_16S[is.na(FC_occ_16S)] <- ""
+
 # Save this data table in the obis folder
 write_csv(FC_occ_16S[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_16S.csv"))
 
 #####################################################################################################################################
 
 # Combine the occurrence data table for S12, COI and S16 data:
-FC_occ <- bind_rows(FC_occ_S12, FC_occ_COI, FC_occ_16S)
+FC_occ <- bind_rows(FC_occ_12S, FC_occ_COI, FC_occ_16S)
 FC_occ[is.na(FC_occ)] <- ""
 
 # Check for duplicate occurrenceIDs:
@@ -253,11 +262,21 @@ print(sum(duplicated(FC_occ$occurrenceID))) # should be 0.
 # Save this data table in the obis folder
 write_csv(FC_occ[, -1], here("obis", "interim_obis", "edna", "FC2022_occ.csv"))
 
+#####################################################################################################################################
+
 # Create a DNA Derived Data extension: 
 # see details: https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml
 DNA_extension_12S <- left_join(DNAtable_12S, sequence_meta_12S, by = "materialSampleID")
-DNA_extension_16S <- left_join(DNAtable_16S, sequence_meta_16S, by = "materialSampleID")
-DNA_extension_COI <- left_join(DNAtable_COI, sequence_meta_COI, by = "materialSampleID")
+DNA_extension_12S <- DNA_extension_12S %>% mutate(across(everything(), as.character))
+DNA_extension_12S[is.na(DNA_extension_12S)] <- ""
+
+DNA_extension_16S <- left_join(DNAtable_16S, sequence_meta_16S, by = "materialSampleID") %>%
+  rename(DNA_sequence = DNA_sequence_16S) %>% mutate(across(everything(), as.character))
+DNA_extension_16S[is.na(DNA_extension_16S)] <- ""
+
+DNA_extension_COI <- left_join(DNAtable_COI, sequence_meta_COI, by = "materialSampleID") %>%
+  mutate(across(everything(), as.character))
+DNA_extension_COI[is.na(DNA_extension_COI)] <- ""
 
 FC2022_DNA_extension <- bind_rows(DNA_extension_12S,
                                   DNA_extension_16S,
@@ -280,5 +299,29 @@ FC2022_DNA_extension <- bind_rows(DNA_extension_12S,
          otu_seq_comp_appr,
          otu_db)
 
+# Clean it up - omit rows that are completely NA, and where cells are NA make them blank
+FC2022_DNA_extension <- FC2022_DNA_extension %>% filter(!if_all(everything(), is.na))
+
 # Save this data table in the obis folder
-write_csv(DNA_extension, here("obis", "interim_obis", "edna", "FC2022_eMOF.csv"))
+write_csv(FC2022_DNA_extension, here("obis", "interim_obis", "edna", "FC2022_DNA.csv"))
+
+#####################################################################################################################################
+
+# Create an eMOF extension - this will contain information about sampling volume primarily
+
+emof <- FC2022_event %>%
+  select(eventID, 
+         measurementValue = filter_vol_ml) %>%
+  mutate(measurementType = "Water volume filtered",
+         measurementTypeID = "https://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+         measurementUnit = "ml",
+         measurementUnitID = "https://vocab.nerc.ac.uk/collection/P06/current/VVML/",
+         measurementID = paste(eventID, "volFiltered", sep = "-"))
+
+emof <- emof[emof$measurementValue != "", ]
+
+# Save this data in the obis folder:
+write_csv(emof, here("obis", "interim_obis", "edna", "FC2022_emof.csv"))
+
+
+

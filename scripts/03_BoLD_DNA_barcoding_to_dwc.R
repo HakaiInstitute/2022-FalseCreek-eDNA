@@ -21,10 +21,10 @@ collection_data <- read_excel(here("data", "DNA_barcoding", "DS-FCBB.xlsx"), she
 project <- data.frame(
   eventType = collection_data$sampling_protocol,
   eventDate = as.Date(collection_data$collection_date, format = "%d-%b-%Y"),
-  eventID = collection_data$collection_event_id,
+  eventID = collection_data$sample_id,
   fieldNotes = collection_data$collection_notes,
-  maximumDepth = collection_data$depth,
-  minimumDepth = collection_data$depth,
+  maximumDepthInMeters = collection_data$depth,
+  minimumDepthInMeters = collection_data$depth,
   habitat = collection_data$habitat,
   decimalLatitude = collection_data$lat,
   decimalLongitude = collection_data$lon,
@@ -57,6 +57,7 @@ project <- project %>%
                                 ifelse(grepl("Beaty Biodiversity Museum", institutionCode), "http://biocol.org/urn:lsid:biocol.org:col:15106", NA))) %>%
   group_by(eventID) %>%
   mutate(eventID = paste0(eventID, "-", stringr::str_pad(seq_along(eventID), width = 3, pad = "0"))) %>%
+  mutate(eventDate = as.character(eventDate)) %>%
   ungroup()
 
 # Remove all rows that are completely NA:
@@ -154,8 +155,7 @@ emof <- data.frame(
   occurrenceID = occurrence$occurrenceID,
   sex = specimen_detail$sex,
   lifeStage = specimen_detail$life_stage,
-  measurementMethod = lab_sheet$bin
-) %>%
+  measurementMethod = taxonomy$identification_method) %>%
   pivot_longer(sex:lifeStage,
                names_to = "measurementType",
                values_to = "measurementValue") %>%

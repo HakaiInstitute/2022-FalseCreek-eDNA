@@ -43,7 +43,7 @@ verbatimIdentification <- tax_tab_12S_fixed$species
 names(verbatimIdentification) <- rownames(tax_tab_12S_fixed)
 verbatimIdentification <- as.data.frame(verbatimIdentification)
 
-# get list of taxa, remove the taxon ranks (eg "Pleuronectidae family") from the species names
+# get list of taxa, remove the taxon ranks (eg family from "Pleuronectidae family") from the species names
 ncbi_taxa_12S <- as.data.frame(tax_tab_12S_fixed) %>%
   transmute(species_clean = str_remove(species, " sp\\.$| family$")) %>%
   pull(species_clean)
@@ -153,7 +153,8 @@ get_authority <- function(id) {
 
 worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
   mutate(scientificNameAuthorship = sapply(worms_tax_tab_12S_full$aphiaID, get_authority)) %>%
-  select(-aphiaID)
+  select(-aphiaID) %>%
+  mutate(scientificName = paste(scientificName, scientificNameAuthorship, sep = " "))
 
 # Change rownames to column, remove NAs"
 worms_tax_tab_12S_full <- rownames_to_column(worms_tax_tab_12S_full, var = "ASV")
@@ -161,4 +162,4 @@ worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
   mutate(across(everything(), ~ replace(.x, is.na(.x), "")))
 
 # Save the file:
-write.csv(worms_tax_tab_12S_full, here("data", "metabarcoding", "12S", "FC_taxonomy_12s_worms.csv"), quote = FALSE, row.names = TRUE)
+write.csv(worms_tax_tab_12S_full, here("data", "metabarcoding", "12S", "FC_taxonomy_12s_worms.csv"), row.names = TRUE)

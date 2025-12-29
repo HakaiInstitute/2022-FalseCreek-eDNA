@@ -150,5 +150,5 @@ occ_16S <- tax_tab_16S %>% select(scientificName, verbatimIdentification, ASV) %
 
 occ_16S[is.na(occ_16S)] <- ""
 
-# Save locally:
+# Save: 
 write.csv(occ_16S, here("data", "metabarcoding", "16S", "FC_taxonomy_16S_worms.csv"))
