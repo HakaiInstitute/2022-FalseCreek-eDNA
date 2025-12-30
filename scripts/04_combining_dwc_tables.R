@@ -44,6 +44,14 @@ FC2022_occ <- FC2022_occ %>%
 # Save in obis folder:
 write_csv(FC2022_occ, here("obis", "FC2022_occ.csv"))
 
+# Create a species list:
+species_list <- FC2022_occ %>%
+  select(verbatimIdentification, scientificName, scientificNameID) %>%
+  distinct()
+
+# Save in the data folder:
+write_csv(species_list, here("data", "species_list.csv"))
+
 #TODO: Manually inspect the occurrence table, look for inconsistencies.
 
 #####################################################################################################################################
