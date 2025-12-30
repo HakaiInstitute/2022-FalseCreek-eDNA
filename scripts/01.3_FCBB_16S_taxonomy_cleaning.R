@@ -17,7 +17,6 @@ library(data.table)
 library(phyloseq)
 library(here)
 
-
 taxtab.16S <- fread(here("data", "metabarcoding", "16S", "FC_taxonomy_16s.csv"), sep=",", header=T, data.table=FALSE)
 tax_tab_16S <- as.data.frame(tax_table(as.matrix(taxtab.16S)))
 
@@ -149,6 +148,12 @@ occ_16S <- tax_tab_16S %>% select(scientificName, verbatimIdentification, ASV) %
   left_join(worms_taxonomy_tbl_16S, by = "scientificName")
 
 occ_16S[is.na(occ_16S)] <- ""
+
+# Remove sp. from scientificName and add scientificName and scientificNameAuthorship together. 
+occ_16S <- occ_16S %>%
+  mutate(scientificName = gsub(" sp\\.", "", scientificName)) %>%
+  mutate(scientificName = paste(scientificName, scientificNameAuthorship))
+occ_16S$scientificName <- trimws(occ_16S$scientificName)
 
 # Save: 
 write.csv(occ_16S, here("data", "metabarcoding", "16S", "FC_taxonomy_16S_worms.csv"))

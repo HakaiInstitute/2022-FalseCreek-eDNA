@@ -19,7 +19,6 @@ collection_data <- read_excel(here("data", "DNA_barcoding", "DS-FCBB.xlsx"), she
 
 # Create parent table:
 project <- data.frame(
-  eventType = collection_data$sampling_protocol,
   eventDate = as.Date(collection_data$collection_date, format = "%d-%b-%Y"),
   eventID = collection_data$sample_id,
   fieldNotes = collection_data$collection_notes,
@@ -52,7 +51,6 @@ project <- project %>%
     year = as.numeric(format(eventDate, "%Y")),
     countryCode = "CA",
     parentEventID = "Hakai-FCBB",
-    eventRemarks = paste("BoLD original eventID:", eventID),
     institutionID = ifelse(institutionCode == "Hakai Institute", "https://edmo.seadatanet.org/report/5148",
                                 ifelse(grepl("Beaty Biodiversity Museum", institutionCode), "http://biocol.org/urn:lsid:biocol.org:col:15106", NA))) %>%
   group_by(eventID) %>%

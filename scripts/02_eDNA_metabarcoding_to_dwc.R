@@ -35,7 +35,7 @@ FCBB <- data.frame(
 # Create table for sampling event metadata: 
 event <- sample_meta %>% 
   mutate(parentEventID = "Hakai-FCBB",
-         eventType = "Niskin bottle sampling",
+         samplingProtocol = "Niskin bottle sampling",
          eventID = paste(parentEventID, sample_id, sep = "-"),
          month = case_when(grepl("Sept", sample_meta$collection_date) ~ 9),
          day = as.numeric(stringr::str_extract(sample_meta$collection_date, "[0-9]+")),

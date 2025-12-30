@@ -207,4 +207,9 @@ worms_tax_tab_COI_full <- worms_tax_tab_COI_full[, -1]
 rownames(worms_tax_tab_COI_full) <- NULL
 colnames(worms_tax_tab_COI_full)[colnames(worms_tax_tab_COI_full) == "Row.names"] <- "ASV"
 
+# Add scientificNameAuthorship to scientificName. Trimws as well:
+worms_tax_tab_COI_full <- worms_tax_tab_COI_full %>%
+  mutate(scientificName = paste(scientificName, scientificNameAuthorship))
+worms_tax_tab_COI_full$scientificName <- trimws(worms_tax_tab_COI_full$scientificName)
+
 write.csv(worms_tax_tab_COI_full, here("data", "metabarcoding", "COI", "FC_taxonomy_COI_worms.csv"))
