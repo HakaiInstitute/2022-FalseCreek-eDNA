@@ -63,6 +63,9 @@ FC2022_event <- FC2022_event %>%
          filter_end_time = as.character(filter_end_time))
 FC2022_event[is.na(FC2022_event)] <- ""
 
+# Remove the top row, which was initially used to flatten the event information:
+FC2022_event <- FC2022_event[-1, ]
+
 # Save this data table in the obis folder
 write_csv(FC2022_event, here("obis", "interim_obis", "edna", "FC2022_event.csv"))
 
@@ -113,13 +116,17 @@ DNA_occ_12S <- left_join(DNAtable_12S, sequence_meta_12S, by = "materialSampleID
   select(ASV, eventID, occurrenceID, basisOfRecord, scientificName, scientificNameID,
          taxonRank, scientificNameAuthorship, kingdom, phylum, class, order, family, genus,
          organismQuantity, organismQuantityType, sampleSizeValue, sampleSizeUnit,
-         verbatimIdentification, samplingProtocol, associatedSequences, identificationRemarks,
+         verbatimIdentification, associatedSequences, identificationRemarks,
          materialSampleID)
 
 # Join the occurrence data with the WoRMS taxa information:
 FC_occ_12S <- DNA_occ_12S %>%
   mutate(occurrenceStatus = "present")
 FC_occ_12S[is.na(FC_occ_12S)] <- ""
+
+# Join the occurrence information to the event sampling data:
+FC_occ_12S_core <- left_join(FC2022_event, FC_occ_12S, by = c("eventID", "materialSampleID")) %>%
+  select(-c("ASV", "parentEventID", "eventID"))
 
 # Save this data table in the obis folder, omitting the first column (ASV)
 write_csv(FC_occ_12S[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_12S.csv"))
@@ -133,7 +140,7 @@ fasta_COI <- seqinr::read.fasta(file = here("data", "metabarcoding", "COI", "FC_
                                 as.string = TRUE,
                                 forceDNAtolower = FALSE)
 
-# Taxa data was claned by Libby Natolia following script 01.2_FCBB_COI_taxonomy_cleaning.R
+# Taxa data was cleaned by Libby Natolia following script 01.2_FCBB_COI_taxonomy_cleaning.R
 sequence_meta_COI <- readxl::read_xlsx(here("data", "metabarcoding", "COI", "FC-COI_Metabarcoding_OBIS_sample_metadata.xlsx"), sheet = "Sheet1")
 taxonomy_COI_worms <- read_csv(here("data", "metabarcoding", "COI", "FC_taxonomy_COI_worms.csv"))
 
@@ -174,13 +181,17 @@ DNA_occ_COI <- left_join(DNAtable_COI, sequence_meta_COI, by = "materialSampleID
          scientificNameAuthorship, kingdom, phylum, class, order, family, genus, 
          taxonRank, verbatimIdentification, identificationQualifier, organismQuantity, 
          organismQuantityType, sampleSizeValue, sampleSizeUnit, verbatimIdentification, 
-         samplingProtocol, associatedSequences, identificationRemarks, materialSampleID)
+         associatedSequences, identificationRemarks, materialSampleID)
 
 # Extract ASV as well so that we can do manual referencing:
 FC_occ_COI <- DNA_occ_COI %>%
   mutate(occurrenceStatus = "present")
 
 FC_occ_COI[is.na(FC_occ_COI)] <- ""
+
+# Join the occurrence information to the event sampling data:
+FC_occ_COI_core <- left_join(FC2022_event, FC_occ_COI, by = c("eventID", "materialSampleID")) %>%
+  select(-c("ASV", "parentEventID", "eventID"))
 
 # Save this data table in the obis folder
 write_csv(FC_occ_COI[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_COI.csv"))
@@ -235,7 +246,7 @@ DNA_occ_16S <- left_join(DNAtable_16S, sequence_meta_16S, by = "materialSampleID
          scientificNameAuthorship, kingdom, phylum, class, order, family, genus, 
          taxonRank, verbatimIdentification, organismQuantity, 
          organismQuantityType, sampleSizeValue, sampleSizeUnit, verbatimIdentification, 
-         samplingProtocol, associatedSequences, identificationRemarks, materialSampleID)
+         associatedSequences, identificationRemarks, materialSampleID)
 
 # Extract ASV as well so that we can do manual referencing:
 FC_occ_16S <- DNA_occ_16S %>%
@@ -247,20 +258,30 @@ FC_occ_16S <- FC_occ_16S[!is.na(FC_occ_16S$organismQuantity), ]
 # Make sure all NA cells are blank:
 FC_occ_16S[is.na(FC_occ_16S)] <- ""
 
+# Join the occurrence information to the event sampling data:
+FC_occ_16S_core <- left_join(FC2022_event, FC_occ_16S, by = c("eventID", "materialSampleID")) %>%
+  select(-c("ASV", "parentEventID", "eventID"))
+
 # Save this data table in the obis folder
 write_csv(FC_occ_16S[, -1], here("obis", "interim_obis", "edna", "FC2022_occ_16S.csv"))
 
 #####################################################################################################################################
 
 # Combine the occurrence data table for S12, COI and S16 data:
-FC_occ <- bind_rows(FC_occ_12S, FC_occ_COI, FC_occ_16S)
-FC_occ[is.na(FC_occ)] <- ""
+FC_occ_core <- bind_rows(FC_occ_12S_core, FC_occ_COI_core, FC_occ_16S_core)
+FC_occ_core[is.na(FC_occ_core)] <- ""
+
+# Make some minor adjustments:
+FC_occ_core <- FC_occ_core %>% 
+  mutate(samplingProtocol = "Niskin bottle sampling") %>%
+  select(-c("station_depth", "filter_start_time", "filter_end_time", "filter_vol_ml"))
+FC_occ_core$taxonRank <- tolower(FC_occ_core$taxonRank)
 
 # Check for duplicate occurrenceIDs:
-print(sum(duplicated(FC_occ$occurrenceID))) # should be 0. 
+print(sum(duplicated(FC_occ_core$occurrenceID))) # should be 0. 
 
 # Save this data table in the obis folder
-write_csv(FC_occ[, -1], here("obis", "interim_obis", "edna", "FC2022_occ.csv"))
+write_csv(FC_occ_core, here("obis", "interim_obis", "edna", "FC2022_occ_core.csv"))
 
 #####################################################################################################################################
 
@@ -281,11 +302,10 @@ DNA_extension_COI[is.na(DNA_extension_COI)] <- ""
 FC2022_DNA_extension <- bind_rows(DNA_extension_12S,
                                   DNA_extension_16S,
                                   DNA_extension_COI) %>%
-  select(eventID, occurrenceID, DNA_sequence, sop,
-         samp_collect_device = samp_collec_method, 
+  select(occurrenceID, DNA_sequence, sop,
          target_gene,
          target_subfragment,
-         sample_vol_we_dna_ext,
+         samp_size = sample_vol_we_dna_ext,
          pcr_primer_forward,
          pcr_primer_reverse,
          pcr_primer_name_forward,
@@ -298,6 +318,9 @@ FC2022_DNA_extension <- bind_rows(DNA_extension_12S,
          otu_class_appr,
          otu_seq_comp_appr,
          otu_db)
+
+FC2022_DNA_extension <- FC2022_DNA_extension %>%
+  mutate(seq_meth = ifelse(grepl("Illumina MiSeq$", seq_meth), "Illumina_MiSeq", seq_meth))
 
 # Clean it up - omit rows that are completely NA, and where cells are NA make them blank
 FC2022_DNA_extension <- FC2022_DNA_extension %>% filter(!if_all(everything(), is.na))
