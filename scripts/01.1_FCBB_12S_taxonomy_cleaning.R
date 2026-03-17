@@ -53,6 +53,17 @@ get_worms_lineage <- function(tax) {
   }
 }
 
+# To grab scientific authorship:
+get_authority <- function(id) {
+  tryCatch(
+    {
+      rec <- worrms::wm_record(id = id)
+      rec$authority
+    },
+    error = function(e) NA
+  )
+}
+
 # data processing ----
 ## 12S should convert more easily as it's mostly fish and WoRMS is designed for marine taxa, also fish taxonomy has greater consensus than many taxa we sequence with COI
 taxtab.12S <- fread(
@@ -61,7 +72,8 @@ taxtab.12S <- fread(
   header = T,
   data.table = FALSE
 )
-taxtab.12S <- taxtab.12S %>%
+
+taxtab.12S <- taxtab.12S |>
   column_to_rownames("ASV")
 
 # convert to taxonomyTable class
@@ -70,14 +82,14 @@ tax_tab_12S <- tax_table(as.matrix(taxtab.12S))
 # clean up "unknown" values and propagate lowest taxonomic rank out
 # can use this for the shiny app if you want the interactive version
 # tax_fix_interactive(tax_tab_12S, app_options = list(launch.browser = TRUE))
-tax_tab_12S_fixed <- tax_tab_12S %>%
+tax_tab_12S_fixed <- tax_tab_12S |>
   tax_fix(
     min_length = 4,
     unknowns = c("unknown"),
     sep = " ",
     anon_unique = TRUE,
     suffix_rank = "classified"
-  ) %>%
+  ) |>
   as.data.frame()
 
 # Store the verbatimIdentification separately that we'll append to the
@@ -87,8 +99,8 @@ names(verbatimIdentification) <- rownames(tax_tab_12S_fixed)
 verbatimIdentification <- as.data.frame(verbatimIdentification)
 
 # get list of taxa, remove the taxon ranks (eg family from "Pleuronectidae family") from the species names
-ncbi_taxa_12S <- as.data.frame(tax_tab_12S_fixed) %>%
-  transmute(species_clean = str_remove(species, " sp\\.$| family$")) %>%
+ncbi_taxa_12S <- as.data.frame(tax_tab_12S_fixed) |>
+  transmute(species_clean = str_remove(species, " sp\\.$| family$")) |>
   pull(species_clean)
 
 # keep the ASV names
@@ -108,8 +120,8 @@ unique_species_12S <- unique(tax_lookup_tbl_12S$Species)
 worms_taxonomy_tbl_12S <- map_dfr(unique_species_12S, get_worms_lineage)
 
 # join lineage info back to ASVs
-worms_df_12S <- tax_lookup_tbl_12S %>%
-  left_join(worms_taxonomy_tbl_12S, by = "Species") %>%
+worms_df_12S <- tax_lookup_tbl_12S |>
+  left_join(worms_taxonomy_tbl_12S, by = "Species") |>
   column_to_rownames("ASV")
 
 # specify the order for the columns so the taxonomic ranks are in biological order
@@ -130,15 +142,16 @@ worms_tax_tab_12S_full <- merge(
   by = "row.names",
   all = TRUE
 )
+
 rownames(worms_tax_tab_12S_full) <- worms_tax_tab_12S_full$Row.names
 worms_tax_tab_12S_full$Row.names <- NULL
 
-worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
+worms_tax_tab_12S_full <- worms_tax_tab_12S_full |>
   rename(scientificNameID = AphiaID, taxonRank = Rank)
 
 # For one taxa, Ptychocheilus, taxize could not find taxonomic information.
 # Use the worrms package to look up this information.
-ptychocheilus <- worrms::wm_records_name("Ptychocheilus", marine_only = F) %>%
+ptychocheilus <- worrms::wm_records_name("Ptychocheilus", marine_only = F) |>
   filter(AphiaID == "270659")
 aphia_id <- ptychocheilus$AphiaID[1]
 classification <- worrms::wm_classification(aphia_id)
@@ -146,8 +159,8 @@ classification <- worrms::wm_classification(aphia_id)
 taxonomy <- classification[
   classification$rank %in% cols_order_standard,
   c("rank", "scientificname")
-] %>%
-  pivot_wider(names_from = rank, values_from = scientificname) %>%
+] |>
+  pivot_wider(names_from = rank, values_from = scientificname) |>
   mutate(
     scientificName = Genus,
     scientificNameID = paste0(
@@ -168,7 +181,7 @@ row_idx <- which(worms_tax_tab_12S_full$Species == "Ptychocheilus")
 worms_tax_tab_12S_full[row_idx, common_cols] <- taxonomy[1, common_cols]
 
 # Select the right columns, renaming slightly:
-worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
+worms_tax_tab_12S_full <- worms_tax_tab_12S_full |>
   select(
     kingdom = Kingdom,
     phylum = Phylum,
@@ -189,24 +202,14 @@ worms_tax_tab_12S_full$aphiaID <- as.numeric(sub(
   worms_tax_tab_12S_full$scientificNameID
 ))
 
-get_authority <- function(id) {
-  tryCatch(
-    {
-      rec <- worrms::wm_record(id = id)
-      rec$authority
-    },
-    error = function(e) NA
-  )
-}
-
-worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
+worms_tax_tab_12S_full <- worms_tax_tab_12S_full |>
   mutate(
     scientificNameAuthorship = sapply(
       worms_tax_tab_12S_full$aphiaID,
       get_authority
     )
-  ) %>%
-  select(-aphiaID) %>%
+  ) |>
+  select(-aphiaID) |>
   mutate(
     scientificName = paste(scientificName, scientificNameAuthorship, sep = " ")
   )
@@ -216,12 +219,13 @@ worms_tax_tab_12S_full <- rownames_to_column(
   worms_tax_tab_12S_full,
   var = "ASV"
 )
-worms_tax_tab_12S_full <- worms_tax_tab_12S_full %>%
+
+worms_tax_tab_12S_full <- worms_tax_tab_12S_full |>
   mutate(across(everything(), ~ replace(.x, is.na(.x), "")))
 
 # Save the file:
 write.csv(
   worms_tax_tab_12S_full,
   here("data", "metabarcoding", "12S", "FC_taxonomy_12s_worms.csv"),
-  row.names = TRUE
+  row.names = FALSE
 )
