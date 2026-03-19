@@ -213,7 +213,7 @@ tax_tab_16S <- tax_tab_16S |>
 # Replace _ and - with blank space, and make sure that only the first word is capitalized
 tax_tab_16S <- tax_tab_16S |>
   mutate(across(
-    where(is.character) & !any_of("verbatimIdentification"),
+    where(is.character) & !any_of("verbatimIdentification") & !all_of("ASV"),
     ~ {
       str_replace_all(., "[-_]", " ") %>%
         str_to_sentence()

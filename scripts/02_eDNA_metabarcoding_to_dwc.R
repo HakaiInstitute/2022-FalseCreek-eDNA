@@ -82,15 +82,9 @@ FC2022_event[is.na(FC2022_event)] <- ""
 # Remove the top row, which was initially used to flatten the event information:
 FC2022_event <- FC2022_event[-1, ]
 
-# Save this data table in the obis folder
-write_csv(
-  FC2022_event,
-  here("obis", "interim_obis", "edna", "FC2022_event.csv")
-)
-
 #################################################################################################################################
 
-## Occurrence extension
+## Occurrence tables
 
 # Create separate data tables for the 12S, COI and 16S data, and join those.
 # Start by reading in the 12S data:
@@ -344,7 +338,7 @@ fasta_16S <- seqinr::read.fasta(
   forceDNAtolower = FALSE
 )
 
-# Taxa data was claned by Libby Natolia following script 01_FCBB_COI_taxonomy_cleaning.R
+# Taxa data was claned by Libby Natolia following script 01.3_FCBB_16S_taxonomy_cleaning.R
 sequence_meta_16S <- read_csv(here(
   "data",
   "metabarcoding",
@@ -392,7 +386,7 @@ fasta_16S <- cbind(ASV_16S, DNA_sequence_16S) |>
   dplyr::rename(ASV = ASV_16S, DNA_sequence = DNA_sequence_16S)
 
 # Join ASV to samples and taxonomic information:
-DNAtable_16S <- dplyr::left_join(taxonomy_16S_worms, FC_ASV_16S, by = "ASV")
+DNAtable_16S <- dplyr::left_join(FC_ASV_16S, taxonomy_16S_worms, by = "ASV")
 DNAtable_16S <- dplyr::left_join(
   DNAtable_16S,
   event,
@@ -476,7 +470,7 @@ print(sum(duplicated(FC_occ_core$occurrenceID))) # should be 0.
 # Save this data table in the obis folder
 write_csv(
   FC_occ_core,
-  here("obis", "interim_obis", "edna", "FC2022_occ_core.csv")
+  here("obis", "FC2022_occ_core.csv")
 )
 
 #####################################################################################################################################
@@ -516,6 +510,7 @@ FC2022_DNA_extension <- bind_rows(
   select(
     occurrenceID,
     DNA_sequence,
+    samp_collec_method,
     sop,
     target_gene,
     target_subfragment,
@@ -533,6 +528,9 @@ FC2022_DNA_extension <- bind_rows(
     otu_class_appr,
     otu_seq_comp_appr,
     otu_db
+  ) |>
+  mutate(
+    samp_size = ifelse(samp_size != "", paste(samp_size, "ml"), "")
   )
 
 FC2022_DNA_extension <- FC2022_DNA_extension |>
@@ -551,24 +549,5 @@ FC2022_DNA_extension <- FC2022_DNA_extension |>
 # Save this data table in the obis folder
 write_csv(
   FC2022_DNA_extension,
-  here("obis", "interim_obis", "edna", "FC2022_DNA.csv")
+  here("obis", "FC2022_DNA.csv")
 )
-
-#####################################################################################################################################
-
-# Create an eMOF extension - this will contain information about sampling volume primarily
-
-emof <- FC2022_event |>
-  select(eventID, measurementValue = filter_vol_ml) |>
-  mutate(
-    measurementType = "Water volume filtered",
-    measurementTypeID = "https://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
-    measurementUnit = "ml",
-    measurementUnitID = "https://vocab.nerc.ac.uk/collection/P06/current/VVML/",
-    measurementID = paste(eventID, "volFiltered", sep = "-")
-  )
-
-emof <- emof[emof$measurementValue != "", ]
-
-# Save this data in the obis folder:
-write_csv(emof, here("obis", "interim_obis", "edna", "FC2022_emof.csv"))
