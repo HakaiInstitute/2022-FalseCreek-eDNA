@@ -49,7 +49,7 @@ jobs:
           echo "EOF" >> $GITHUB_ENV
 
       - name: Create Pull Request if there are changes
-        if: ${{contains(env.PR_STATUS, 'There is no pull request associated with [main]')}}  && ${{env.BRANCHES_DIFF != ''}}
+        if: ${{contains(env.PR_STATUS, 'There is no pull request associated with [main]') && env.BRANCHES_DIFF != ''}}
         run: |
           gh pr create \
           -H ${{env.MERGE_FROM_BRANCH}} \
