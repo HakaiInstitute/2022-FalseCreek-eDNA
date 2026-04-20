@@ -11,9 +11,9 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - name: Install Hakai Tests
@@ -29,29 +29,26 @@ jobs:
     env:
       PR_STATUS: ''
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set PR status as environment variable
         run: |
           echo 'PR_STATUS<<EOF' >> $GITHUB_ENV
           gh pr status >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
+
       - name: Create MERGE_TO_BRANCH if it does not exist
         run: |
           git checkout -b ${{env.MERGE_TO_BRANCH}}
           git push origin ${{env.MERGE_TO_BRANCH}}
-      - name: Compare branches and save to environment variable
-        run: |
-          git fetch origin ${{env.MERGE_FROM_BRANCH}}
-          git fetch origin ${{env.MERGE_TO_BRANCH}}
-          BRANCHES_DIFF=$(git diff --name-only origin/${{env.MERGE_FROM_BRANCH}} origin/${{env.MERGE_TO_BRANCH}})
-          echo "BRANCHES_DIFF<<EOF" >> $GITHUB_ENV
-          echo $BRANCHES_DIFF >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
 
-      - name: Create Pull Request if there are changes
-        if: ${{contains(env.PR_STATUS, 'There is no pull request associated with [main]') && env.BRANCHES_DIFF != ''}}
+      - name: Create pull request
         run: |
           gh pr create \
+          -H ${{env.MERGE_FROM_BRANCH}} \
+          -B ${{env.MERGE_TO_BRANCH}} \
+          --title "Merge latest changes to main into production branch" \
+          --body-file ".github/PULL_REQUEST_TEMPLATE/production-merge-pull-request-body.md" || 
+          gh pr edit \
           -H ${{env.MERGE_FROM_BRANCH}} \
           -B ${{env.MERGE_TO_BRANCH}} \
           --title "Merge latest changes to main into production branch" \
@@ -61,6 +58,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [tests, production-merge]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
       - name: Auto-merge pull requests
         run: gh pr merge --auto --merge
