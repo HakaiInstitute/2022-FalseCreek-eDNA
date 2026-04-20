@@ -36,11 +36,6 @@ jobs:
           gh pr status >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
 
-      - name: Create MERGE_TO_BRANCH if it does not exist
-        run: |
-          git checkout -b ${{env.MERGE_TO_BRANCH}}
-          git push origin ${{env.MERGE_TO_BRANCH}}
-
       - name: Create pull request
         run: |
           gh pr create \
