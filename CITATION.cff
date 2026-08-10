@@ -1,0 +1,104 @@
+abstract: False Creek is an urban inlet that runs through the city of Vancouver British
+  Columbia. From April to September 2022, the Hakai Institute and the False Creek
+  Friends Society, in collaboration with the City of Vancouver and other local organizations,
+  conducted a BioBlitz of False Creek. This initiative undertook community engagement
+  activities (outreach, education and community science) and scientific initiatives
+  to provide a comprehensive understanding of the biodiversity of the seafloor, the
+  water and the shorelines of the False Creek area in Vancouver. The False Creek Bioblitz
+  combined several complementary methods for studying biodiversity including visual
+  observations, video surveys, DNA Barcoding, and the use of environmental DNA (eDNA)
+  to catalogue the biodiversity of False Creek. This metadata package provides links
+  to the biodiversity and oceanographic data collected during these surveys.
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: matt.lemay@hakai.org
+  family-names: Lemay
+  given-names: Matthew
+  orcid: https://orcid.org/0000-0001-7051-0020
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: colleen.kellogg@hakai.org
+  family-names: Kellogg
+  given-names: Colleen
+  orcid: https://orcid.org/0000-0003-4048-5316
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+contact:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: matt.lemay@hakai.org
+  family-names: Lemay
+  given-names: Matthew
+  orcid: https://orcid.org/0000-0001-7051-0020
+  website: https://www.hakai.org/
+date-released: '2026-07-17'
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 012164c6-28dd-4078-b702-f0c2ce63d548
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_012164c6-28dd-4078-b702-f0c2ce63d548
+- description: DOI
+  type: doi
+  value: 10.21966/8sgn-jg38
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/pX9Euv7m4yaHRKPuMtylMexACtt2/-Nd0YqVrleM4mMLlJDSU
+- description: 'Biodiversity observations and oceanographic data: Comprehensive list
+    of all species visually observed by participants during the bioblitz, targeted
+    analysis of phytoplankton samples, targeted analysis of sediment samples, and
+    data from an oceanographic survey.'
+  type: url
+  value: https://drive.google.com/drive/folders/1Om7-t5eRdEupaTWUw6ljkGiotJGzbiaK?usp=share_link
+- description: 'iNaturalist project: Link to the dedicated iNaturalist project for
+    the False Creek Bioblitz.'
+  type: url
+  value: https://inaturalist.ca/projects/false-creek-bioblitz-2022
+- description: 'Barcode of Life Database (BOLD) records: Public records for specimens
+    that were sampled for DNA Barcoding analysis.'
+  type: url
+  value: https://dx.doi.org/10.5883/DS-FCBB
+- description: 'Biodiversity from environmental DNA (eDNA) data: Processed eDNA-derived
+    biodiversity observations'
+  type: url
+  value: https://drive.google.com/drive/folders/1gvoMGYMvJ7prSSFXYhSVQgfQ-meBDN7O?usp=share_link
+- description: 'Environmental DNA (eDNA) raw sequence data: Raw environmental DNA
+    (eDNA) metabarcoding sequence data (Illumina MiSeq of COI, 12S, 16S rRNA gene)
+    deposited in the NCBI Sequence Read Archive (BioProject: PRJNA1049344). These
+    data were collected at 12 stations along the length of False Creek (surface and
+    bottom depths).'
+  type: url
+  value: http://www.ncbi.nlm.nih.gov/bioproject/1049344
+keywords:
+- Bioblitz
+- Biodiversity
+- DNA Barcoding
+- False Creek
+- Salish Sea
+- Vancouver
+- fishAbundanceAndDistribution
+- iNaturalist
+- invertebrateAbundanceAndDistribution
+- marineTurtlesBirdsMammalsAbundanceAndDistribution
+- microbeBiomassAndDiversity
+- other
+- seaSurfaceTemperature
+- subSurfaceTemperature
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: Biodiversity and Oceanographic data from the False Creek Bioblitz, 2022
+type: dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_012164c6-28dd-4078-b702-f0c2ce63d548
+version: '1.0'
